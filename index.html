@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Vascular CPT">
+<title>Vascular CPT 2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:'Courier New',monospace;background:#0a0f1a;color:#e2e8f0;max-width:480px;margin:0 auto;padding-bottom:72px}
+input,textarea,button{font-family:inherit}
+::-webkit-scrollbar{display:none}
+#hdr{background:linear-gradient(135deg,#0a0f1a,#0d1930);padding:16px 14px 10px;border-bottom:1px solid #1e293b;position:sticky;top:0;z-index:200}
+#htop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+.hlbl{font-size:9px;letter-spacing:3px;color:#38bdf8;font-weight:700;margin-bottom:2px}
+.htit{font-size:20px;font-weight:700;color:#f8fafc;letter-spacing:-.5px}
+.hsub{font-size:10px;color:#475569;margin-top:1px}
+#rbadge{background:#0ea5e920;border:1px solid #0ea5e940;border-radius:8px;padding:6px 10px;font-size:10px;color:#38bdf8;text-align:right}
+#rcount{display:block;font-size:16px;font-weight:700}
+.sw{position:relative;margin-bottom:10px}
+.sw input{width:100%;background:#111827;border:1px solid #1e293b;border-radius:8px;padding:10px 12px 10px 34px;color:#e2e8f0;font-size:13px;outline:none}
+.si{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:#475569;font-size:14px;pointer-events:none}
+#tabs{display:flex;gap:6px;margin-bottom:10px}
+.tab{flex:1;padding:7px 0;border-radius:6px;border:1px solid transparent;font-size:10px;font-weight:700;letter-spacing:.5px;cursor:pointer;text-transform:uppercase;font-family:inherit;position:relative;background:#111827;color:#64748b;transition:all .15s}
+.tab.ap{background:#0ea5e9;color:#fff;border-color:#0ea5e9}
+.tab.am{background:#0ea5e9;color:#fff;border-color:#0ea5e9}
+.tab.ab{background:#b45309;color:#fff;border-color:#b45309}
+.tab.hi{color:#f59e0b;border-color:#f59e0b60}
+.bdg{position:absolute;top:-4px;right:-4px;background:#f59e0b;color:#000;border-radius:50%;width:14px;height:14px;font-size:8px;font-weight:900;display:flex;align-items:center;justify-content:center}
+.pr{display:flex;gap:5px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.pill{flex-shrink:0;padding:3px 9px;border-radius:20px;border:1px solid #1e293b;background:transparent;color:#64748b;font-size:9px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap}
+#srow{display:flex;gap:6px;margin-top:8px;align-items:center}
+.slbl{font-size:10px;color:#475569}
+.sb{padding:3px 8px;border-radius:4px;border:none;font-size:10px;cursor:pointer;font-family:inherit;font-weight:700;background:transparent;color:#475569}
+.sb.on{background:#1e3a5f;color:#38bdf8}
+#con{padding:8px 12px}
+.cc{background:#111827;border:1px solid #1e293b;border-radius:10px;padding:12px 14px;margin-bottom:8px;cursor:pointer;-webkit-user-select:none}
+.cc.ex{background:#0d1f3a}
+.ct{display:flex;justify-content:space-between;align-items:flex-start}
+.cl{flex:1}
+.cm{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
+.cb{font-size:13px;font-weight:700;padding:1px 6px;border-radius:4px}
+.csl{font-size:9px;color:#475569;letter-spacing:1px;text-transform:uppercase}
+.cd{font-size:12px;color:#cbd5e1;line-height:1.4}
+.cr{text-align:right;margin-left:12px;flex-shrink:0}
+.wv{font-size:16px;font-weight:700;color:#38bdf8}
+.wl{font-size:9px;color:#475569}
+.cdet{margin-top:12px;padding-top:12px;border-top:1px solid #1e293b;display:grid;gap:8px}
+.dr{display:flex;justify-content:space-between;font-size:11px}
+.dr span:first-child{color:#475569}
+.dh{color:#38bdf8;font-weight:700}
+.disc{margin-top:4px;background:#0a1628;border-radius:6px;padding:8px 10px;font-size:10px;color:#64748b}
+.mc{background:#111827;border:1px solid #1e293b;border-radius:10px;padding:12px 14px;margin-bottom:8px;cursor:pointer}
+.mc.ex{background:#0d1f3a;border-color:#38bdf8}
+.mb{font-size:13px;font-weight:700;padding:1px 8px;border-radius:4px;background:#38bdf820;color:#38bdf8}
+.mn{font-size:12px;color:#cbd5e1;font-weight:600;margin-top:4px}
+.mu{font-size:11px;color:#64748b;margin-top:2px;line-height:1.4}
+.mex{margin-top:10px;background:#0a1628;border-radius:6px;padding:8px 10px;font-size:11px;color:#94a3b8}
+.mxl{color:#38bdf8;font-weight:700}
+#bsum{background:linear-gradient(135deg,#0d1f3a,#0a1628);border:1px solid #1e3a5f;border-radius:12px;padding:14px 16px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center}
+.btl{font-size:9px;color:#475569;letter-spacing:2px;text-transform:uppercase;margin-bottom:2px}
+.btv{font-size:32px;font-weight:700;color:#38bdf8;line-height:1}
+.bcn{font-size:10px;color:#475569;margin-top:2px}
+.bel{font-size:9px;color:#475569;margin-bottom:4px}
+.bev{font-size:16px;font-weight:700;color:#10b981}
+.bcf{font-size:8px;color:#334155;margin-top:2px}
+.brd{font-size:8px;color:#f59e0b;margin-top:4px}
+.bemp{text-align:center;padding:32px 16px;border:1px dashed #1e293b;border-radius:10px;margin-bottom:12px}
+.bei{font-size:28px;color:#1e293b;margin-bottom:8px}
+.bet{font-size:12px;color:#475569}
+.bes{font-size:10px;color:#334155;margin-top:4px}
+.ci{border-radius:10px;padding:10px 12px;margin-bottom:8px;background:#111827}
+.ci.p{border:1px solid #0ea5e940}
+.ci.s{border:1px solid #1e293b}
+.cit{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+.cts{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-bottom:3px}
+.tp{font-size:8px;background:#0ea5e920;color:#38bdf8;padding:1px 5px;border-radius:3px;font-weight:700}
+.ta{font-size:8px;background:#f59e0b20;color:#f59e0b;padding:1px 5px;border-radius:3px;font-weight:700}
+.tm{font-size:9px;background:#8b5cf620;color:#a78bfa;padding:1px 5px;border-radius:3px;font-weight:700}
+.cdx{font-size:11px;color:#94a3b8;line-height:1.3}
+.cw{font-size:15px;font-weight:700;margin-left:10px;flex-shrink:0;text-align:right}
+.cw.r{color:#94a3b8}
+.cw.f{color:#38bdf8}
+.cws{font-size:8px;color:#475569}
+.cwb{font-size:8px;color:#334155}
+.ccc{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.qc{display:flex;align-items:center;gap:4px;background:#0a0f1a;border-radius:6px;padding:2px 6px}
+.qb{background:none;border:none;color:#64748b;cursor:pointer;font-size:14px;padding:0 2px;font-family:inherit;line-height:1}
+.qv{font-size:11px;color:#e2e8f0;min-width:14px;text-align:center}
+.mt{padding:3px 8px;border-radius:6px;font-size:9px;cursor:pointer;font-family:inherit;font-weight:700}
+.rb{padding:3px 8px;border-radius:6px;border:1px solid #3f1212;background:transparent;color:#ef4444;font-size:9px;cursor:pointer;font-family:inherit;font-weight:700}
+.mp{margin-top:8px;padding:8px;background:#0a0f1a;border-radius:8px}
+.mpl{font-size:9px;color:#475569;margin-bottom:6px;letter-spacing:1px}
+.mpg{display:flex;flex-wrap:wrap;gap:4px}
+.mch{padding:3px 8px;border-radius:4px;font-size:10px;font-weight:700;cursor:pointer;font-family:inherit}
+.mch.on{background:#8b5cf620;color:#a78bfa;border:1px solid #8b5cf6}
+.mch.of{background:transparent;color:#475569;border:1px solid #1e293b}
+.msl{margin-top:6px}
+.msi{font-size:9px;color:#64748b;margin-top:2px}
+.msc{color:#a78bfa}
+.cn{width:100%;background:#111827;border:1px solid #1e293b;border-radius:8px;padding:8px 10px;color:#94a3b8;font-size:11px;outline:none;resize:none;margin-bottom:8px;font-family:inherit}
+.clr{width:100%;padding:8px;border-radius:8px;border:1px solid #3f1212;background:transparent;color:#ef4444;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;margin-bottom:16px;letter-spacing:1px}
+#acp{background:#0d1f3a;border:1px solid #1e3a5f;border-radius:12px;padding:12px}
+#act{font-size:10px;color:#38bdf8;font-weight:700;letter-spacing:2px;margin-bottom:8px}
+#ares{max-height:260px;overflow-y:auto}
+.ai{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:8px;margin-bottom:4px;background:#111827;border:1px solid #1e293b;cursor:pointer}
+.ai:active{background:#0d1f3a}
+.ail{flex:1}
+.aic{display:flex;gap:6px;align-items:center;margin-bottom:2px}
+.aid{font-size:10px;color:#64748b;line-height:1.3}
+.air{text-align:right;margin-left:10px;flex-shrink:0}
+.aw{font-size:13px;font-weight:700;color:#38bdf8}
+.awl{font-size:8px;color:#334155}
+.bdi{font-size:9px;color:#334155;text-align:center;margin-top:12px;line-height:1.5}
+.empty{text-align:center;color:#475569;padding:40px 20px;font-size:13px}
+#ftr{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;background:#0a0f1a;border-top:1px solid #1e293b;padding:8px 16px;font-size:9px;color:#334155;text-align:center;z-index:100}
+</style>
+</head>
+<body>
+<div id="hdr">
+  <div id="htop">
+    <div>
+      <div class="hlbl">VASCULAR SURGERY</div>
+      <div class="htit">CPT Reference</div>
+      <div class="hsub" id="hsub">2026</div>
+    </div>
+    <div id="rbadge"><span id="rcount">0</span>results</div>
+  </div>
+  <div class="sw">
+    <span class="si">&#9906;</span>
+    <input type="search" id="srch" placeholder="Search code, description, keyword..." autocomplete="off" autocorrect="off" spellcheck="false">
+  </div>
+  <div id="tabs">
+    <button class="tab ap" id="tp" onclick="sv('p')">Codes</button>
+    <button class="tab" id="tm" onclick="sv('m')">Modifiers</button>
+    <button class="tab" id="tb" onclick="sv('b')">Build Case</button>
+  </div>
+  <div id="fa">
+    <div class="pr" id="cp"></div>
+    <div class="pr" id="sp" style="margin-top:6px;display:none"></div>
+    <div id="srow">
+      <span class="slbl">SORT:</span>
+      <button class="sb on" id="sc" onclick="ss('code')">CPT #</button>
+      <button class="sb" id="sw" onclick="ss('wrvu')">wRVU &#8595;</button>
+      <button class="sb" id="sa" onclick="ss('alpha')">A&#8594;Z</button>
+    </div>
+  </div>
+</div>
+<div id="con"></div>
+<div id="ftr">Reference only. Verify CPT codes &amp; wRVUs with CMS/MGMA annually. Consult coder/biller for complex cases.</div>
+<script>
+const CPT=[
+  // ── AORTIC ──────────────────────────────────────────────────────────
+  {cat: "Aortic",sub: "Open AAA",code: "35082",desc: "Open repair ruptured AAA/iliac",wrvu: 44.55,notes: "Ruptured; add-ons may apply" },
+  {cat: "Aortic",sub: "Open AAA",code: "35102",desc: "Open repair AAA/iliac (non-ruptured)",wrvu: 36.98,notes: "" },
+  {cat: "Aortic",sub: "Open AAA",code: "35091",desc: "Open repair AAA (infrarenal/suprarenal, non-ruptured)",wrvu: 36.21,notes: "" },
+  {cat: "Aortic",sub: "Open AAA",code: "35092",desc: "Open repair ruptured AAA (infrarenal/suprarenal)",wrvu: 44.09,notes: "" },
+  {cat: "Aortic",sub: "EVAR",code: "34800",desc: "EVAR infrarenal aortic aneurysm",wrvu: 27.39,notes: "Unilateral or aorto-aortic" },
+  {cat: "Aortic",sub: "EVAR",code: "34802",desc: "EVAR with modular bifurcated prosthesis (2 docking limbs)",wrvu: 29.05,notes: "Most common EVAR code" },
+  {cat: "Aortic",sub: "EVAR",code: "34803",desc: "EVAR with modular bifurcated prosthesis (1 docking limb)",wrvu: 28.17,notes: "" },
+  {cat: "Aortic",sub: "EVAR",code: "34804",desc: "EVAR with unibody bifurcated prosthesis",wrvu: 28.17,notes: "" },
+  {cat: "Aortic",sub: "EVAR",code: "34805",desc: "EVAR aorto-uniiliac prosthesis",wrvu: 26.56,notes: "" },
+  {cat: "Aortic",sub: "EVAR",code: "34808",desc: "EVAR iliac artery add-on (per iliac)",wrvu: 5.91,notes: "Add-on; report with primary EVAR" },
+  {cat: "Aortic",sub: "EVAR",code: "34812",desc: "Open fem artery exposure for EVAR (unilateral)",wrvu: 5.29,notes: "Add-on" },
+  {cat: "Aortic",sub: "EVAR",code: "34820",desc: "Open iliac artery exposure for EVAR (unilateral)",wrvu: 6.71,notes: "Add-on" },
+  {cat: "Aortic",sub: "EVAR",code: "34825",desc: "EVAR extension prosthesis (initial vessel)",wrvu: 8.86,notes: "Add-on" },
+  {cat: "Aortic",sub: "EVAR",code: "34826",desc: "EVAR extension prosthesis (each additional vessel)",wrvu: 5.91,notes: "Add-on" },
+  {cat: "Aortic",sub: "EVAR",code: "34830",desc: "Open repair EVAR graft failure (tube prosthesis)",wrvu: 36.21,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34841",desc: "FEVAR/BEVAR 1 visceral vessel",wrvu: 37.62,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34842",desc: "FEVAR/BEVAR 2 visceral vessels",wrvu: 41.02,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34843",desc: "FEVAR/BEVAR 3 visceral vessels",wrvu: 45.18,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34844",desc: "FEVAR/BEVAR 4 or more visceral vessels",wrvu: 49.34,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34845",desc: "FEVAR/BEVAR ruptured 1 visceral vessel",wrvu: 45.18,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34846",desc: "FEVAR/BEVAR ruptured 2 visceral vessels",wrvu: 49.34,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34847",desc: "FEVAR/BEVAR ruptured 3 visceral vessels",wrvu: 53.50,notes: "" },
+  {cat: "Aortic",sub: "FEVAR/BEVAR",code: "34848",desc: "FEVAR/BEVAR ruptured 4+ visceral vessels",wrvu: 57.66,notes: "" },
+  {cat: "Aortic",sub: "Thoracic/TEVAR",code: "33880",desc: "TEVAR descending thoracic aorta",wrvu: 37.62,notes: "" },
+  {cat: "Aortic",sub: "Thoracic/TEVAR",code: "33881",desc: "TEVAR distal extension prosthesis",wrvu: 8.86,notes: "Add-on" },
+  {cat: "Aortic",sub: "Thoracic/TEVAR",code: "33883",desc: "Endovascular repair descending thoracic aorta (zone 3)",wrvu: 37.62,notes: "" },
+  {cat: "Aortic",sub: "Thoracic/TEVAR",code: "33884",desc: "TEVAR proximal extension prosthesis",wrvu: 8.86,notes: "Add-on" },
+  {cat: "Aortic",sub: "Thoracic/TEVAR",code: "33886",desc: "TEVAR delayed device deployment",wrvu: 5.29,notes: "Add-on" },
+  {cat: "Aortic",sub: "Aortic Occlusive",code: "35301",desc: "Thromboendarterectomy aorta (infrarenal)",wrvu: 25.0,notes: "" },
+  {cat: "Aortic",sub: "Aortic Occlusive",code: "35331",desc: "Thromboendarterectomy aorta/iliac",wrvu: 27.28,notes: "" },
+  {cat: "Aortic",sub: "Aortic Occlusive",code: "35361",desc: "Aorto-iliac endarterectomy",wrvu: 34.61,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35501",desc: "Bypass aorta-celiac or aorta-mesenteric",wrvu: 34.61,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35531",desc: "Aorto-superior mesenteric bypass",wrvu: 34.61,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35537",desc: "Bypass aorto-iliac",wrvu: 32.11,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35538",desc: "Bypass aorto-bi-iliac",wrvu: 36.21,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35539",desc: "Bypass aorto-femoral",wrvu: 34.61,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35540",desc: "Bypass aorto-bi-femoral",wrvu: 38.54,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35548",desc: "Bypass axillo-femoral (unilateral)",wrvu: 22.95,notes: "" },
+  {cat: "Aortic",sub: "Aortoiliac Bypass",code: "35549",desc: "Bypass axillo-bifemoral",wrvu: 27.28,notes: "" },
+
+  // ── PERIPHERAL ARTERIAL ─────────────────────────────────────────────
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35556",desc: "Bypass fem-popliteal (above knee)",wrvu: 22.26,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35566",desc: "Bypass fem-popliteal (below knee)",wrvu: 24.38,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35571",desc: "Bypass popliteal-tibial/peroneal",wrvu: 24.38,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35583",desc: "In situ vein bypass fem-popliteal",wrvu: 27.28,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35585",desc: "In situ vein bypass fem-anterior tibial",wrvu: 29.07,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35587",desc: "In situ vein bypass popliteal-tibial/peroneal",wrvu: 27.28,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35600",desc: "Harvest saphenous vein for bypass",wrvu: 3.51,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Bypass",code: "35601",desc: "Bypass carotid-carotid",wrvu: 22.26,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37220",desc: "Iliac revascularization (angioplasty)",wrvu: 8.52,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37221",desc: "Iliac revascularization (stent)",wrvu: 11.49,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37222",desc: "Iliac add'l ipsilateral vessel (angioplasty)",wrvu: 4.91,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37223",desc: "Iliac add'l ipsilateral vessel (stent)",wrvu: 5.98,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37224",desc: "Fem/popliteal revascularization (angioplasty)",wrvu: 8.52,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37225",desc: "Fem/popliteal revascularization (atherectomy)",wrvu: 11.49,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37226",desc: "Fem/popliteal revascularization (stent)",wrvu: 11.49,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37227",desc: "Fem/popliteal add'l ipsilateral (atherectomy + stent)",wrvu: 5.98,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37228",desc: "Tibial/peroneal revascularization (angioplasty)",wrvu: 10.69,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37229",desc: "Tibial/peroneal revascularization (atherectomy)",wrvu: 13.14,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37230",desc: "Tibial/peroneal revascularization (stent)",wrvu: 13.14,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37231",desc: "Tibial/peroneal add'l ipsilateral (atherectomy + stent)",wrvu: 5.40,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37232",desc: "Tibial/peroneal add'l ipsilateral (angioplasty)",wrvu: 4.91,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37233",desc: "Tibial/peroneal add'l ipsilateral (atherectomy)",wrvu: 5.40,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37234",desc: "Tibial/peroneal add'l ipsilateral (stent)",wrvu: 5.40,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Lower Extremity Endo",code: "37235",desc: "Tibial/peroneal add'l ipsilateral (atherectomy + angioplasty)",wrvu: 5.40,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Thrombectomy/Embolectomy",code: "34151",desc: "Embolectomy/thrombectomy renal/celiac/mesenteric/aortoiliac",wrvu: 26.93,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Thrombectomy/Embolectomy",code: "34201",desc: "Embolectomy/thrombectomy iliac/femoropopliteal",wrvu: 18.58,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Thrombectomy/Embolectomy",code: "34203",desc: "Embolectomy/thrombectomy popliteal/tibio-peroneal",wrvu: 20.31,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Mechanical Thrombectomy",code: "37184",desc: "Percutaneous mechanical thrombectomy arterial (primary)",wrvu: 6.48,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Mechanical Thrombectomy",code: "37185",desc: "Percutaneous mechanical thrombectomy arterial (2nd vessel)",wrvu: 3.73,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Mechanical Thrombectomy",code: "37186",desc: "Percutaneous mechanical thrombectomy (secondary)",wrvu: 3.73,notes: "Add-on" },
+  {cat: "Peripheral Arterial",sub: "Endarterectomy",code: "35302",desc: "Thromboendarterectomy superficial femoral artery",wrvu: 18.10,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Endarterectomy",code: "35303",desc: "Thromboendarterectomy popliteal artery",wrvu: 18.10,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Endarterectomy",code: "35304",desc: "Thromboendarterectomy tibial/peroneal",wrvu: 18.10,notes: "" },
+  {cat: "Peripheral Arterial",sub: "Endarterectomy",code: "35305",desc: "Thromboendarterectomy tibial and peroneal",wrvu: 20.31,notes: "" },
+  {cat: "Peripheral Arterial",sub: "pDVA",code: "37248",desc: "Transluminal balloon angioplasty open/percutaneous tibial/peroneal (initial)",wrvu: 10.69,notes: "Primary code for pDVA venous side" },
+  {cat: "Peripheral Arterial",sub: "pDVA",code: "37249",desc: "Transluminal balloon angioplasty open/percutaneous tibial/peroneal (add-on)",wrvu: 5.40,notes: "Add-on for pDVA" },
+
+  // ── CAROTID ─────────────────────────────────────────────────────────
+  {cat: "Carotid",sub: "CEA",code: "35301",desc: "CEA carotid artery",wrvu: 22.53,notes: "Most common CEA code" },
+  {cat: "Carotid",sub: "CEA",code: "35390",desc: "Reoperation carotid thromboendarterectomy",wrvu: 26.93,notes: "Redo CEA" },
+  {cat: "Carotid",sub: "CAS",code: "37215",desc: "Transcervical CAS with embolic protection",wrvu: 10.95,notes: "Also used for TCAR" },
+  {cat: "Carotid",sub: "CAS",code: "37216",desc: "Transcervical CAS without embolic protection",wrvu: 10.20,notes: "" },
+  {cat: "Carotid",sub: "TCAR",code: "37215",desc: "TCAR with embolic protection",wrvu: 10.95,notes: "Transfemoral or transcervical approach" },
+  {cat: "Carotid",sub: "Vertebral",code: "35508",desc: "Bypass carotid-vertebral",wrvu: 25.69,notes: "" },
+  {cat: "Carotid",sub: "Vertebral",code: "35515",desc: "Bypass subclavian-vertebral",wrvu: 25.69,notes: "" },
+  {cat: "Carotid",sub: "Vertebral",code: "35645",desc: "Bypass subclavian-vertebral",wrvu: 25.69,notes: "" },
+
+  // ── DIALYSIS ACCESS ─────────────────────────────────────────────────
+  {cat: "Dialysis Access",sub: "AVF Creation",code: "36818",desc: "AV anastomosis (upper arm cephalic) direct",wrvu: 9.63,notes: "Basilic transposition" },
+  {cat: "Dialysis Access",sub: "AVF Creation",code: "36819",desc: "AV anastomosis (upper arm basilic transposition)",wrvu: 12.39,notes: "" },
+  {cat: "Dialysis Access",sub: "AVF Creation",code: "36820",desc: "AV anastomosis (forearm vein transposition)",wrvu: 11.48,notes: "" },
+  {cat: "Dialysis Access",sub: "AVF Creation",code: "36821",desc: "Direct AV anastomosis (forearm)",wrvu: 8.43,notes: "Radiocephalic or Brescia-Cimino fistula" },
+  {cat: "Dialysis Access",sub: "AVG Creation",code: "36830",desc: "Cannulation AV graft (non-autogenous conduit)",wrvu: 10.20,notes: "Loop graft" },
+  {cat: "Dialysis Access",sub: "AVG Creation",code: "36832",desc: "Revision AV graft (open, no thrombectomy)",wrvu: 9.63,notes: "" },
+  {cat: "Dialysis Access",sub: "AVG Creation",code: "36833",desc: "Revision AV graft with thrombectomy",wrvu: 11.80,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36831",desc: "Thrombectomy AV fistula/graft without revision",wrvu: 9.63,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36838",desc: "Distal revascularization/interval ligation (DRIL)",wrvu: 16.58,notes: "For steal syndrome" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36902",desc: "Percutaneous transluminal angioplasty AV fistula (with imaging)",wrvu: 7.10,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36903",desc: "Stent placement in AV fistula (with imaging)",wrvu: 9.18,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36904",desc: "Percutaneous transluminal mechanical thrombectomy AV graft (with imaging)",wrvu: 8.86,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36905",desc: "Percutaneous thrombectomy AV graft + angioplasty (with imaging)",wrvu: 10.82,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36906",desc: "Percutaneous thrombectomy AV graft + stent (with imaging)",wrvu: 13.21,notes: "" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36907",desc: "Transcatheter balloon angioplasty central venous (add-on)",wrvu: 3.76,notes: "Add-on" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36908",desc: "Transcatheter stent central venous (add-on)",wrvu: 5.40,notes: "Add-on" },
+  {cat: "Dialysis Access",sub: "Access Maintenance",code: "36909",desc: "Dialysis access embolization (add-on)",wrvu: 3.76,notes: "Add-on; side branch embolization" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36558",desc: "Insertion tunneled centrally inserted CVL (age >5)",wrvu: 3.83,notes: "" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36560",desc: "Insertion tunneled CVL with subcutaneous port",wrvu: 5.29,notes: "" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36580",desc: "Replacement tunneled CVL (same access site)",wrvu: 2.84,notes: "" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36581",desc: "Replacement tunneled CVL (different access site)",wrvu: 3.39,notes: "" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36589",desc: "Removal tunneled CVL without port",wrvu: 1.67,notes: "" },
+  {cat: "Dialysis Access",sub: "Tunneled Catheters",code: "36590",desc: "Removal tunneled CVL with subcutaneous port",wrvu: 3.39,notes: "" },
+
+  // ── VENOUS ──────────────────────────────────────────────────────────
+  {cat: "Venous",sub: "Varicose Veins",code: "36470",desc: "Injection sclerotherapy single vein",wrvu: 1.21,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36471",desc: "Injection sclerotherapy multiple veins",wrvu: 1.53,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36475",desc: "Endovenous ablation GSV/SSV (radiofrequency, first vein)",wrvu: 3.62,notes: "RFA; typically bilateral coded separately" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36476",desc: "Endovenous ablation GSV/SSV (radiofrequency, 2nd+ vein)",wrvu: 2.17,notes: "Add-on" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36478",desc: "Endovenous ablation GSV/SSV (laser, first vein)",wrvu: 3.62,notes: "EVLT" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36479",desc: "Endovenous ablation GSV/SSV (laser, 2nd+ vein)",wrvu: 2.17,notes: "Add-on" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36482",desc: "Endovenous ablation incompetent vein (mechanochemical, first)",wrvu: 3.62,notes: "ClariVein" },
+  {cat: "Venous",sub: "Varicose Veins",code: "36483",desc: "Endovenous ablation incompetent vein (mechanochemical, add-on)",wrvu: 2.17,notes: "Add-on" },
+  {cat: "Venous",sub: "Varicose Veins",code: "37765",desc: "Stab phlebectomy thigh/leg (1–20 incisions)",wrvu: 4.65,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "37766",desc: "Stab phlebectomy thigh/leg (>20 incisions)",wrvu: 6.52,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "37700",desc: "Ligation/division saphenous vein at saphenofemoral junction",wrvu: 5.01,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "37718",desc: "Ligation, division, stripping SSV",wrvu: 8.00,notes: "" },
+  {cat: "Venous",sub: "Varicose Veins",code: "37722",desc: "Ligation, division, stripping long/short saphenous veins",wrvu: 9.92,notes: "" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37187",desc: "Percutaneous mechanical thrombectomy venous (primary)",wrvu: 6.48,notes: "" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37188",desc: "Percutaneous mechanical thrombectomy venous (add-on)",wrvu: 3.73,notes: "Add-on" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37191",desc: "Insertion IVC filter, endovascular",wrvu: 3.88,notes: "" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37192",desc: "Repositioning IVC filter, endovascular",wrvu: 3.88,notes: "" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37193",desc: "Retrieval IVC filter, endovascular",wrvu: 4.33,notes: "" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37212",desc: "Catheter-directed thrombolysis venous (initial)",wrvu: 6.04,notes: "CDT" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37213",desc: "Catheter-directed thrombolysis venous (subsequent day)",wrvu: 3.00,notes: "Per subsequent day" },
+  {cat: "Venous",sub: "DVT / IVC",code: "37214",desc: "Cessation of thrombolysis with removal of catheter",wrvu: 2.50,notes: "" },
+  {cat: "Venous",sub: "Venous Stenting",code: "37238",desc: "Transcatheter placement venous stent (initial)",wrvu: 8.52,notes: "Iliac/fem-iliac stenting; May-Thurner" },
+  {cat: "Venous",sub: "Venous Stenting",code: "37239",desc: "Transcatheter placement venous stent (add-on)",wrvu: 4.91,notes: "Add-on" },
+  {cat: "Venous",sub: "Venous Stenting",code: "37248",desc: "Transluminal balloon angioplasty open/percutaneous (initial vessel)",wrvu: 10.69,notes: "Venous angioplasty" },
+  {cat: "Venous",sub: "Venous Stenting",code: "37249",desc: "Transluminal balloon angioplasty open/percutaneous (add-on)",wrvu: 5.40,notes: "Add-on" },
+
+  // ── VISCERAL / MESENTERIC ────────────────────────────────────────────
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35531",desc: "Bypass aorta-superior mesenteric artery",wrvu: 34.61,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35536",desc: "Bypass spleno-renal",wrvu: 27.28,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35541",desc: "Bypass aorto-celiac or aorto-mesenteric",wrvu: 34.61,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35546",desc: "Bypass aorto-renal (unilateral)",wrvu: 27.28,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35548",desc: "Bypass aorto-renal (bilateral)",wrvu: 34.61,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Open",code: "35560",desc: "Bypass renal-renal",wrvu: 27.28,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Endovascular",code: "37236",desc: "Transcatheter placement intravascular stent (non-coronary) initial",wrvu: 8.52,notes: "Mesenteric/renal stenting" },
+  {cat: "Visceral/Mesenteric",sub: "Endovascular",code: "37237",desc: "Transcatheter placement intravascular stent (add-on)",wrvu: 4.91,notes: "Add-on" },
+  {cat: "Visceral/Mesenteric",sub: "Renal",code: "50100",desc: "Renal artery repair (transection/plastic repair)",wrvu: 20.73,notes: "" },
+  {cat: "Visceral/Mesenteric",sub: "Renal",code: "50120",desc: "Renal angioplasty, transluminal",wrvu: 8.52,notes: "" },
+
+  // ── ANGIOGRAPHY / DIAGNOSTIC ─────────────────────────────────────────
+  {cat: "Angiography/Diagnostic",sub: "Aortic",code: "75600",desc: "Aortography thoracic (without serialography)",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Aortic",code: "75625",desc: "Aortography abdominal (without serialography)",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Aortic",code: "75630",desc: "Aortography abdominal + bilateral iliofemoral",wrvu: 1.11,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Extremity",code: "75710",desc: "Angiography extremity unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Extremity",code: "75716",desc: "Angiography extremity bilateral",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Extremity",code: "75774",desc: "Angiography selective vessel (add-on)",wrvu: 0.64,notes: "Add-on per additional vessel" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Visceral",code: "75722",desc: "Renal angiography unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Visceral",code: "75724",desc: "Renal angiography bilateral",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Visceral",code: "75726",desc: "Celiac/mesenteric angiography",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Carotid/Vertebral",code: "75650",desc: "Angiography cervicocerebral (extracranial)",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Carotid/Vertebral",code: "75660",desc: "Angiography carotid unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Carotid/Vertebral",code: "75671",desc: "Angiography carotid bilateral",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Carotid/Vertebral",code: "75676",desc: "Angiography carotid cervical unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36200",desc: "Introduction catheter aorta",wrvu: 1.71,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36215",desc: "Selective catheter 1st order thoracic/abdominal (each vessel)",wrvu: 1.71,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36216",desc: "Selective catheter 2nd order (each vessel)",wrvu: 1.12,notes: "Add-on after 36215" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36217",desc: "Selective catheter 3rd order+ (each vessel)",wrvu: 1.12,notes: "Add-on after 36216" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36218",desc: "Add'l 2nd+ order beyond 36217",wrvu: 1.12,notes: "Add-on" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36245",desc: "Selective catheter 1st order abdominal/pelvic/lower extremity",wrvu: 1.71,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36246",desc: "Selective catheter 2nd order (each vessel)",wrvu: 1.12,notes: "Add-on" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36247",desc: "Selective catheter 3rd order+ (each vessel)",wrvu: 1.12,notes: "Add-on" },
+  {cat: "Angiography/Diagnostic",sub: "Catheter Placement",code: "36248",desc: "Add'l 2nd+ order beyond 36247",wrvu: 1.12,notes: "Add-on" },
+
+  // ── VASCULAR ACCESS / PORTS ──────────────────────────────────────────
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36561",desc: "Insertion tunneled CVL with subcutaneous port (age >5)",wrvu: 5.29,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36569",desc: "Insertion PICC line (age >5)",wrvu: 1.22,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36570",desc: "Insertion PICC with subcutaneous port (age ≤5)",wrvu: 4.78,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36571",desc: "Insertion PICC with subcutaneous port (age >5)",wrvu: 5.29,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36584",desc: "Replacement PICC (same access)",wrvu: 1.22,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36595",desc: "Mechanical removal of pericatheter/intraluminal fibrin sheath",wrvu: 2.00,notes: "" },
+  {cat: "Vascular Access",sub: "Port / PICC",code: "36596",desc: "Mechanical removal intraluminal (intracatheter) fibrin sheath",wrvu: 2.00,notes: "" },
+  {cat: "Vascular Access",sub: "Temporary Access",code: "36555",desc: "Insertion non-tunneled CVL (age >5)",wrvu: 1.75,notes: "" },
+  {cat: "Vascular Access",sub: "Temporary Access",code: "36556",desc: "Insertion non-tunneled CVL (age >5) subclavian/IJ/fem",wrvu: 1.75,notes: "" },
+
+  // ── AMPUTATION ───────────────────────────────────────────────────────
+  {cat: "Amputation",sub: "Lower Extremity",code: "27590",desc: "Amputation thigh (above knee)",wrvu: 14.40,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "27591",desc: "Amputation thigh including revision of stump",wrvu: 14.40,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "27592",desc: "Open amputation thigh",wrvu: 10.18,notes: "Guillotine; open AKA" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "27880",desc: "Amputation lower leg (below knee)",wrvu: 12.62,notes: "BKA" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "27881",desc: "Amputation lower leg with revision of stump",wrvu: 12.62,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "27882",desc: "Open amputation lower leg",wrvu: 9.20,notes: "Guillotine BKA" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "28800",desc: "Amputation midfoot (Chopart)",wrvu: 8.00,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "28805",desc: "Transmetatarsal amputation (TMA)",wrvu: 7.13,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "28810",desc: "Amputation metatarsal (with toe)",wrvu: 5.47,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "28820",desc: "Amputation toe (metatarsophalangeal joint)",wrvu: 3.46,notes: "" },
+  {cat: "Amputation",sub: "Lower Extremity",code: "28825",desc: "Amputation toe (interphalangeal joint)",wrvu: 2.98,notes: "" },
+
+  // ── WOUND CARE / DEBRIDEMENT ─────────────────────────────────────────
+  {cat: "Wound Care",sub: "Debridement",code: "97597",desc: "Debridement open wound (first 20 sq cm)",wrvu: 1.04,notes: "" },
+  {cat: "Wound Care",sub: "Debridement",code: "97598",desc: "Debridement open wound (add-on each additional 20 sq cm)",wrvu: 0.50,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Debridement",code: "11042",desc: "Debridement subcutaneous tissue (first 20 sq cm)",wrvu: 1.12,notes: "" },
+  {cat: "Wound Care",sub: "Debridement",code: "11043",desc: "Debridement muscle and/or fascia (first 20 sq cm)",wrvu: 2.21,notes: "" },
+  {cat: "Wound Care",sub: "Debridement",code: "11044",desc: "Debridement bone (first 20 sq cm)",wrvu: 2.76,notes: "" },
+  {cat: "Wound Care",sub: "Debridement",code: "11045",desc: "Debridement subcutaneous add-on (each additional 20 sq cm)",wrvu: 0.56,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Debridement",code: "11046",desc: "Debridement muscle add-on (each additional 20 sq cm)",wrvu: 1.10,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Debridement",code: "11047",desc: "Debridement bone add-on (each additional 20 sq cm)",wrvu: 1.38,notes: "Add-on" },
+
+  // ── E&M ──────────────────────────────────────────────────────────────
+  {cat: "E&M",sub: "Office Visit New",code: "99202",desc: "New patient office visit (straightforward MDM)",wrvu: 0.93,notes: "" },
+  {cat: "E&M",sub: "Office Visit New",code: "99203",desc: "New patient office visit (low MDM)",wrvu: 1.60,notes: "" },
+  {cat: "E&M",sub: "Office Visit New",code: "99204",desc: "New patient office visit (moderate MDM)",wrvu: 2.60,notes: "" },
+  {cat: "E&M",sub: "Office Visit New",code: "99205",desc: "New patient office visit (high MDM)",wrvu: 3.50,notes: "" },
+  {cat: "E&M",sub: "Office Visit Established",code: "99211",desc: "Established patient office visit (minimal)",wrvu: 0.18,notes: "" },
+  {cat: "E&M",sub: "Office Visit Established",code: "99212",desc: "Established patient office visit (straightforward MDM)",wrvu: 0.70,notes: "" },
+  {cat: "E&M",sub: "Office Visit Established",code: "99213",desc: "Established patient office visit (low MDM)",wrvu: 1.30,notes: "" },
+  {cat: "E&M",sub: "Office Visit Established",code: "99214",desc: "Established patient office visit (moderate MDM)",wrvu: 1.92,notes: "" },
+  {cat: "E&M",sub: "Office Visit Established",code: "99215",desc: "Established patient office visit (high MDM)",wrvu: 2.80,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99221",desc: "Initial hospital visit (low)",wrvu: 1.92,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99222",desc: "Initial hospital visit (moderate)",wrvu: 2.61,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99223",desc: "Initial hospital visit (high)",wrvu: 3.86,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99231",desc: "Subsequent hospital visit (low)",wrvu: 0.76,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99232",desc: "Subsequent hospital visit (moderate)",wrvu: 1.39,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99233",desc: "Subsequent hospital visit (high)",wrvu: 2.00,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99238",desc: "Hospital discharge (≤30 min)",wrvu: 1.28,notes: "" },
+  {cat: "E&M",sub: "Hospital",code: "99239",desc: "Hospital discharge (>30 min)",wrvu: 1.90,notes: "" },
+  {cat: "E&M",sub: "Consult",code: "99242",desc: "Outpatient consult (straightforward)",wrvu: 1.60,notes: "Private payer only" },
+  {cat: "E&M",sub: "Consult",code: "99243",desc: "Outpatient consult (low)",wrvu: 2.30,notes: "Private payer only" },
+  {cat: "E&M",sub: "Consult",code: "99244",desc: "Outpatient consult (moderate)",wrvu: 3.30,notes: "Private payer only" },
+  {cat: "E&M",sub: "Consult",code: "99245",desc: "Outpatient consult (high)",wrvu: 4.10,notes: "Private payer only" },
+  {cat: "E&M",sub: "Critical Care",code: "99291",desc: "Critical care, first 30-74 min",wrvu: 4.50,notes: "" },
+  {cat: "E&M",sub: "Critical Care",code: "99292",desc: "Critical care, each additional 30 min",wrvu: 2.25,notes: "Add-on" },
+
+  // ── IVUS ─────────────────────────────────────────────────────────────
+  {cat: "IVUS",sub: "Coronary/Non-Coronary",code: "37250",desc: "IVUS non-coronary vessel, initial vessel (w/ imaging supervision)",wrvu: 2.24,notes: "Primary IVUS code; peripheral/aortic/renal/iliac" },
+  {cat: "IVUS",sub: "Coronary/Non-Coronary",code: "37251",desc: "IVUS non-coronary vessel, each additional vessel (w/ imaging supervision)",wrvu: 1.12,notes: "Add-on; report with 37250" },
+  {cat: "IVUS",sub: "Guidance",code: "76998",desc: "Ultrasound guidance, intraoperative (real-time)",wrvu: 1.34,notes: "Intraoperative US guidance; distinct from IVUS" },
+
+  // ── ANGIOGRAPHY – LOWER EXTREMITY ────────────────────────────────────
+  {cat: "Angiography/Diagnostic",sub: "Lower Extremity Runoff",code: "75710",desc: "Angiography lower extremity unilateral (runoff)",wrvu: 0.92,notes: "Unilateral LE runoff; catheter placement billed separately" },
+  {cat: "Angiography/Diagnostic",sub: "Lower Extremity Runoff",code: "75716",desc: "Angiography lower extremity bilateral (runoff)",wrvu: 1.16,notes: "Bilateral LE runoff" },
+  {cat: "Angiography/Diagnostic",sub: "Lower Extremity Runoff",code: "75774",desc: "Angiography selective, each additional vessel (add-on)",wrvu: 0.64,notes: "Add-on; per additional selectively catheterized vessel" },
+  {cat: "Angiography/Diagnostic",sub: "Aortogram",code: "75625",desc: "Aortography abdominal, serialography",wrvu: 0.92,notes: "Standard abdominal aortogram" },
+  {cat: "Angiography/Diagnostic",sub: "Aortogram",code: "75630",desc: "Aortography abdominal + bilateral iliofemoral",wrvu: 1.11,notes: "Aorta + runoff in one code" },
+  {cat: "Angiography/Diagnostic",sub: "Aortogram",code: "75600",desc: "Aortography thoracic, serialography",wrvu: 0.92,notes: "Thoracic aortogram" },
+  {cat: "Angiography/Diagnostic",sub: "Aortogram",code: "75605",desc: "Aortography thoracic with serialography and AP",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Mesenteric",code: "75722",desc: "Renal angiography, unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Mesenteric",code: "75724",desc: "Renal angiography, bilateral",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Mesenteric",code: "75726",desc: "Celiac and/or mesenteric angiography",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Renal/Mesenteric",code: "75731",desc: "Adrenal angiography, unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75820",desc: "Venography, extremity, unilateral",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75822",desc: "Venography, extremity, bilateral",wrvu: 1.16,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75825",desc: "Venography, caval, inferior w/ serialography",wrvu: 0.92,notes: "IVC venogram; used with IVC filter placement" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75827",desc: "Venography, caval, superior w/ serialography",wrvu: 0.92,notes: "SVC venogram" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75872",desc: "Venography, epidural",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Venography",code: "75880",desc: "Venography, orbital",wrvu: 0.92,notes: "" },
+  {cat: "Angiography/Diagnostic",sub: "Fistulogram",code: "36901",desc: "Intro of needle/catheter for AV fistula evaluation (w/ imaging)",wrvu: 3.91,notes: "Diagnostic fistulogram/graftogram" },
+  {cat: "Angiography/Diagnostic",sub: "Fistulogram",code: "75791",desc: "Angiography, AV shunt (created for dialysis), imaging supervision",wrvu: 0.92,notes: "Supervision & interpretation for fistulogram" },
+
+  // ── DUPLEX / VASCULAR ULTRASOUND ─────────────────────────────────────
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93925",desc: "Duplex scan lower extremity arteries, bilateral",wrvu: 1.18,notes: "TC+26 or global; ABI often included" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93926",desc: "Duplex scan lower extremity arteries, unilateral/limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93923",desc: "Non-invasive physiologic studies lower extremity (3+ levels)",wrvu: 0.93,notes: "ABI/PVR multi-level; bilateral" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93924",desc: "Non-invasive physiologic studies lower extremity, post-exercise",wrvu: 1.07,notes: "Exercise ABI" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93922",desc: "Non-invasive physiologic studies lower extremity (1–2 levels)",wrvu: 0.52,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93930",desc: "Duplex scan upper extremity arteries, bilateral",wrvu: 1.18,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Arterial Duplex",code: "93931",desc: "Duplex scan upper extremity arteries, unilateral/limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Carotid Duplex",code: "93880",desc: "Duplex scan extracranial arteries, bilateral",wrvu: 1.25,notes: "Standard carotid duplex" },
+  {cat: "Duplex/Ultrasound",sub: "Carotid Duplex",code: "93882",desc: "Duplex scan extracranial arteries, unilateral/limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Carotid Duplex",code: "93886",desc: "Transcranial Doppler study, complete",wrvu: 0.97,notes: "TCD" },
+  {cat: "Duplex/Ultrasound",sub: "Venous Duplex",code: "93970",desc: "Duplex scan extremity veins, bilateral",wrvu: 1.18,notes: "DVT protocol bilateral" },
+  {cat: "Duplex/Ultrasound",sub: "Venous Duplex",code: "93971",desc: "Duplex scan extremity veins, unilateral/limited",wrvu: 0.78,notes: "DVT protocol unilateral" },
+  {cat: "Duplex/Ultrasound",sub: "Venous Duplex",code: "93965",desc: "Non-invasive physiologic venous study, extremity, complete bilateral",wrvu: 0.52,notes: "Venous reflux; used for vein mapping" },
+  {cat: "Duplex/Ultrasound",sub: "Venous Duplex",code: "93971",desc: "Duplex scan extremity veins, unilateral",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Aortic/Visceral",code: "93978",desc: "Duplex scan aorta/iliac/femoral/popliteal arteries, complete",wrvu: 1.25,notes: "AAA surveillance, iliac disease" },
+  {cat: "Duplex/Ultrasound",sub: "Aortic/Visceral",code: "93979",desc: "Duplex scan aorta/iliac/femoral/popliteal, unilateral/limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Aortic/Visceral",code: "93975",desc: "Duplex scan visceral arteries, complete",wrvu: 1.25,notes: "Mesenteric/renal artery duplex" },
+  {cat: "Duplex/Ultrasound",sub: "Aortic/Visceral",code: "93976",desc: "Duplex scan visceral arteries, limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Graft Surveillance",code: "93980",desc: "Duplex scan hemodialysis access, complete",wrvu: 1.25,notes: "AV fistula/graft surveillance" },
+  {cat: "Duplex/Ultrasound",sub: "Graft Surveillance",code: "93981",desc: "Duplex scan hemodialysis access, follow-up/limited",wrvu: 0.78,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Intraoperative",code: "76998",desc: "Ultrasound guidance intraoperative, real-time (add-on)",wrvu: 1.34,notes: "Add-on; used intraop for vessel identification, access" },
+
+  // ── CLOSURE DEVICES & ACCESS ─────────────────────────────────────────
+  {cat: "Closure/Access",sub: "Arterial Closure",code: "35226",desc: "Repair blood vessel, direct; lower extremity",wrvu: 12.00,notes: "Open repair of iatrogenic arterial injury" },
+  {cat: "Closure/Access",sub: "Arterial Closure",code: "35206",desc: "Repair blood vessel, direct; upper extremity",wrvu: 10.39,notes: "" },
+  {cat: "Closure/Access",sub: "Arterial Closure",code: "35207",desc: "Repair blood vessel, direct; hand/finger",wrvu: 8.43,notes: "" },
+  {cat: "Closure/Access",sub: "Arterial Closure",code: "35211",desc: "Repair blood vessel, direct; intrathoracic",wrvu: 25.00,notes: "" },
+  {cat: "Closure/Access",sub: "Arterial Closure",code: "35216",desc: "Repair blood vessel, direct; intrathoracic (with bypass)",wrvu: 30.00,notes: "" },
+  {cat: "Closure/Access",sub: "Percutaneous Closure",code: "34713",desc: "Percutaneous access and closure, femoral artery (unilateral)",wrvu: 2.29,notes: "Percutaneous closure device (Perclose, MANTA, Angio-Seal); add-on to EVAR/FEVAR" },
+  {cat: "Closure/Access",sub: "Percutaneous Closure",code: "34714",desc: "Open femoral artery exposure + repair, unilateral (add-on)",wrvu: 5.29,notes: "Add-on when open femoral used for EVAR access" },
+  {cat: "Closure/Access",sub: "Percutaneous Closure",code: "34715",desc: "Open axillary/subclavian exposure + repair (add-on)",wrvu: 6.71,notes: "Add-on" },
+  {cat: "Closure/Access",sub: "Percutaneous Closure",code: "34716",desc: "Open iliac artery exposure + repair (add-on)",wrvu: 6.71,notes: "Add-on" },
+  {cat: "Closure/Access",sub: "Fasciotomy",code: "27600",desc: "Decompression fasciotomy, leg (anterior and/or lateral)",wrvu: 9.28,notes: "Compartment syndrome" },
+  {cat: "Closure/Access",sub: "Fasciotomy",code: "27601",desc: "Decompression fasciotomy, leg (posterior)",wrvu: 9.28,notes: "" },
+  {cat: "Closure/Access",sub: "Fasciotomy",code: "27602",desc: "Decompression fasciotomy, leg (anterior, lateral, posterior)",wrvu: 11.81,notes: "4-compartment release" },
+
+  // ── EMBOLIZATION & THROMBOLYSIS ───────────────────────────────────────
+  {cat: "Embolization/Thrombolysis",sub: "Embolization",code: "37241",desc: "Vascular embolization/occlusion, venous (w/ imaging)",wrvu: 5.40,notes: "Venous; varicocele, pelvic congestion, gonadal vein" },
+  {cat: "Embolization/Thrombolysis",sub: "Embolization",code: "37242",desc: "Vascular embolization/occlusion, arterial (w/ imaging)",wrvu: 8.52,notes: "Arterial; visceral, endoleak, traumatic hemorrhage" },
+  {cat: "Embolization/Thrombolysis",sub: "Embolization",code: "37243",desc: "Vascular embolization, organ/tumor (w/ imaging)",wrvu: 8.52,notes: "Tumor embolization; splenic, renal" },
+  {cat: "Embolization/Thrombolysis",sub: "Embolization",code: "37244",desc: "Vascular embolization, hemorrhage (w/ imaging)",wrvu: 8.52,notes: "Hemorrhage control; traumatic, post-procedural" },
+  {cat: "Embolization/Thrombolysis",sub: "Thrombolysis",code: "37211",desc: "Transcatheter thrombolysis, arterial, initial treatment (w/ imaging)",wrvu: 6.04,notes: "CDT arterial; initial day" },
+  {cat: "Embolization/Thrombolysis",sub: "Thrombolysis",code: "37212",desc: "Transcatheter thrombolysis, venous, initial treatment (w/ imaging)",wrvu: 6.04,notes: "CDT venous; DVT/PE; initial day" },
+  {cat: "Embolization/Thrombolysis",sub: "Thrombolysis",code: "37213",desc: "Transcatheter thrombolysis, continued (arterial or venous)",wrvu: 3.00,notes: "Subsequent treatment day; per day" },
+  {cat: "Embolization/Thrombolysis",sub: "Thrombolysis",code: "37214",desc: "Cessation of thrombolysis with catheter removal (w/ imaging)",wrvu: 2.50,notes: "Final day; lysis complete" },
+
+  // ── IMAGING GUIDANCE / SUPERVISION & INTERPRETATION ──────────────────
+  {cat: "Imaging Guidance",sub: "Fluoroscopy",code: "77001",desc: "Fluoroscopic guidance for central venous access device placement",wrvu: 0.50,notes: "S&I for CVL/port/PICC under fluoro" },
+  {cat: "Imaging Guidance",sub: "Fluoroscopy",code: "76000",desc: "Fluoroscopy, up to 1 hour (standalone)",wrvu: 0.50,notes: "Rarely billed; usually bundled" },
+  {cat: "Imaging Guidance",sub: "Ultrasound Guidance",code: "76937",desc: "US guidance for vascular access, permanent record, S&I",wrvu: 0.50,notes: "Required documentation: permanent record (image saved)" },
+  {cat: "Imaging Guidance",sub: "Ultrasound Guidance",code: "76942",desc: "US guidance for needle placement, imaging supervision & interpretation",wrvu: 0.54,notes: "Biopsy, aspiration, injection guidance" },
+  {cat: "Imaging Guidance",sub: "Roadmapping/S&I",code: "75945",desc: "IVUS, peripheral vessel, initial vessel S&I",wrvu: 0.50,notes: "S&I component of 37250; usually bundled" },
+  {cat: "Imaging Guidance",sub: "Roadmapping/S&I",code: "75946",desc: "IVUS, peripheral vessel, each additional vessel S&I",wrvu: 0.36,notes: "S&I add-on; usually bundled with 37251" },
+  {cat: "Imaging Guidance",sub: "CT Guidance",code: "77012",desc: "CT guidance for needle placement, S&I",wrvu: 0.83,notes: "" },
+  {cat: "Imaging Guidance",sub: "CT Guidance",code: "75635",desc: "CTA abdominal arteries with runoff reconstruction",wrvu: 1.62,notes: "CTA lower extremity runoff; professional read" },
+
+  // ── NONINVASIVE VASCULAR TESTING ──────────────────────────────────────
+  {cat: "Duplex/Ultrasound",sub: "Physiologic Testing",code: "93923",desc: "Non-invasive physiologic studies LE arteries, complete bilateral (3+ levels)",wrvu: 0.93,notes: "ABI + PVR at multiple levels; claudication workup" },
+  {cat: "Duplex/Ultrasound",sub: "Physiologic Testing",code: "93924",desc: "Non-invasive physiologic studies LE arteries, post-exercise/reactive hyperemia",wrvu: 1.07,notes: "Exercise ABI; supervised exercise therapy monitoring" },
+  {cat: "Duplex/Ultrasound",sub: "Physiologic Testing",code: "93922",desc: "Non-invasive physiologic studies LE arteries, limited (1–2 levels)",wrvu: 0.52,notes: "" },
+  {cat: "Duplex/Ultrasound",sub: "Physiologic Testing",code: "93990",desc: "Duplex scan hemodialysis access evaluation (for steal)",wrvu: 0.78,notes: "Steal syndrome eval; includes waveforms" },
+  {cat: "Duplex/Ultrasound",sub: "Physiologic Testing",code: "95923",desc: "Testing of autonomic nervous system, sudomotor",wrvu: 0.65,notes: "Sympathetic skin response; used in CLI/small fiber neuropathy workup" },
+
+  // ── SUPERVISED EXERCISE THERAPY ──────────────────────────────────────
+  {cat: "E&M",sub: "Supervised Exercise",code: "93668",desc: "Peripheral arterial disease (PAD) rehabilitation",wrvu: 0.45,notes: "Per session; requires referral & supervision; G0422/G0423 for Medicare" },
+  {cat: "E&M",sub: "Supervised Exercise",code: "G0422",desc: "Intensive cardiac/pulmonary rehab (Medicare) — intensive SET session",wrvu: 0.45,notes: "Medicare-specific; SET program billed per session" },
+  {cat: "E&M",sub: "Supervised Exercise",code: "G0423",desc: "Intensive cardiac/pulmonary rehab subsequent session (Medicare)",wrvu: 0.36,notes: "Medicare subsequent session; up to 36 sessions" },
+
+  // ── WOUND CARE ADDITIONAL ────────────────────────────────────────────
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15271",desc: "Application skin substitute, trunk/arm/leg (first 25 sq cm)",wrvu: 2.86,notes: "Bioengineered skin substitute; CLTI wound" },
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15272",desc: "Application skin substitute, trunk/arm/leg (add-on, each 25 sq cm)",wrvu: 1.23,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15275",desc: "Application skin substitute, face/scalp/hands/feet (first 25 sq cm)",wrvu: 2.86,notes: "Foot/ankle wounds; CLTI" },
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15276",desc: "Application skin substitute, face/scalp/hands/feet (add-on, each 25 sq cm)",wrvu: 1.23,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15100",desc: "Split-thickness autograft, trunk/arm/leg (first 100 sq cm)",wrvu: 8.42,notes: "STSG; donor site harvest included" },
+  {cat: "Wound Care",sub: "Skin Grafting",code: "15101",desc: "Split-thickness autograft, add-on (each 100 sq cm)",wrvu: 2.10,notes: "Add-on" },
+  {cat: "Wound Care",sub: "Negative Pressure",code: "97607",desc: "Negative pressure wound therapy (NPWT), wounds ≤50 sq cm",wrvu: 0.85,notes: "VAC therapy; professional component" },
+  {cat: "Wound Care",sub: "Negative Pressure",code: "97608",desc: "NPWT, wounds >50 sq cm",wrvu: 1.13,notes: "" },
+];
+const MODS=[
+  {code: "22",name: "Increased Procedural Services",use: "Documentation of substantial additional work beyond typical procedure. Requires detailed operative note justification.",ex: "Hostile abdomen, prior aortic surgery, morbid obesity complicating AAA repair." },
+  {code: "50",name: "Bilateral Procedure",use: "Same procedure performed on both sides. Typically billed as single line with modifier; reimbursed at 150% (100% + 50%).",ex: "Bilateral iliac stenting (37221-50), bilateral AV fistula evaluations." },
+  {code: "51",name: "Multiple Procedures",use: "Multiple distinct procedures same session, same surgeon. Append to secondary procedures. Primary = full RVU, secondary = reduced.",ex: "EVAR (34802) + fem cutdown (34812-51)." },
+  {code: "52",name: "Reduced Services",use: "Procedure partially reduced/eliminated at surgeon's discretion. Reduces payment.",ex: "Planned bilateral procedure done unilateral only." },
+  {code: "53",name: "Discontinued Procedure",use: "Procedure started but discontinued due to patient's condition threatening well-being.",ex: "EVAR aborted after access issues." },
+  {code: "54",name: "Surgical Care Only",use: "Surgeon provides surgical procedure only; another provider handles pre/postoperative care.",ex: "Emergency transfer case; surgeon only performs operative portion." },
+  {code: "55",name: "Postoperative Management Only",use: "Surgeon provides only postoperative care.",ex: "Taking over post-op care from out-of-town surgeon." },
+  {code: "56",name: "Preoperative Management Only",use: "Preoperative care only.",ex: "" },
+  {code: "57",name: "Decision for Surgery",use: "E&M service resulting in decision to perform surgery (major) within 24h. Bypasses global period for that E&M.",ex: "Day-of or day-before E&M leading to AAA repair." },
+  {code: "58",name: "Staged/Related Procedure",use: "During postoperative period, planned/staged/more extensive procedure performed. Opens new global period.",ex: "Planned AV fistula revision after maturation failure within global." },
+  {code: "59",name: "Distinct Procedural Service",use: "Procedure/service not normally reported together but appropriate due to distinct session, site, indication, or patient. Use XE/XS/XP/XU when more specific.",ex: "Angiography of a different vascular territory during same session as intervention." },
+  {code: "62",name: "Two Surgeons",use: "Two surgeons each performing distinct surgical portions. Each bills independently with -62.",ex: "Vascular + general surgery co-surgeon for open TAAA repair." },
+  {code: "63",name: "Procedure on Infant/Neonate",use: "Procedure performed on neonates/infants up to 4 kg. Increased work recognized.",ex: "" },
+  {code: "66",name: "Surgical Team",use: "Highly complex procedures requiring concurrent team of surgeons.",ex: "Multi-surgeon TAAA with perfusionist." },
+  {code: "73",name: "Discontinued Outpatient Procedure (prior to anesthesia)",use: "Outpatient procedure cancelled after patient prepped but before anesthesia.",ex: "" },
+  {code: "74",name: "Discontinued Outpatient Procedure (after anesthesia)",use: "After anesthesia initiated, procedure discontinued.",ex: "" },
+  {code: "76",name: "Repeat Procedure Same Physician",use: "Repeat procedure on same day by same surgeon.",ex: "Re-do groin exploration same day for bleeding." },
+  {code: "77",name: "Repeat Procedure Different Physician",use: "Same procedure repeated by different surgeon same day.",ex: "" },
+  {code: "78",name: "Unplanned Return to OR (related)",use: "Return to OR during postoperative period for treatment of complication, unplanned but related. Pays at 70% of global.",ex: "Return to OR for post-bypass bleeding within 90-day global." },
+  {code: "79",name: "Unrelated Procedure During Postop Period",use: "Procedure unrelated to original during global period. Full global period for new procedure.",ex: "Patient with prior CEA returns for fem-pop bypass in global." },
+  {code: "80",name: "Assistant Surgeon",use: "Surgeon assists primary surgeon. Bills at 16% of primary fee.",ex: "PA or attending assisting on complex open case." },
+  {code: "81",name: "Minimum Assistant Surgeon",use: "Minimal assistance provided.",ex: "" },
+  {code: "82",name: "Assistant Surgeon (qualified resident unavailable)",use: "No qualified resident available for teaching hospital.",ex: "Community hospital or non-teaching case." },
+  {code: "AS",name: "PA/NP/CNS Assistant at Surgery",use: "APP assisting at surgery.",ex: "APP assists on open aortic repair." },
+  {code: "GC",name: "Teaching Physician Service",use: "Service performed in part by resident under TP supervision.",ex: "Any case with resident present; TP must be present for key portions." },
+  {code: "GE",name: "Primary Care Exception",use: "Resident performing service in primary care setting.",ex: "" },
+  {code: "XE",name: "Separate Encounter",use: "Subset of -59; distinct encounter.",ex: "" },
+  {code: "XS",name: "Separate Structure",use: "Subset of -59; separate organ/structure.",ex: "Right and left iliac as separate structures." },
+  {code: "XP",name: "Separate Practitioner",use: "Subset of -59; different practitioner.",ex: "" },
+  {code: "XU",name: "Unusual Non-Overlapping Service",use: "Subset of -59; not ordinarily encountered.",ex: "" },
+  {code: "TC",name: "Technical Component",use: "Equipment/staff only, no professional interpretation.",ex: "Facility billing for duplex." },
+  {code: "26",name: "Professional Component",use: "Physician interpretation only (no equipment).",ex: "Reading duplex performed at another facility." },
+  {code: "RT",name: "Right Side",use: "Right side of body.",ex: "Right carotid endarterectomy." },
+  {code: "LT",name: "Left Side",use: "Left side of body.",ex: "Left fem-pop bypass." },
+  {code: "QZ",name: "CRNA Without Medical Direction",use: "CRNA services not medically directed.",ex: "" },
+  {code: "QK",name: "Medical Direction of CRNA (2–4)",use: "Anesthesiologist directing 2–4 CRNAs concurrently.",ex: "" },
+  {code: "AX",name: "Item Furnished in Conjunction with Dialysis Services",use: "Specific to dialysis-related items.",ex: "" },
+];
+const CC={
+  "Aortic": "#0ea5e9",
+  "Peripheral Arterial": "#10b981",
+  "Carotid": "#f59e0b",
+  "Dialysis Access": "#8b5cf6",
+  "Venous": "#ec4899",
+  "Visceral/Mesenteric": "#f97316",
+  "Angiography/Diagnostic": "#64748b",
+  "IVUS": "#06b6d4",
+  "Duplex/Ultrasound": "#3b82f6",
+  "Closure/Access": "#a855f7",
+  "Embolization/Thrombolysis": "#ef4444",
+  "Imaging Guidance": "#78716c",
+  "Vascular Access": "#14b8a6",
+  "Amputation": "#dc2626",
+  "Wound Care": "#84cc16",
+  "E&M": "#6366f1",
+};
+
+const CATS=["All",...Object.keys(CC)];
+const SMODS=["22","50","51","52","53","54","57","58","59","62","78","79","80","AS","GC","LT","RT","XS"];
+const ML=Object.fromEntries(MODS.map(m=>[m.code,m]));
+const cf=c=>CC[c]||"#94a3b8";
+
+let S={v:"p",q:"",cat:"All",sub:"All",sort:"code",xc:null,xm:null,
+  items:[],bq:"",bcat:"All",notes:"",mpFor:null};
+
+function subs(cat){
+  if(cat==="All")return["All"];
+  return["All",...new Set(CPT.filter(d=>d.cat===cat).map(d=>d.sub))];
+}
+function filt(){
+  let r=CPT;
+  if(S.cat!=="All")r=r.filter(d=>d.cat===S.cat);
+  if(S.sub!=="All")r=r.filter(d=>d.sub===S.sub);
+  if(S.q){const q=S.q.toLowerCase();r=r.filter(d=>d.code.includes(q)||d.desc.toLowerCase().includes(q)||d.sub.toLowerCase().includes(q)||(d.notes&&d.notes.toLowerCase().includes(q)));}
+  return[...r].sort((a,b)=>S.sort==="wrvu"?b.wrvu-a.wrvu:S.sort==="alpha"?a.desc.localeCompare(b.desc):a.code.localeCompare(b.code));
+}
+function bfilt(){
+  let r=CPT;
+  if(S.bcat!=="All")r=r.filter(d=>d.cat===S.bcat);
+  if(S.bq){const q=S.bq.toLowerCase();r=r.filter(d=>d.code.includes(q)||d.desc.toLowerCase().includes(q)||d.sub.toLowerCase().includes(q));}
+  return r.slice(0,50);
+}
+function tot(){
+  return S.items.reduce((s,it,i)=>{
+    const ia=it.notes&&it.notes.toLowerCase().includes("add-on");
+    const m50=it.mods.includes("50");
+    let b=it.wrvu*it.qty*(m50?1.5:1);
+    if(!ia&&i>0)b*=0.5;
+    return s+b;
+  },0);
+}
+
+function render(){
+  const f=filt();
+  document.getElementById("rcount").textContent=S.v==="p"?f.length:S.v==="m"?MODS.length:S.items.length;
+  document.getElementById("hsub").textContent=`2026 · ${CPT.length} codes · ${MODS.length} modifiers`;
+
+  ["p","m","b"].forEach(v=>{
+    const el=document.getElementById("t"+v);
+    el.className="tab";
+    if(S.v===v)el.className+=" "+(v==="b"?"ab":v==="m"?"am":"ap");
+    else if(v==="b"&&S.items.length>0)el.className+=" hi";
+    const ob=el.querySelector(".bdg");if(ob)ob.remove();
+    if(v==="b"&&S.items.length>0){const b=document.createElement("span");b.className="bdg";b.textContent=S.items.length;el.appendChild(b);}
+  });
+
+  const fa=document.getElementById("fa");
+  fa.style.display=S.v==="p"?"block":"none";
+  if(S.v==="p"){
+    const cp=document.getElementById("cp");cp.innerHTML="";
+    CATS.forEach(cat=>{
+      const b=document.createElement("button");b.className="pill";b.textContent=cat;
+      const c=cf(cat);
+      if(S.cat===cat){b.style.borderColor=c;b.style.background=c+"20";b.style.color=c;}
+      b.onclick=()=>{S.cat=cat;S.sub="All";render();};cp.appendChild(b);
+    });
+    const sc=subs(S.cat),sp=document.getElementById("sp");
+    if(sc.length>1){
+      sp.style.display="flex";sp.innerHTML="";
+      sc.forEach(s=>{
+        const b=document.createElement("button");b.className="pill";b.textContent=s;
+        if(S.sub===s){b.style.borderColor="#38bdf8";b.style.background="#38bdf820";b.style.color="#38bdf8";}
+        b.onclick=()=>{S.sub=s;render();};sp.appendChild(b);
+      });
+    }else sp.style.display="none";
+    ["code","wrvu","alpha"].forEach(k=>{
+      document.getElementById(k==="code"?"sc":k==="wrvu"?"sw":"sa").className="sb"+(S.sort===k?" on":"");
+    });
+  }
+
+  const c=document.getElementById("con");
+  if(S.v==="p")rP(c,f);
+  else if(S.v==="m")rM(c);
+  else rB(c);
+}
+
+function rP(c,items){
+  if(!items.length){c.innerHTML=`<div class="empty">No codes found for "${S.q}"</div>`;return;}
+  c.innerHTML="";
+  items.forEach(it=>{
+    const col=cf(it.cat),exp=S.xc===(it.code+it.sub);
+    const card=document.createElement("div");
+    card.className="cc"+(exp?" ex":"");
+    if(exp)card.style.borderColor=col;
+    card.innerHTML=`<div class="ct"><div class="cl"><div class="cm"><span class="cb" style="background:${col}20;color:${col}">${it.code}</span><span class="csl">${it.sub}</span></div><div class="cd">${it.desc}</div></div><div class="cr"><div class="wv">${it.wrvu.toFixed(2)}</div><div class="wl">wRVU</div></div></div>${exp?`<div class="cdet" style="border-top-color:${col}30"><div class="dr"><span>Category</span><span style="color:${col}">${it.cat}</span></div><div class="dr"><span>CPT Code</span><span>${it.code}</span></div><div class="dr"><span>wRVU 2026</span><span class="dh">${it.wrvu.toFixed(2)}</span></div>${it.notes?`<div class="dr"><span>Notes</span><span style="color:#94a3b8;font-size:10px;max-width:190px;text-align:right">${it.notes}</span></div>`:""}<div class="disc">&#9888; Verify wRVUs annually. Values estimated 2026 based on CMS/MGMA data.</div></div>`:""}`;
+    card.onclick=()=>{S.xc=exp?null:(it.code+it.sub);render();};
+    c.appendChild(card);
+  });
+}
+
+function rM(c){
+  c.innerHTML="";
+  const q=S.q.toLowerCase();
+  const mods=q?MODS.filter(m=>m.code.toLowerCase().includes(q)||m.name.toLowerCase().includes(q)||m.use.toLowerCase().includes(q)||(m.ex&&m.ex.toLowerCase().includes(q))):MODS;
+  mods.forEach(mod=>{
+    const exp=S.xm===mod.code;
+    const d=document.createElement("div");
+    d.className="mc"+(exp?" ex":"");
+    d.innerHTML=`<span class="mb">-${mod.code}</span><div class="mn">${mod.name}</div><div class="mu">${mod.use}</div>${exp&&mod.ex?`<div class="mex"><span class="mxl">Example: </span>${mod.ex}</div>`:""}`;
+    d.onclick=()=>{S.xm=exp?null:mod.code;render();};
+    c.appendChild(d);
+  });
+}
+
+function rB(c){
+  const t=tot(),est=(t*68.87).toFixed(0);
+  let h=`<div id="bsum"><div><div class="btl">Case Total</div><div class="btv">${t.toFixed(2)}</div><div class="bcn">${S.items.length} code${S.items.length!==1?"s":""} · wRVU</div></div><div style="text-align:right"><div class="bel">Est. collections*</div><div class="bev">$${est}</div><div class="bcf">@ $68.87 CF</div>${S.items.length>1?`<div class="brd">&#9889; -51 reduction applied</div>`:""}</div></div>`;
+  if(!S.items.length){
+    h+=`<div class="bemp"><div class="bei">+</div><div class="bet">Add codes below to build your case</div><div class="bes">Primary code first, then add-ons</div></div>`;
+  }else{
+    S.items.forEach((it,i)=>{
+      const ia=it.notes&&it.notes.toLowerCase().includes("add-on");
+      const m50=it.mods.includes("50");
+      const eff=(ia?it.wrvu*it.qty:it.wrvu*it.qty*(i>0?0.5:1))*(m50?1.5:1);
+      const mpo=S.mpFor===it.uid;
+      h+=`<div class="ci ${i===0?"p":"s"}"><div class="cit"><div style="flex:1"><div class="cts">${i===0?`<span class="tp">PRIMARY</span>`:""}${ia?`<span class="ta">ADD-ON</span>`:""}<span class="cb" style="background:${cf(it.cat)}20;color:${cf(it.cat)};font-size:13px;font-weight:700;padding:1px 6px;border-radius:4px">${it.code}</span>${it.mods.map(m=>`<span class="tm">-${m}</span>`).join("")}</div><div class="cdx">${it.desc}</div></div><div class="cw ${i>0&&!ia?"r":"f"}">${eff.toFixed(2)}${i>0&&!ia?`<div class="cws">50% reduct.</div>`:""}<div class="cwb">base: ${it.wrvu.toFixed(2)}</div></div></div><div class="ccc"><div class="qc"><button class="qb" onclick="cq('${it.uid}',-1)">&#8722;</button><span class="qv">${it.qty}</span><button class="qb" onclick="cq('${it.uid}',1)">+</button></div><button class="mt" onclick="tmp('${it.uid}')" style="background:${mpo?"#8b5cf620":"transparent"};color:${mpo?"#a78bfa":"#475569"};border:1px solid ${mpo?"#8b5cf6":"#1e293b"}">+MOD</button><div style="flex:1"></div><button class="rb" onclick="ri('${it.uid}')">&#10005;</button></div>${mpo?`<div class="mp"><div class="mpl">MODIFIERS</div><div class="mpg">${SMODS.map(mc=>`<button class="mch ${it.mods.includes(mc)?"on":"of"}" onclick="tm('${it.uid}','${mc}')">-${mc}</button>`).join("")}</div>${it.mods.length?`<div class="msl">${it.mods.map(mc=>ML[mc]?`<div class="msi"><span class="msc">-${mc}</span> · ${ML[mc].name}</div>`:"").join("")}</div>`:""}</div>`:""}</div>`;
+    });
+    h+=`<textarea class="cn" rows="2" placeholder="Case notes (patient, date, diagnosis, ICD-10...)" oninput="S.notes=this.value">${S.notes}</textarea>`;
+    h+=`<button class="clr" onclick="clrc()">&#10005; CLEAR CASE</button>`;
+  }
+  h+=`<div id="acp"><div id="act">ADD CODE TO CASE</div><div class="pr" style="margin-bottom:8px">`;
+  CATS.forEach(cat=>{const c2=cf(cat),a=S.bcat===cat;h+=`<button class="pill" onclick="sbc('${cat}')" style="${a?`border-color:${c2};background:${c2}20;color:${c2}`:""}">${cat}</button>`;});
+  h+=`</div><div class="sw" style="margin-bottom:8px"><span class="si">&#9906;</span><input type="search" placeholder="Search code or procedure..." value="${S.bq.replace(/"/g,'&quot;')}" oninput="ubq(this.value)" autocomplete="off" autocorrect="off" spellcheck="false" style="width:100%;background:#111827;border:1px solid #1e293b;border-radius:8px;padding:9px 12px 9px 34px;color:#e2e8f0;font-size:12px;outline:none;box-sizing:border-box;font-family:inherit"></div><div id="ares">`;
+  bfilt().forEach(it=>{
+    const ia=it.notes&&it.notes.toLowerCase().includes("add-on");
+    const esc=it.sub.replace(/'/g,"\\'");
+    h+=`<div class="ai" onclick="atc('${it.code}','${esc}')"><div class="ail"><div class="aic"><span class="cb" style="background:${cf(it.cat)}20;color:${cf(it.cat)};font-size:12px;font-weight:700;padding:1px 6px;border-radius:4px">${it.code}</span>${ia?`<span class="ta">ADD-ON</span>`:""}</div><div class="aid">${it.desc}</div></div><div class="air"><div class="aw">${it.wrvu.toFixed(2)}</div><div class="awl">wRVU</div></div></div>`;
+  });
+  h+=`</div></div><div class="bdi">* Est. at 2026 CF $68.87. -51 reduction (50%) on non-add-on secondary codes. Modifier -50 bilateral adds 50%. Actual reimbursement varies by payer.</div>`;
+  c.innerHTML=h;
+}
+
+function sv(v){S.v=v;S.q="";document.getElementById("srch").value="";render();}
+function ss(s){S.sort=s;render();}
+function atc(code,sub){const it=CPT.find(d=>d.code===code&&d.sub===sub);if(!it)return;S.items.push({...it,mods:[],qty:1,uid:Date.now()+Math.random().toString(36).slice(2)});S.bq="";render();}
+function ri(uid){S.items=S.items.filter(i=>i.uid!==uid);S.mpFor=null;render();}
+function cq(uid,d){S.items=S.items.map(i=>i.uid===uid?{...i,qty:Math.max(1,i.qty+d)}:i);render();}
+function tmp(uid){S.mpFor=S.mpFor===uid?null:uid;render();}
+function tm(uid,mod){S.items=S.items.map(i=>{if(i.uid!==uid)return i;const h=i.mods.includes(mod);return{...i,mods:h?i.mods.filter(x=>x!==mod):[...i.mods,mod]};});render();}
+function clrc(){S.items=[];S.notes="";S.mpFor=null;render();}
+function sbc(cat){S.bcat=cat;render();}
+function ubq(v){S.bq=v;render();}
+
+document.getElementById("srch").addEventListener("input",function(){S.q=this.value;S.xc=null;render();});
+render();
+</script>
+</body>
+</html>
