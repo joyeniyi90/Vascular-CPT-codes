@@ -659,5 +659,26 @@
     ],
     "totalWRVU": 13.16,
     "estCollections": 906.33
+  },
+  {
+    "id": "mpexnlle7ounasl0bdl",
+    "date": "2026-05-06",
+    "time": "22:30",
+    "title": "37217 · Carotid stent – retrocervical (TCAR, transcaroti",
+    "notes": "",
+    "items": [
+      {
+        "code": "37217",
+        "desc": "Carotid stent – retrocervical (TCAR, transcarotid artery revascularization)",
+        "cat": "Carotid",
+        "sub": "CAS/TCAR",
+        "wrvu": 19.87,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026; replaces 37215 for TCAR"
+      }
+    ],
+    "totalWRVU": 19.87,
+    "estCollections": 1368.45
   }
 ]
