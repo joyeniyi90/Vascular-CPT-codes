@@ -556,5 +556,66 @@
     ],
     "totalWRVU": 8.46,
     "estCollections": 582.98
+  },
+  {
+    "id": "mpex9uyae9qe4cgtz79",
+    "date": "2026-05-01",
+    "time": "22:19",
+    "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+    "notes": "",
+    "items": [
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "36248",
+        "desc": "Selective catheter – additional 2nd+ order beyond 36247 (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Catheter Placement",
+        "wrvu": 0.98,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on"
+      },
+      {
+        "code": "36247",
+        "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Catheter Placement",
+        "wrvu": 5.89,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on"
+      },
+      {
+        "code": "75625",
+        "desc": "Abdominal aortogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Aortogram",
+        "wrvu": 1.4,
+        "qty": 1,
+        "mods": [],
+        "notes": "Standard abdominal aortogram"
+      },
+      {
+        "code": "75774",
+        "desc": "Selective angiogram – each additional vessel (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 0.98,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on per additional vessel"
+      }
+    ],
+    "totalWRVU": 10.26,
+    "estCollections": 706.61
   }
 ]
