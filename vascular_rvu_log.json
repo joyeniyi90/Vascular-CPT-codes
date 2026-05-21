@@ -680,5 +680,26 @@
     ],
     "totalWRVU": 19.87,
     "estCollections": 1368.45
+  },
+  {
+    "id": "mpey3iwp9pyt6f41st",
+    "date": "2026-05-06",
+    "time": "22:42",
+    "title": "35011 · Open aneurysm repair – subclavian/axillary arter",
+    "notes": "Brachial artery pseudoaneurysm repair",
+    "items": [
+      {
+        "code": "35011",
+        "desc": "Open aneurysm repair – subclavian/axillary artery, thoracic incision",
+        "cat": "Upper Extremity",
+        "sub": "Open Aneurysm Repair",
+        "wrvu": 18.12,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 18.12,
+    "estCollections": 1247.92
   }
 ]
