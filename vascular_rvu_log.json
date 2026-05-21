@@ -1,60 +1,50 @@
 [
   {
-    "id": "mpev1i84yq4y50vknzp",
-    "date": "2026-04-15",
-    "time": "21:17",
-    "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+    "id": "mpexnlle7ounasl0bdl",
+    "date": "2026-05-06",
+    "time": "22:30",
+    "title": "37217 · Carotid stent – retrocervical (TCAR, transcaroti",
     "notes": "",
     "items": [
       {
-        "code": "75710",
-        "desc": "Lower extremity arteriogram – unilateral runoff",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 1.71,
+        "code": "37217",
+        "desc": "Carotid stent – retrocervical (TCAR, transcarotid artery revascularization)",
+        "cat": "Carotid",
+        "sub": "CAS/TCAR",
+        "wrvu": 19.87,
         "qty": 1,
         "mods": [],
-        "notes": ""
-      },
-      {
-        "code": "75625",
-        "desc": "Abdominal aortogram",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Aortogram",
-        "wrvu": 1.4,
-        "qty": 1,
-        "mods": [],
-        "notes": "Standard abdominal aortogram"
+        "notes": "NEW 2026; replaces 37215 for TCAR"
       }
     ],
-    "totalWRVU": 2.41,
-    "estCollections": 165.98
+    "totalWRVU": 19.87,
+    "estCollections": 1368.45
   },
   {
-    "id": "mpev2s9x51dyacg7v9n",
-    "date": "2026-04-16",
-    "time": "21:18",
-    "title": "27590 · Above-knee amputation (AKA) – thigh level",
-    "notes": "",
+    "id": "mpey3iwp9pyt6f41st",
+    "date": "2026-05-06",
+    "time": "22:42",
+    "title": "35011 · Open aneurysm repair – subclavian/axillary arter",
+    "notes": "Brachial artery pseudoaneurysm repair",
     "items": [
       {
-        "code": "27590",
-        "desc": "Above-knee amputation (AKA) – thigh level",
-        "cat": "Amputation",
-        "sub": "Above/Below Knee",
-        "wrvu": 13.13,
+        "code": "35011",
+        "desc": "Open aneurysm repair – subclavian/axillary artery, thoracic incision",
+        "cat": "Upper Extremity",
+        "sub": "Open Aneurysm Repair",
+        "wrvu": 18.12,
         "qty": 1,
         "mods": [],
         "notes": ""
       }
     ],
-    "totalWRVU": 13.13,
-    "estCollections": 904.26
+    "totalWRVU": 18.12,
+    "estCollections": 1247.92
   },
   {
-    "id": "mpev4s6zp81ti87i9e",
-    "date": "2026-04-16",
-    "time": "21:19",
+    "id": "mpexij23foxy13fyahn",
+    "date": "2026-05-05",
+    "time": "22:26",
     "title": "36832 · AV graft revision – open, without thrombectomy",
     "notes": "",
     "items": [
@@ -67,454 +57,10 @@
         "qty": 1,
         "mods": [],
         "notes": ""
-      },
-      {
-        "code": "36561",
-        "desc": "Tunneled CVC with port insertion – age >5 (Mediport/PowerPort)",
-        "cat": "Vascular Access",
-        "sub": "Ports/PICC",
-        "wrvu": 5.65,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
       }
     ],
-    "totalWRVU": 15.98,
-    "estCollections": 1100.89
-  },
-  {
-    "id": "mpev9sw5tnen15sbhg8",
-    "date": "2026-04-17",
-    "time": "21:23",
-    "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-    "notes": "",
-    "items": [
-      {
-        "code": "75710",
-        "desc": "Lower extremity arteriogram – unilateral runoff",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 1.71,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      },
-      {
-        "code": "36247",
-        "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Catheter Placement",
-        "wrvu": 5.89,
-        "qty": 1,
-        "mods": [],
-        "notes": "Add-on"
-      },
-      {
-        "code": "75625",
-        "desc": "Abdominal aortogram",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Aortogram",
-        "wrvu": 1.4,
-        "qty": 1,
-        "mods": [],
-        "notes": "Standard abdominal aortogram"
-      },
-      {
-        "code": "75774",
-        "desc": "Selective angiogram – each additional vessel (add-on)",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 0.98,
-        "qty": 1,
-        "mods": [],
-        "notes": "Add-on per additional vessel"
-      }
-    ],
-    "totalWRVU": 9.28,
-    "estCollections": 639.11
-  },
-  {
-    "id": "mpevbuvw62hdwjvdml7",
-    "date": "2026-04-17",
-    "time": "21:25",
-    "title": "36558 · Tunneled CVC insertion – age >5 (Hickman/PowerPo",
-    "notes": "",
-    "items": [
-      {
-        "code": "36558",
-        "desc": "Tunneled CVC insertion – age >5 (Hickman/PowerPort/Groshong)",
-        "cat": "Dialysis Access",
-        "sub": "Tunneled Catheters",
-        "wrvu": 4.48,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 4.48,
-    "estCollections": 308.54
-  },
-  {
-    "id": "mpevdr74btv9iby43iq",
-    "date": "2026-04-17",
-    "time": "21:26",
-    "title": "75822 · Extremity venogram – bilateral",
-    "notes": "",
-    "items": [
-      {
-        "code": "75822",
-        "desc": "Extremity venogram – bilateral",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Venography",
-        "wrvu": 1.44,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      },
-      {
-        "code": "36005",
-        "desc": "Extremity venography – contrast injection for venogram",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Venous Catheter Placement",
-        "wrvu": 0.93,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 1.91,
-    "estCollections": 131.2
-  },
-  {
-    "id": "mpevg19p6zvanwcf9nj",
-    "date": "2026-04-18",
-    "time": "21:28",
-    "title": "37273 · Fem-Pop atherectomy – plaque removal, occlusion,",
-    "notes": "",
-    "items": [
-      {
-        "code": "37273",
-        "desc": "Fem-Pop atherectomy – plaque removal, occlusion, 1st vessel",
-        "cat": "Peripheral Arterial",
-        "sub": "Endovascular Revascularization (FPVT)",
-        "wrvu": 12.63,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026"
-      },
-      {
-        "code": "37252",
-        "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
-        "cat": "IVUS",
-        "sub": "Peripheral IVUS",
-        "wrvu": 1.76,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026; replaces 37250"
-      },
-      {
-        "code": "75710",
-        "desc": "Lower extremity arteriogram – unilateral runoff",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 1.71,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 14.37,
-    "estCollections": 989.32
-  },
-  {
-    "id": "mpevi9qbmc6uuq9o1ym",
-    "date": "2026-04-18",
-    "time": "21:30",
-    "title": "37191 · IVC filter placement – endovascular, with imagin",
-    "notes": "",
-    "items": [
-      {
-        "code": "37191",
-        "desc": "IVC filter placement – endovascular, with imaging",
-        "cat": "Venous",
-        "sub": "DVT/IVC",
-        "wrvu": 4.35,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 4.35,
-    "estCollections": 299.58
-  },
-  {
-    "id": "mpevuho08b166akhrv9",
-    "date": "2026-04-20",
-    "time": "21:39",
-    "title": "37296 · Inframalleolar PTA – foot/ankle vessels, balloon",
-    "notes": "",
-    "items": [
-      {
-        "code": "37296",
-        "desc": "Inframalleolar PTA – foot/ankle vessels, balloon angioplasty, stenosis, 1st vessel",
-        "cat": "Peripheral Arterial",
-        "sub": "LE Endovascular",
-        "wrvu": 11,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026; replaces 37220"
-      },
-      {
-        "code": "37281",
-        "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-        "cat": "Peripheral Arterial",
-        "sub": "LE Endovascular",
-        "wrvu": 3,
-        "qty": 1,
-        "mods": [],
-        "notes": "Add-on"
-      },
-      {
-        "code": "37280",
-        "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-        "cat": "Peripheral Arterial",
-        "sub": "LE Endovascular",
-        "wrvu": 9.8,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026; replaces 37224"
-      },
-      {
-        "code": "75625",
-        "desc": "Abdominal aortogram",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Aortogram",
-        "wrvu": 1.4,
-        "qty": 1,
-        "mods": [],
-        "notes": "Standard abdominal aortogram"
-      },
-      {
-        "code": "75710",
-        "desc": "Lower extremity arteriogram – unilateral runoff",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 1.71,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 20.45,
-    "estCollections": 1408.74
-  },
-  {
-    "id": "mpew6ut7egt17dwy59a",
-    "date": "2026-04-20",
-    "time": "21:49",
-    "title": "27880 · Below-knee amputation (BKA) – lower leg",
-    "notes": "",
-    "items": [
-      {
-        "code": "27880",
-        "desc": "Below-knee amputation (BKA) – lower leg",
-        "cat": "Amputation",
-        "sub": "Above/Below Knee",
-        "wrvu": 14.99,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 14.99,
-    "estCollections": 1032.36
-  },
-  {
-    "id": "mpew80qguhbdl7ht3os",
-    "date": "2026-04-20",
-    "time": "21:50",
-    "title": "37212 · Catheter-directed thrombolysis (CDT) – venous (D",
-    "notes": "",
-    "items": [
-      {
-        "code": "37212",
-        "desc": "Catheter-directed thrombolysis (CDT) – venous (DVT/iliofemoral), initial day",
-        "cat": "Venous",
-        "sub": "DVT/IVC",
-        "wrvu": 6.64,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      },
-      {
-        "code": "75820",
-        "desc": "Extremity venogram – unilateral",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Venography",
-        "wrvu": 1.02,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 7.15,
-    "estCollections": 492.42
-  },
-  {
-    "id": "mpewa7q0ql67lijs0l",
-    "date": "2026-04-21",
-    "time": "21:51",
-    "title": "37191 · IVC filter placement – endovascular, with imagin",
-    "notes": "",
-    "items": [
-      {
-        "code": "37191",
-        "desc": "IVC filter placement – endovascular, with imaging",
-        "cat": "Venous",
-        "sub": "DVT/IVC",
-        "wrvu": 4.35,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 4.35,
-    "estCollections": 299.58
-  },
-  {
-    "id": "mpewburd2n4l3mvun7f",
-    "date": "2026-04-21",
-    "time": "21:53",
-    "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
-    "notes": "",
-    "items": [
-      {
-        "code": "37187",
-        "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
-        "cat": "Venous",
-        "sub": "DVT/IVC",
-        "wrvu": 7.59,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      },
-      {
-        "code": "37214",
-        "desc": "CDT cessation – catheter removal and vessel closure",
-        "cat": "Venous",
-        "sub": "DVT/IVC",
-        "wrvu": 2.43,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 8.8,
-    "estCollections": 606.4
-  },
-  {
-    "id": "mpewlcy3n5wc80nqynf",
-    "date": "2026-04-29",
-    "time": "22:00",
-    "title": "37238 · Venous stent placement – iliac/May-Thurner/SVC s",
-    "notes": "",
-    "items": [
-      {
-        "code": "37238",
-        "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
-        "cat": "Venous",
-        "sub": "Venous Stenting",
-        "wrvu": 5.89,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 5.89,
-    "estCollections": 405.64
-  },
-  {
-    "id": "mpewvk50fra4cq75lbp",
-    "date": "2026-04-29",
-    "time": "22:08",
-    "title": "37277 · Fem-Pop stent + atherectomy – occlusion, 1st ves",
-    "notes": "",
-    "items": [
-      {
-        "code": "37277",
-        "desc": "Fem-Pop stent + atherectomy – occlusion, 1st vessel",
-        "cat": "Peripheral Arterial",
-        "sub": "Endovascular Revascularization (FPVT)",
-        "wrvu": 15,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026"
-      },
-      {
-        "code": "75625",
-        "desc": "Abdominal aortogram",
-        "cat": "Angiography/Diagnostic",
-        "sub": "Aortogram",
-        "wrvu": 1.4,
-        "qty": 1,
-        "mods": [],
-        "notes": "Standard abdominal aortogram"
-      },
-      {
-        "code": "75710",
-        "desc": "Lower extremity arteriogram – unilateral runoff",
-        "cat": "Angiography/Diagnostic",
-        "sub": "LE Runoff",
-        "wrvu": 1.71,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 16.55,
-    "estCollections": 1140.14
-  },
-  {
-    "id": "mpex0trzw92f5u8wo7s",
-    "date": "2026-04-30",
-    "time": "22:12",
-    "title": "27880 · Below-knee amputation (BKA) – lower leg",
-    "notes": "",
-    "items": [
-      {
-        "code": "27880",
-        "desc": "Below-knee amputation (BKA) – lower leg",
-        "cat": "Amputation",
-        "sub": "Above/Below Knee",
-        "wrvu": 14.99,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 14.99,
-    "estCollections": 1032.36
-  },
-  {
-    "id": "mpex2wetv11xmqf9eu",
-    "date": "2026-04-30",
-    "time": "22:14",
-    "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
-    "notes": "",
-    "items": [
-      {
-        "code": "36902",
-        "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
-        "cat": "Dialysis Access",
-        "sub": "Access Maintenance",
-        "wrvu": 4.71,
-        "qty": 1,
-        "mods": [],
-        "notes": ""
-      }
-    ],
-    "totalWRVU": 4.71,
-    "estCollections": 324.38
+    "totalWRVU": 13.16,
+    "estCollections": 906.33
   },
   {
     "id": "mpex6futt8shft2a9um",
@@ -640,9 +186,504 @@
     "estCollections": 1032.36
   },
   {
-    "id": "mpexij23foxy13fyahn",
-    "date": "2026-05-05",
-    "time": "22:26",
+    "id": "mpex0trzw92f5u8wo7s",
+    "date": "2026-04-30",
+    "time": "22:12",
+    "title": "27880 · Below-knee amputation (BKA) – lower leg",
+    "notes": "",
+    "items": [
+      {
+        "code": "27880",
+        "desc": "Below-knee amputation (BKA) – lower leg",
+        "cat": "Amputation",
+        "sub": "Above/Below Knee",
+        "wrvu": 14.99,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 14.99,
+    "estCollections": 1032.36
+  },
+  {
+    "id": "mpex2wetv11xmqf9eu",
+    "date": "2026-04-30",
+    "time": "22:14",
+    "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
+    "notes": "",
+    "items": [
+      {
+        "code": "36902",
+        "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+        "cat": "Dialysis Access",
+        "sub": "Access Maintenance",
+        "wrvu": 4.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 4.71,
+    "estCollections": 324.38
+  },
+  {
+    "id": "mpewlcy3n5wc80nqynf",
+    "date": "2026-04-29",
+    "time": "06:06",
+    "title": "37238 · Venous stent placement – iliac/May-Thurner/SVC s",
+    "notes": "",
+    "items": [
+      {
+        "code": "37187",
+        "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 7.59,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "37238",
+        "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
+        "cat": "Venous",
+        "sub": "Venous Stenting",
+        "wrvu": 5.89,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "37252",
+        "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+        "cat": "IVUS",
+        "sub": "Peripheral IVUS",
+        "wrvu": 1.76,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026; replaces 37250"
+      },
+      {
+        "code": "36005",
+        "desc": "Extremity venography – contrast injection for venogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Venous Catheter Placement",
+        "wrvu": 0.93,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "75820",
+        "desc": "Extremity venogram – unilateral",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Venography",
+        "wrvu": 1.02,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 12.39,
+    "estCollections": 853.3
+  },
+  {
+    "id": "mpewvk50fra4cq75lbp",
+    "date": "2026-04-29",
+    "time": "22:08",
+    "title": "37277 · Fem-Pop stent + atherectomy – occlusion, 1st ves",
+    "notes": "",
+    "items": [
+      {
+        "code": "37277",
+        "desc": "Fem-Pop stent + atherectomy – occlusion, 1st vessel",
+        "cat": "Peripheral Arterial",
+        "sub": "Endovascular Revascularization (FPVT)",
+        "wrvu": 15,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026"
+      },
+      {
+        "code": "75625",
+        "desc": "Abdominal aortogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Aortogram",
+        "wrvu": 1.4,
+        "qty": 1,
+        "mods": [],
+        "notes": "Standard abdominal aortogram"
+      },
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 16.55,
+    "estCollections": 1140.14
+  },
+  {
+    "id": "mpewa7q0ql67lijs0l",
+    "date": "2026-04-21",
+    "time": "21:51",
+    "title": "37191 · IVC filter placement – endovascular, with imagin",
+    "notes": "",
+    "items": [
+      {
+        "code": "37191",
+        "desc": "IVC filter placement – endovascular, with imaging",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 4.35,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 4.35,
+    "estCollections": 299.58
+  },
+  {
+    "id": "mpewburd2n4l3mvun7f",
+    "date": "2026-04-21",
+    "time": "21:53",
+    "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+    "notes": "",
+    "items": [
+      {
+        "code": "37187",
+        "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 7.59,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "37214",
+        "desc": "CDT cessation – catheter removal and vessel closure",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 2.43,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 8.8,
+    "estCollections": 606.4
+  },
+  {
+    "id": "mpevuho08b166akhrv9",
+    "date": "2026-04-20",
+    "time": "21:39",
+    "title": "37296 · Inframalleolar PTA – foot/ankle vessels, balloon",
+    "notes": "",
+    "items": [
+      {
+        "code": "37296",
+        "desc": "Inframalleolar PTA – foot/ankle vessels, balloon angioplasty, stenosis, 1st vessel",
+        "cat": "Peripheral Arterial",
+        "sub": "LE Endovascular",
+        "wrvu": 11,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026; replaces 37220"
+      },
+      {
+        "code": "37281",
+        "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+        "cat": "Peripheral Arterial",
+        "sub": "LE Endovascular",
+        "wrvu": 3,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on"
+      },
+      {
+        "code": "37280",
+        "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+        "cat": "Peripheral Arterial",
+        "sub": "LE Endovascular",
+        "wrvu": 9.8,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026; replaces 37224"
+      },
+      {
+        "code": "75625",
+        "desc": "Abdominal aortogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Aortogram",
+        "wrvu": 1.4,
+        "qty": 1,
+        "mods": [],
+        "notes": "Standard abdominal aortogram"
+      },
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 20.45,
+    "estCollections": 1408.74
+  },
+  {
+    "id": "mpew6ut7egt17dwy59a",
+    "date": "2026-04-20",
+    "time": "21:49",
+    "title": "27880 · Below-knee amputation (BKA) – lower leg",
+    "notes": "",
+    "items": [
+      {
+        "code": "27880",
+        "desc": "Below-knee amputation (BKA) – lower leg",
+        "cat": "Amputation",
+        "sub": "Above/Below Knee",
+        "wrvu": 14.99,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 14.99,
+    "estCollections": 1032.36
+  },
+  {
+    "id": "mpew80qguhbdl7ht3os",
+    "date": "2026-04-20",
+    "time": "21:50",
+    "title": "37212 · Catheter-directed thrombolysis (CDT) – venous (D",
+    "notes": "",
+    "items": [
+      {
+        "code": "37212",
+        "desc": "Catheter-directed thrombolysis (CDT) – venous (DVT/iliofemoral), initial day",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 6.64,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "75820",
+        "desc": "Extremity venogram – unilateral",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Venography",
+        "wrvu": 1.02,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 7.15,
+    "estCollections": 492.42
+  },
+  {
+    "id": "mpevg19p6zvanwcf9nj",
+    "date": "2026-04-18",
+    "time": "21:28",
+    "title": "37273 · Fem-Pop atherectomy – plaque removal, occlusion,",
+    "notes": "",
+    "items": [
+      {
+        "code": "37273",
+        "desc": "Fem-Pop atherectomy – plaque removal, occlusion, 1st vessel",
+        "cat": "Peripheral Arterial",
+        "sub": "Endovascular Revascularization (FPVT)",
+        "wrvu": 12.63,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026"
+      },
+      {
+        "code": "37252",
+        "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+        "cat": "IVUS",
+        "sub": "Peripheral IVUS",
+        "wrvu": 1.76,
+        "qty": 1,
+        "mods": [],
+        "notes": "NEW 2026; replaces 37250"
+      },
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 14.37,
+    "estCollections": 989.32
+  },
+  {
+    "id": "mpevi9qbmc6uuq9o1ym",
+    "date": "2026-04-18",
+    "time": "21:30",
+    "title": "37191 · IVC filter placement – endovascular, with imagin",
+    "notes": "",
+    "items": [
+      {
+        "code": "37191",
+        "desc": "IVC filter placement – endovascular, with imaging",
+        "cat": "Venous",
+        "sub": "DVT/IVC",
+        "wrvu": 4.35,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 4.35,
+    "estCollections": 299.58
+  },
+  {
+    "id": "mpev9sw5tnen15sbhg8",
+    "date": "2026-04-17",
+    "time": "21:23",
+    "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+    "notes": "",
+    "items": [
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "36247",
+        "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Catheter Placement",
+        "wrvu": 5.89,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on"
+      },
+      {
+        "code": "75625",
+        "desc": "Abdominal aortogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Aortogram",
+        "wrvu": 1.4,
+        "qty": 1,
+        "mods": [],
+        "notes": "Standard abdominal aortogram"
+      },
+      {
+        "code": "75774",
+        "desc": "Selective angiogram – each additional vessel (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 0.98,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on per additional vessel"
+      }
+    ],
+    "totalWRVU": 9.28,
+    "estCollections": 639.11
+  },
+  {
+    "id": "mpevbuvw62hdwjvdml7",
+    "date": "2026-04-17",
+    "time": "21:25",
+    "title": "36558 · Tunneled CVC insertion – age >5 (Hickman/PowerPo",
+    "notes": "",
+    "items": [
+      {
+        "code": "36558",
+        "desc": "Tunneled CVC insertion – age >5 (Hickman/PowerPort/Groshong)",
+        "cat": "Dialysis Access",
+        "sub": "Tunneled Catheters",
+        "wrvu": 4.48,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 4.48,
+    "estCollections": 308.54
+  },
+  {
+    "id": "mpevdr74btv9iby43iq",
+    "date": "2026-04-17",
+    "time": "21:26",
+    "title": "75822 · Extremity venogram – bilateral",
+    "notes": "",
+    "items": [
+      {
+        "code": "75822",
+        "desc": "Extremity venogram – bilateral",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Venography",
+        "wrvu": 1.44,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "36005",
+        "desc": "Extremity venography – contrast injection for venogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Venous Catheter Placement",
+        "wrvu": 0.93,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 1.91,
+    "estCollections": 131.2
+  },
+  {
+    "id": "mpev2s9x51dyacg7v9n",
+    "date": "2026-04-16",
+    "time": "21:18",
+    "title": "27590 · Above-knee amputation (AKA) – thigh level",
+    "notes": "",
+    "items": [
+      {
+        "code": "27590",
+        "desc": "Above-knee amputation (AKA) – thigh level",
+        "cat": "Amputation",
+        "sub": "Above/Below Knee",
+        "wrvu": 13.13,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 13.13,
+    "estCollections": 904.26
+  },
+  {
+    "id": "mpev4s6zp81ti87i9e",
+    "date": "2026-04-16",
+    "time": "21:19",
     "title": "36832 · AV graft revision – open, without thrombectomy",
     "notes": "",
     "items": [
@@ -655,51 +696,50 @@
         "qty": 1,
         "mods": [],
         "notes": ""
-      }
-    ],
-    "totalWRVU": 13.16,
-    "estCollections": 906.33
-  },
-  {
-    "id": "mpexnlle7ounasl0bdl",
-    "date": "2026-05-06",
-    "time": "22:30",
-    "title": "37217 · Carotid stent – retrocervical (TCAR, transcaroti",
-    "notes": "",
-    "items": [
+      },
       {
-        "code": "37217",
-        "desc": "Carotid stent – retrocervical (TCAR, transcarotid artery revascularization)",
-        "cat": "Carotid",
-        "sub": "CAS/TCAR",
-        "wrvu": 19.87,
-        "qty": 1,
-        "mods": [],
-        "notes": "NEW 2026; replaces 37215 for TCAR"
-      }
-    ],
-    "totalWRVU": 19.87,
-    "estCollections": 1368.45
-  },
-  {
-    "id": "mpey3iwp9pyt6f41st",
-    "date": "2026-05-06",
-    "time": "22:42",
-    "title": "35011 · Open aneurysm repair – subclavian/axillary arter",
-    "notes": "Brachial artery pseudoaneurysm repair",
-    "items": [
-      {
-        "code": "35011",
-        "desc": "Open aneurysm repair – subclavian/axillary artery, thoracic incision",
-        "cat": "Upper Extremity",
-        "sub": "Open Aneurysm Repair",
-        "wrvu": 18.12,
+        "code": "36561",
+        "desc": "Tunneled CVC with port insertion – age >5 (Mediport/PowerPort)",
+        "cat": "Vascular Access",
+        "sub": "Ports/PICC",
+        "wrvu": 5.65,
         "qty": 1,
         "mods": [],
         "notes": ""
       }
     ],
-    "totalWRVU": 18.12,
-    "estCollections": 1247.92
+    "totalWRVU": 15.98,
+    "estCollections": 1100.89
+  },
+  {
+    "id": "mpev1i84yq4y50vknzp",
+    "date": "2026-04-15",
+    "time": "21:17",
+    "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+    "notes": "",
+    "items": [
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "75625",
+        "desc": "Abdominal aortogram",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Aortogram",
+        "wrvu": 1.4,
+        "qty": 1,
+        "mods": [],
+        "notes": "Standard abdominal aortogram"
+      }
+    ],
+    "totalWRVU": 2.41,
+    "estCollections": 165.98
   }
 ]
