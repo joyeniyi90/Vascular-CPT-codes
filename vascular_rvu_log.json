@@ -515,5 +515,46 @@
     ],
     "totalWRVU": 4.71,
     "estCollections": 324.38
+  },
+  {
+    "id": "mpex6futt8shft2a9um",
+    "date": "2026-05-01",
+    "time": "22:17",
+    "title": "36140 · Needle/catheter intro – upper or lower extremity",
+    "notes": "",
+    "items": [
+      {
+        "code": "36140",
+        "desc": "Needle/catheter intro – upper or lower extremity artery (direct puncture)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Arterial Catheter Placement",
+        "wrvu": 1.72,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      },
+      {
+        "code": "36247",
+        "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+        "cat": "Angiography/Diagnostic",
+        "sub": "Catheter Placement",
+        "wrvu": 5.89,
+        "qty": 1,
+        "mods": [],
+        "notes": "Add-on"
+      },
+      {
+        "code": "75710",
+        "desc": "Lower extremity arteriogram – unilateral runoff",
+        "cat": "Angiography/Diagnostic",
+        "sub": "LE Runoff",
+        "wrvu": 1.71,
+        "qty": 1,
+        "mods": [],
+        "notes": ""
+      }
+    ],
+    "totalWRVU": 8.46,
+    "estCollections": 582.98
   }
 ]
