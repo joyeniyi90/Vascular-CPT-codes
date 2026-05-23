@@ -1112,6 +1112,27 @@
       ],
       "totalWRVU": 9.55,
       "estCollections": 657.71
+    },
+    {
+      "id": "mphp7hpme40xt5g08d",
+      "date": "2026-05-18",
+      "time": "20:57",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
     }
   ],
   "custom": [
