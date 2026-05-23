@@ -1091,6 +1091,27 @@
       ],
       "totalWRVU": 12.19,
       "estCollections": 839.18
+    },
+    {
+      "id": "mphp5is6r95i63nqhk",
+      "date": "2026-05-15",
+      "time": "20:55",
+      "title": "27882 · Open below-knee amputation – guillotine (trauma/",
+      "notes": "",
+      "items": [
+        {
+          "code": "27882",
+          "desc": "Open below-knee amputation – guillotine (trauma/severe infection)",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 9.55,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.55,
+      "estCollections": 657.71
     }
   ],
   "custom": [
