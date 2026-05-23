@@ -988,6 +988,27 @@
       ],
       "totalWRVU": 17.44,
       "estCollections": 1201.09
+    },
+    {
+      "id": "mphor04t7fu4ku99n34",
+      "date": "2026-05-12",
+      "time": "20:44",
+      "title": "13160 · Secondary closure of surgical wound",
+      "notes": "",
+      "items": [
+        {
+          "code": "13160",
+          "desc": "Secondary closure of surgical wound",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 11.74,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.74,
+      "estCollections": 808.53
     }
   ],
   "custom": [
