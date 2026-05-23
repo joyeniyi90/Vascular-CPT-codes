@@ -1009,6 +1009,27 @@
       ],
       "totalWRVU": 11.74,
       "estCollections": 808.53
+    },
+    {
+      "id": "mphosfltx757nyhymm",
+      "date": "2026-05-12",
+      "time": "20:45",
+      "title": "36832 · AV graft revision – open, without thrombectomy",
+      "notes": "",
+      "items": [
+        {
+          "code": "36832",
+          "desc": "AV graft revision – open, without thrombectomy",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 13.16,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.16,
+      "estCollections": 906.33
     }
   ],
   "custom": [
