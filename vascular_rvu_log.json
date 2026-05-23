@@ -1034,7 +1034,7 @@
     {
       "id": "mphozn2wbfsxwkrof06",
       "date": "2026-05-14",
-      "time": "20:51",
+      "time": "21:05",
       "title": "37263 · Fem-Pop PTA – balloon angioplasty, stenosis, 1st",
       "notes": "",
       "items": [
@@ -1047,16 +1047,6 @@
           "qty": 1,
           "mods": [],
           "notes": "NEW 2026"
-        },
-        {
-          "code": "37252",
-          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
-          "cat": "IVUS",
-          "sub": "Peripheral IVUS",
-          "wrvu": 1.76,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37250"
         },
         {
           "code": "37279",
@@ -1087,6 +1077,16 @@
           "qty": 1,
           "mods": [],
           "notes": ""
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
         }
       ],
       "totalWRVU": 12.19,
