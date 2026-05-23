@@ -1030,6 +1030,67 @@
       ],
       "totalWRVU": 13.16,
       "estCollections": 906.33
+    },
+    {
+      "id": "mphozn2wbfsxwkrof06",
+      "date": "2026-05-14",
+      "time": "20:51",
+      "title": "37263 · Fem-Pop PTA – balloon angioplasty, stenosis, 1st",
+      "notes": "",
+      "items": [
+        {
+          "code": "37263",
+          "desc": "Fem-Pop PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 7.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        },
+        {
+          "code": "37279",
+          "desc": "Fem-Pop IVL – intravascular lithotripsy, calcified fem-pop lesion (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 4,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 12.19,
+      "estCollections": 839.18
     }
   ],
   "custom": [
