@@ -990,7 +990,16 @@
       "estCollections": 1201.09
     }
   ],
-  "custom": [],
+  "custom": [
+    {
+      "cat": "Wound Care",
+      "sub": "Wound Care",
+      "code": "13160",
+      "desc": "Secondary closure of surgical wound",
+      "wrvu": 11.74,
+      "notes": ""
+    }
+  ],
   "descEdits": {
     "37215": "Carotid stent â cervical carotid artery, with distal embolic protection (EPS)/TCAR"
   }
