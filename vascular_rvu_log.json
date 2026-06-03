@@ -32,6 +32,98 @@
       "estCollections": 793.04
     },
     {
+      "id": "mpy5f5ag3pqo2ybhry9",
+      "date": "2026-06-01",
+      "time": "09:15",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "notes": "",
+      "items": [
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 19.75,
+      "estCollections": 1360.53
+    },
+    {
+      "id": "mpy603sbupmxa4g9dv",
+      "date": "2026-06-01",
+      "time": "09:31",
+      "title": "37265 · Fem-Pop PTA – balloon angioplasty, occlusion, 1s",
+      "notes": "",
+      "items": [
+        {
+          "code": "37265",
+          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 10.5,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75716",
+          "desc": "Lower extremity arteriogram – bilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 17.35,
+      "estCollections": 1194.89
+    },
+    {
       "id": "mpfuftiy505iwnuenyp",
       "date": "2026-05-21",
       "time": "13:48",
@@ -1201,96 +1293,61 @@
       "estCollections": 165.98
     },
     {
-      "id": "mpy5f5ag3pqo2ybhry9",
+      "id": "mpy8cb2awju05d4y4sp",
       "date": "2026-06-01",
-      "time": "09:15",
-      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "time": "10:37",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
       "notes": "",
       "items": [
         {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
           "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37228"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
+          "mods": [
+            "50"
+          ],
           "notes": ""
+        },
+        {
+          "code": "36010",
+          "desc": "Catheter intro – vena cava (inferior or superior)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venous Catheter Placement",
+          "wrvu": 2.13,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "75820",
+          "desc": "Extremity venogram – unilateral",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venography",
+          "wrvu": 1.02,
+          "qty": 1,
+          "mods": [
+            "50"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "75825",
+          "desc": "IVC venogram – inferior vena cava",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venography",
+          "wrvu": 1.11,
+          "qty": 1,
+          "mods": [],
+          "notes": "IVC venogram; with IVC filter"
         }
       ],
-      "totalWRVU": 19.75,
-      "estCollections": 1360.53
-    },
-    {
-      "id": "mpy603sbupmxa4g9dv",
-      "date": "2026-06-01",
-      "time": "09:31",
-      "title": "37265 · Fem-Pop PTA – balloon angioplasty, occlusion, 1s",
-      "notes": "",
-      "items": [
-        {
-          "code": "37265",
-          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (FPVT)",
-          "wrvu": 10.5,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75716",
-          "desc": "Lower extremity arteriogram – bilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.92,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 17.35,
-      "estCollections": 1194.89
+      "totalWRVU": 13.77,
+      "estCollections": 948.34
     }
   ],
   "custom": [
@@ -1304,6 +1361,6 @@
     }
   ],
   "descEdits": {
-    "37215": "Carotid stent ÃÂ¢ÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
+    "37215": "Carotid stent ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
   }
 }
