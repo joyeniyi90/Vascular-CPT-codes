@@ -1,6 +1,47 @@
 {
   "log": [
     {
+      "id": "mpyjyzqc7pc7b5yecwp",
+      "date": "2026-06-02",
+      "time": "16:02",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 8.3,
+      "estCollections": 571.62
+    },
+    {
       "id": "mpw5c62ho7qxnur86hr",
       "date": "2026-06-01",
       "time": "23:37",
@@ -1350,45 +1391,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mpyjyzqc7pc7b5yecwp",
-      "date": "2026-06-02",
-      "time": "16:02",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "id": "mq0c1mx5bb9k2w7lfqp",
+      "date": "2026-06-04",
+      "time": "21:56",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
       "notes": "",
       "items": [
         {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
           "qty": 1,
           "mods": [],
           "notes": ""
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
         }
       ],
-      "totalWRVU": 8.3,
-      "estCollections": 571.62
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
     }
   ],
   "custom": [
@@ -1402,6 +1423,6 @@
     }
   ],
   "descEdits": {
-    "37215": "Carotid stent ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
+    "37215": "Carotid stent ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
   }
 }
