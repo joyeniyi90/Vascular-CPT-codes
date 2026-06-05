@@ -1,6 +1,27 @@
 {
   "log": [
     {
+      "id": "mq0c1mx5bb9k2w7lfqp",
+      "date": "2026-06-04",
+      "time": "21:56",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
+    },
+    {
       "id": "mpyjyzqc7pc7b5yecwp",
       "date": "2026-06-02",
       "time": "16:02",
@@ -1391,25 +1412,45 @@
       "estCollections": 165.98
     },
     {
-      "id": "mq0c1mx5bb9k2w7lfqp",
-      "date": "2026-06-04",
-      "time": "21:56",
-      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "id": "mq0zxp0iluy0n5mklr",
+      "date": "2026-06-03",
+      "time": "09:05",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
       "notes": "",
       "items": [
         {
-          "code": "27590",
-          "desc": "Above-knee amputation (AKA) – thigh level",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 13.13,
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
           "qty": 1,
           "mods": [],
           "notes": ""
+        },
+        {
+          "code": "37238",
+          "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
+          "cat": "Venous",
+          "sub": "Venous Stenting",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
         }
       ],
-      "totalWRVU": 13.13,
-      "estCollections": 904.26
+      "totalWRVU": 11.42,
+      "estCollections": 786.15
     }
   ],
   "custom": [
@@ -1423,6 +1464,6 @@
     }
   ],
   "descEdits": {
-    "37215": "Carotid stent ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
+    "37215": "Carotid stent ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
   }
 }
