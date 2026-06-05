@@ -1451,6 +1451,27 @@
       ],
       "totalWRVU": 11.42,
       "estCollections": 786.15
+    },
+    {
+      "id": "mq1084p6ncpaf3y4da",
+      "date": "2026-06-04",
+      "time": "09:13",
+      "title": "35372 · Profundaplasty – profunda femoris endarterectomy",
+      "notes": "",
+      "items": [
+        {
+          "code": "35372",
+          "desc": "Profundaplasty – profunda femoris endarterectomy/patch angioplasty",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 18.12,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 18.12,
+      "estCollections": 1247.92
     }
   ],
   "custom": [
