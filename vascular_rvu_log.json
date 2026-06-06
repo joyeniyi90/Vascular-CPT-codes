@@ -1534,6 +1534,27 @@
       ],
       "totalWRVU": 13.13,
       "estCollections": 904.26
+    },
+    {
+      "id": "mq2wxawapvgjp1tza7i",
+      "date": "2026-06-05",
+      "time": "17:16",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "notes": "",
+      "items": [
+        {
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 8.78,
+      "estCollections": 604.68
     }
   ],
   "custom": [
