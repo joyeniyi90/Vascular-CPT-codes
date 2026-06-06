@@ -1,6 +1,47 @@
 {
   "log": [
     {
+      "id": "mq1sgu1c9armbeeu0fg",
+      "date": "2026-06-05",
+      "time": "22:23",
+      "title": "75716 · Lower extremity arteriogram – bilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75716",
+          "desc": "Lower extremity arteriogram – bilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.51,
+      "estCollections": 517.21
+    },
+    {
       "id": "mq0c1mx5bb9k2w7lfqp",
       "date": "2026-06-04",
       "time": "21:56",
@@ -1474,45 +1515,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mq1sgu1c9armbeeu0fg",
+      "id": "mq2w0olpspqc41nezr",
       "date": "2026-06-05",
-      "time": "22:23",
-      "title": "75716 · Lower extremity arteriogram – bilateral runoff",
+      "time": "16:51",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
       "notes": "",
       "items": [
         {
-          "code": "75716",
-          "desc": "Lower extremity arteriogram – bilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.92,
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
           "qty": 1,
           "mods": [],
           "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
         }
       ],
-      "totalWRVU": 7.51,
-      "estCollections": 517.21
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
     }
   ],
   "custom": [
@@ -1526,6 +1547,6 @@
     }
   ],
   "descEdits": {
-    "37215": "Carotid stent ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
+    "37215": "Carotid stent ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ cervical carotid artery, with distal embolic protection (EPS)/TCAR"
   }
 }
