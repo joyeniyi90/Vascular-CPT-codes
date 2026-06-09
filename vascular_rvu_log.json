@@ -1609,6 +1609,29 @@
       ],
       "totalWRVU": 14.99,
       "estCollections": 1032.36
+    },
+    {
+      "id": "mq74yu2askfx238alo",
+      "date": "2026-06-08",
+      "time": "16:12",
+      "title": "35656 · Bypass with vein graft – femoral to popliteal",
+      "notes": "Fem-pop bypass with PTFE",
+      "items": [
+        {
+          "code": "35656",
+          "desc": "Bypass with vein graft – femoral to popliteal",
+          "cat": "Peripheral Arterial",
+          "sub": "Bypass Graft",
+          "wrvu": 19.96,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 19.96,
+      "estCollections": 1374.65
     }
   ],
   "custom": [
