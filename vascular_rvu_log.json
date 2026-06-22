@@ -1860,6 +1860,27 @@
       ],
       "totalWRVU": 27.37,
       "estCollections": 1884.97
+    },
+    {
+      "id": "mqop2ym3eoeo6vw9bd",
+      "date": "2026-06-19",
+      "time": "23:07",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+      "notes": "",
+      "items": [
+        {
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 7.59,
+      "estCollections": 522.72
     }
   ],
   "custom": [
