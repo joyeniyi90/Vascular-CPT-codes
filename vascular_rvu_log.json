@@ -1964,6 +1964,48 @@
       ],
       "totalWRVU": 8.3,
       "estCollections": 571.62
+    },
+    {
+      "id": "mqq1g7gurt0bmc5pgep",
+      "date": "2026-06-22",
+      "time": "21:41",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
+    },
+    {
+      "id": "mqq3lwc3qmm5io8yetr",
+      "date": "2026-06-21",
+      "time": "22:42",
+      "title": "37617 · Ligation – major artery, abdomen",
+      "notes": "",
+      "items": [
+        {
+          "code": "37617",
+          "desc": "Ligation – major artery, abdomen",
+          "cat": "Venous",
+          "sub": "Vessel Ligation",
+          "wrvu": 23.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 23.2,
+      "estCollections": 1597.78
     }
   ],
   "custom": [
