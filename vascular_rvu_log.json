@@ -2089,6 +2089,29 @@
       ],
       "totalWRVU": 20.63,
       "estCollections": 1420.79
+    },
+    {
+      "id": "mqwnm8sv8zhixywxkwi",
+      "date": "2026-06-24",
+      "time": "12:48",
+      "title": "35800 · Exploration/revision – neck vessels (post-surgic",
+      "notes": "",
+      "items": [
+        {
+          "code": "35800",
+          "desc": "Exploration/revision – neck vessels (post-surgical complication)",
+          "cat": "Peripheral Arterial",
+          "sub": "Vessel Exploration/Revision",
+          "wrvu": 11.7,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.7,
+      "estCollections": 805.78
     }
   ],
   "custom": [
