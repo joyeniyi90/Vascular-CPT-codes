@@ -2153,6 +2153,37 @@
       ],
       "totalWRVU": 7.3,
       "estCollections": 502.75
+    },
+    {
+      "id": "mqx0w756kul6oc6267e",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "title": "37184 · Percutaneous arterial thrombectomy – mechanical ",
+      "notes": "",
+      "items": [
+        {
+          "code": "37184",
+          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 8.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.05,
+      "estCollections": 623.62
     }
   ],
   "custom": [
