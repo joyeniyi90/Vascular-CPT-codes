@@ -2225,6 +2225,27 @@
       ],
       "totalWRVU": 7.3,
       "estCollections": 502.75
+    },
+    {
+      "id": "mqx6loh3sg0k2m4e0i",
+      "date": "2026-06-26",
+      "time": "21:40",
+      "title": "37191 · IVC filter placement – endovascular, with imagin",
+      "notes": "",
+      "items": [
+        {
+          "code": "37191",
+          "desc": "IVC filter placement – endovascular, with imaging",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 4.35,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 4.35,
+      "estCollections": 299.58
     }
   ],
   "custom": [
