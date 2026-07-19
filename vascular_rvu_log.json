@@ -2559,6 +2559,47 @@
       ],
       "totalWRVU": 17.05,
       "estCollections": 1174.23
+    },
+    {
+      "id": "mrs8orgiaijvrcys5d",
+      "date": "2026-07-18",
+      "time": "15:19",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+      "notes": "",
+      "items": [
+        {
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37238",
+          "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
+          "cat": "Venous",
+          "sub": "Venous Stenting",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        }
+      ],
+      "totalWRVU": 11.42,
+      "estCollections": 786.15
     }
   ],
   "custom": [
