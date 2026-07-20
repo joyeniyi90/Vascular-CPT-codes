@@ -2672,6 +2672,27 @@
       ],
       "totalWRVU": 10.49,
       "estCollections": 722.1
+    },
+    {
+      "id": "mrtoncynkmtwenpus5e",
+      "date": "2026-07-20",
+      "time": "15:34",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
     }
   ],
   "custom": [
