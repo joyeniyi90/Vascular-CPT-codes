@@ -2765,6 +2765,27 @@
       ],
       "totalWRVU": 23.18,
       "estCollections": 1596.75
+    },
+    {
+      "id": "mry8cszk5825vhqc8rf",
+      "date": "2026-07-23",
+      "time": "19:56",
+      "title": "27592 · Open above-knee amputation – guillotine (trauma/",
+      "notes": "Re-do AKA for infected stump ",
+      "items": [
+        {
+          "code": "27592",
+          "desc": "Open above-knee amputation – guillotine (trauma/severe infection)",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 10.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 10.71,
+      "estCollections": 737.6
     }
   ],
   "custom": [
