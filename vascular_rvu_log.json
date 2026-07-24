@@ -2714,6 +2714,57 @@
       ],
       "totalWRVU": 14.99,
       "estCollections": 1032.36
+    },
+    {
+      "id": "mry86jzhkymqmsbrmsn",
+      "date": "2026-07-23",
+      "time": "19:52",
+      "title": "35371 · Endarterectomy – SFA and/or popliteal artery (fe",
+      "notes": "",
+      "items": [
+        {
+          "code": "35371",
+          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 14.93,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37258",
+          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 8.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        },
+        {
+          "code": "37255",
+          "desc": "Iliac PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "+Add-on. NEW 2026"
+        }
+      ],
+      "totalWRVU": 23.18,
+      "estCollections": 1596.75
     }
   ],
   "custom": [
