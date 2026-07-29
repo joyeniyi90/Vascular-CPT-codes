@@ -2811,10 +2811,20 @@
     {
       "id": "ms5h2w6tjpuhmqkd76",
       "date": "2026-07-28",
-      "time": "21:35",
+      "time": "21:37",
       "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
       "notes": "",
       "items": [
+        {
+          "code": "37265",
+          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 10.5,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
         {
           "code": "36246",
           "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
@@ -2834,10 +2844,30 @@
           "qty": 1,
           "mods": [],
           "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
         }
       ],
-      "totalWRVU": 9.79,
-      "estCollections": 674.24
+      "totalWRVU": 21.84,
+      "estCollections": 1504.47
     }
   ],
   "custom": [
