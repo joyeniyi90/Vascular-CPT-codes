@@ -2811,7 +2811,7 @@
     {
       "id": "ms5h2w6tjpuhmqkd76",
       "date": "2026-07-27",
-      "time": "21:37",
+      "time": "22:21",
       "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
       "notes": "",
       "items": [
@@ -2854,20 +2854,10 @@
           "qty": 1,
           "mods": [],
           "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
         }
       ],
-      "totalWRVU": 21.84,
-      "estCollections": 1504.47
+      "totalWRVU": 20.99,
+      "estCollections": 1445.58
     },
     {
       "id": "ms5io78k4yokih48dx5",
