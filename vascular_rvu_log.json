@@ -2807,6 +2807,37 @@
       ],
       "totalWRVU": 4.71,
       "estCollections": 324.38
+    },
+    {
+      "id": "ms5h2w6tjpuhmqkd76",
+      "date": "2026-07-28",
+      "time": "21:35",
+      "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
+      "notes": "",
+      "items": [
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        }
+      ],
+      "totalWRVU": 9.79,
+      "estCollections": 674.24
     }
   ],
   "custom": [
