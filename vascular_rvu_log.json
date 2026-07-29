@@ -2930,6 +2930,37 @@
       ],
       "totalWRVU": 11.73,
       "estCollections": 807.85
+    },
+    {
+      "id": "ms6nh8l1cgp3cco60xl",
+      "date": "2026-07-29",
+      "time": "17:22",
+      "title": "36245 · Selective catheter – 1st order abdominal/pelvic/",
+      "notes": "",
+      "items": [
+        {
+          "code": "36245",
+          "desc": "Selective catheter – 1st order abdominal/pelvic/lower extremity vessel",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.53,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 5.38,
+      "estCollections": 370.86
     }
   ],
   "custom": [
