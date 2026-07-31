@@ -3045,6 +3045,27 @@
       ],
       "totalWRVU": 13.16,
       "estCollections": 906.33
+    },
+    {
+      "id": "ms8al8kzn5u0dz9dk7b",
+      "date": "2026-07-30",
+      "time": "20:57",
+      "title": "35556 · Bypass – femoral-popliteal above knee (fem-pop A",
+      "notes": "",
+      "items": [
+        {
+          "code": "35556",
+          "desc": "Bypass – femoral-popliteal above knee (fem-pop AK)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Bypass",
+          "wrvu": 26.08,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 26.08,
+      "estCollections": 1796.13
     }
   ],
   "custom": [
