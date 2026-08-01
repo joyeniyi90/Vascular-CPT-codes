@@ -3066,6 +3066,37 @@
       ],
       "totalWRVU": 26.08,
       "estCollections": 1796.13
+    },
+    {
+      "id": "ms9on7idajn237bcy5h",
+      "date": "2026-07-31",
+      "time": "20:18",
+      "title": "75716 · Lower extremity arteriogram – bilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75716",
+          "desc": "Lower extremity arteriogram – bilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 6.81,
+      "estCollections": 469
     }
   ],
   "custom": [
