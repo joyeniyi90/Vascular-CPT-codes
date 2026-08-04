@@ -3391,6 +3391,29 @@
       ],
       "totalWRVU": 31.38,
       "estCollections": 2160.8
+    },
+    {
+      "id": "mse4wf5y53fqhghd755",
+      "date": "2026-08-03",
+      "time": "23:04",
+      "title": "27602 · Four-compartment fasciotomy – leg, all compartme",
+      "notes": "",
+      "items": [
+        {
+          "code": "27602",
+          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
+          "cat": "Closure/Access",
+          "sub": "Fasciotomy",
+          "wrvu": 7.62,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 7.62,
+      "estCollections": 524.79
     }
   ],
   "custom": [
