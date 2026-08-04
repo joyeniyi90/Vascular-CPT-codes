@@ -3308,6 +3308,79 @@
       ],
       "totalWRVU": 14.92,
       "estCollections": 1027.54
+    },
+    {
+      "id": "mse49nim56a3nv0xwzx",
+      "date": "2026-08-03",
+      "time": "22:46",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37263",
+          "desc": "Fem-Pop PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 7.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37185",
+          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 3.2,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37184",
+          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 8.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 27.57,
+      "estCollections": 1898.4
     }
   ],
   "custom": [
