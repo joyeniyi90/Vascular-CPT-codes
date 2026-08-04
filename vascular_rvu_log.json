@@ -3312,7 +3312,7 @@
     {
       "id": "mse49nim56a3nv0xwzx",
       "date": "2026-08-03",
-      "time": "22:46",
+      "time": "22:50",
       "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
       "notes": "",
       "items": [
@@ -3377,10 +3377,20 @@
           "qty": 1,
           "mods": [],
           "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "27602",
+          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
+          "cat": "Closure/Access",
+          "sub": "Fasciotomy",
+          "wrvu": 7.62,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
         }
       ],
-      "totalWRVU": 27.57,
-      "estCollections": 1898.4
+      "totalWRVU": 31.38,
+      "estCollections": 2160.8
     }
   ],
   "custom": [
