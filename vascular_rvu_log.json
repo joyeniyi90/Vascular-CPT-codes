@@ -3264,6 +3264,50 @@
       ],
       "totalWRVU": 30.04,
       "estCollections": 2069.2
+    },
+    {
+      "id": "msdc4bnnjivtvl1zgj",
+      "date": "2026-08-03",
+      "time": "09:38",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [
+            "79"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mse2fwh24s7cjo6lehx",
+      "date": "2026-08-03",
+      "time": "21:55",
+      "title": "35226 · Repair blood vessel – direct suture, lower extre",
+      "notes": "",
+      "items": [
+        {
+          "code": "35226",
+          "desc": "Repair blood vessel – direct suture, lower extremity",
+          "cat": "Closure/Access",
+          "sub": "Vessel Repair",
+          "wrvu": 14.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.92,
+      "estCollections": 1027.54
     }
   ],
   "custom": [
