@@ -3548,6 +3548,37 @@
       ],
       "totalWRVU": 7.3,
       "estCollections": 502.75
+    },
+    {
+      "id": "msick6w2ndjz8vijvo9",
+      "date": "2026-08-05",
+      "time": "21:50",
+      "title": "11043 · Debridement – muscle and/or fascia, first 20 sq ",
+      "notes": "",
+      "items": [
+        {
+          "code": "11043",
+          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 2.63,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "11046",
+          "desc": "Debridement – muscle, each add'l 20 sq cm (add-on)",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 1,
+          "qty": 7,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 9.63,
+      "estCollections": 663.22
     }
   ],
   "custom": [
