@@ -3614,6 +3614,27 @@
       ],
       "totalWRVU": 6.63,
       "estCollections": 456.61
+    },
+    {
+      "id": "mso1xtmtakq03b87xli",
+      "date": "2026-08-10",
+      "time": "21:39",
+      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
+      "notes": "",
+      "items": [
+        {
+          "code": "35301",
+          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
+          "cat": "Carotid",
+          "sub": "CEA",
+          "wrvu": 20.63,
+          "qty": 1,
+          "mods": [],
+          "notes": "Most common CEA code"
+        }
+      ],
+      "totalWRVU": 20.63,
+      "estCollections": 1420.79
     }
   ],
   "custom": [
