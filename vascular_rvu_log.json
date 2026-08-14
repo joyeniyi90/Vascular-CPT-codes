@@ -1,6 +1,1723 @@
 {
   "log": [
     {
+      "id": "msryv1rlanu4s7gzaia",
+      "date": "2026-08-12",
+      "time": "15:24",
+      "title": "37215 · Carotid stent. Cervical carotid cartera, with di",
+      "notes": "",
+      "items": [
+        {
+          "code": "37215",
+          "desc": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR",
+          "cat": "Carotid",
+          "sub": "CAS/TCAR",
+          "wrvu": 17.31,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 17.31,
+      "estCollections": 1192.14
+    },
+    {
+      "id": "mss0iphc9j0yhvz7jlb",
+      "date": "2026-08-12",
+      "time": "16:10",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mso1xtmtakq03b87xli",
+      "date": "2026-08-10",
+      "time": "21:39",
+      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
+      "notes": "",
+      "items": [
+        {
+          "code": "35301",
+          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
+          "cat": "Carotid",
+          "sub": "CEA",
+          "wrvu": 20.63,
+          "qty": 1,
+          "mods": [],
+          "notes": "Most common CEA code"
+        }
+      ],
+      "totalWRVU": 20.63,
+      "estCollections": 1420.79
+    },
+    {
+      "id": "mso21z6xam1qsbh2dn6",
+      "date": "2026-08-10",
+      "time": "21:42",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
+    },
+    {
+      "id": "mso27jgw0hnqdzanmgui",
+      "date": "2026-08-10",
+      "time": "21:46",
+      "title": "13160 · Secondary closure of surgical wound",
+      "notes": "",
+      "items": [
+        {
+          "code": "13160",
+          "desc": "Secondary closure of surgical wound",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 11.74,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.74,
+      "estCollections": 808.53
+    },
+    {
+      "id": "msjr2yfq02kg7b457g9g",
+      "date": "2026-08-07",
+      "time": "21:24",
+      "title": "11043 · Debridement – muscle and/or fascia, first 20 sq ",
+      "notes": "",
+      "items": [
+        {
+          "code": "11043",
+          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 2.63,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "11046",
+          "desc": "Debridement – muscle, each add'l 20 sq cm (add-on)",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 1,
+          "qty": 4,
+          "mods": [
+            "58"
+          ],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 6.63,
+      "estCollections": 456.61
+    },
+    {
+      "id": "mshx5wpntczioxih44",
+      "date": "2026-08-06",
+      "time": "14:39",
+      "title": "36832 · AV graft revision – open, without thrombectomy",
+      "notes": "",
+      "items": [
+        {
+          "code": "36832",
+          "desc": "AV graft revision – open, without thrombectomy",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 13.16,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.16,
+      "estCollections": 906.33
+    },
+    {
+      "id": "msi0z6lwe2j1ny5fwh7",
+      "date": "2026-08-06",
+      "time": "16:25",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "msick6w2ndjz8vijvo9",
+      "date": "2026-08-05",
+      "time": "21:50",
+      "title": "11043 · Debridement – muscle and/or fascia, first 20 sq ",
+      "notes": "",
+      "items": [
+        {
+          "code": "11043",
+          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 2.63,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "11046",
+          "desc": "Debridement – muscle, each add'l 20 sq cm (add-on)",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 1,
+          "qty": 7,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 9.63,
+      "estCollections": 663.22
+    },
+    {
+      "id": "msf8nudmuvtrt7yjv9j",
+      "date": "2026-08-04",
+      "time": "17:37",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "notes": "",
+      "items": [
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 19.75,
+      "estCollections": 1360.53
+    },
+    {
+      "id": "msdc4bnnjivtvl1zgj",
+      "date": "2026-08-03",
+      "time": "09:38",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [
+            "79"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mse2fwh24s7cjo6lehx",
+      "date": "2026-08-03",
+      "time": "21:55",
+      "title": "35226 · Repair blood vessel – direct suture, lower extre",
+      "notes": "",
+      "items": [
+        {
+          "code": "35226",
+          "desc": "Repair blood vessel – direct suture, lower extremity",
+          "cat": "Closure/Access",
+          "sub": "Vessel Repair",
+          "wrvu": 14.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.92,
+      "estCollections": 1027.54
+    },
+    {
+      "id": "mse49nim56a3nv0xwzx",
+      "date": "2026-08-03",
+      "time": "22:50",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37263",
+          "desc": "Fem-Pop PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 7.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37185",
+          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 3.2,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37184",
+          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 8.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "27602",
+          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
+          "cat": "Closure/Access",
+          "sub": "Fasciotomy",
+          "wrvu": 7.62,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 31.38,
+      "estCollections": 2160.8
+    },
+    {
+      "id": "mse4wf5y53fqhghd755",
+      "date": "2026-08-03",
+      "time": "23:04",
+      "title": "27602 · Four-compartment fasciotomy – leg, all compartme",
+      "notes": "",
+      "items": [
+        {
+          "code": "27602",
+          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
+          "cat": "Closure/Access",
+          "sub": "Fasciotomy",
+          "wrvu": 7.62,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 7.62,
+      "estCollections": 524.79
+    },
+    {
+      "id": "msaz7iypy5jd612i6wk",
+      "date": "2026-08-01",
+      "time": "18:01",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37281",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37185",
+          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 3.2,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37185",
+          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 3.2,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37184",
+          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 8.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 30.04,
+      "estCollections": 2069.2
+    },
+    {
+      "id": "ms9on7idajn237bcy5h",
+      "date": "2026-07-31",
+      "time": "20:18",
+      "title": "75716 · Lower extremity arteriogram – bilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75716",
+          "desc": "Lower extremity arteriogram – bilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 6.81,
+      "estCollections": 469
+    },
+    {
+      "id": "ms9pl1zdrro8v4w3m2j",
+      "date": "2026-07-31",
+      "time": "20:44",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "ms8al8kzn5u0dz9dk7b",
+      "date": "2026-07-30",
+      "time": "20:57",
+      "title": "35556 · Bypass – femoral-popliteal above knee (fem-pop A",
+      "notes": "",
+      "items": [
+        {
+          "code": "35556",
+          "desc": "Bypass – femoral-popliteal above knee (fem-pop AK)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Bypass",
+          "wrvu": 26.08,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 26.08,
+      "estCollections": 1796.13
+    },
+    {
+      "id": "ms9ttjsote1b1sicggr",
+      "date": "2026-07-30",
+      "time": "22:43",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "msfjr9p8l57cqfcy72",
+      "date": "2026-07-30",
+      "time": "22:48",
+      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
+      "notes": "",
+      "items": [
+        {
+          "code": "36902",
+          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 4.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 4.71,
+      "estCollections": 324.38
+    },
+    {
+      "id": "ms6ip0xtbractn5l4jq",
+      "date": "2026-07-29",
+      "time": "15:08",
+      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
+      "notes": "",
+      "items": [
+        {
+          "code": "36830",
+          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 11.73,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.73,
+      "estCollections": 807.85
+    },
+    {
+      "id": "ms6nh8l1cgp3cco60xl",
+      "date": "2026-07-29",
+      "time": "17:22",
+      "title": "36245 · Selective catheter – 1st order abdominal/pelvic/",
+      "notes": "",
+      "items": [
+        {
+          "code": "36245",
+          "desc": "Selective catheter – 1st order abdominal/pelvic/lower extremity vessel",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.53,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 5.38,
+      "estCollections": 370.86
+    },
+    {
+      "id": "ms6vr4gis9gib4yp699",
+      "date": "2026-07-29",
+      "time": "21:14",
+      "title": "36832 · AV graft revision – open, without thrombectomy",
+      "notes": "",
+      "items": [
+        {
+          "code": "36832",
+          "desc": "AV graft revision – open, without thrombectomy",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 13.16,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.16,
+      "estCollections": 906.33
+    },
+    {
+      "id": "ms6plzsyx0z1zu7h3lr",
+      "date": "2026-07-28",
+      "time": "18:22",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "37281",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 19.25,
+      "estCollections": 1325.4
+    },
+    {
+      "id": "ms419m31xzc24xjuu1d",
+      "date": "2026-07-27",
+      "time": "21:25",
+      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
+      "notes": "",
+      "items": [
+        {
+          "code": "36902",
+          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 4.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 4.71,
+      "estCollections": 324.38
+    },
+    {
+      "id": "ms5h2w6tjpuhmqkd76",
+      "date": "2026-07-27",
+      "time": "22:21",
+      "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
+      "notes": "",
+      "items": [
+        {
+          "code": "37265",
+          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 10.5,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 20.99,
+      "estCollections": 1445.58
+    },
+    {
+      "id": "ms5io78k4yokih48dx5",
+      "date": "2026-07-27",
+      "time": "22:20",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "37281",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 19.39,
+      "estCollections": 1335.39
+    },
+    {
+      "id": "mry86jzhkymqmsbrmsn",
+      "date": "2026-07-23",
+      "time": "19:52",
+      "title": "35371 · Endarterectomy – SFA and/or popliteal artery (fe",
+      "notes": "",
+      "items": [
+        {
+          "code": "35371",
+          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 14.93,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37258",
+          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 8.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        },
+        {
+          "code": "37255",
+          "desc": "Iliac PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "+Add-on. NEW 2026"
+        }
+      ],
+      "totalWRVU": 23.18,
+      "estCollections": 1596.75
+    },
+    {
+      "id": "mry8cszk5825vhqc8rf",
+      "date": "2026-07-23",
+      "time": "19:56",
+      "title": "27592 · Open above-knee amputation – guillotine (trauma/",
+      "notes": "Re-do AKA for infected stump ",
+      "items": [
+        {
+          "code": "27592",
+          "desc": "Open above-knee amputation – guillotine (trauma/severe infection)",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 10.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 10.71,
+      "estCollections": 737.6
+    },
+    {
+      "id": "mrw9bfajpbw9jyda89g",
+      "date": "2026-07-22",
+      "time": "10:48",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mrtcymnzza7b2xneg8s",
+      "date": "2026-07-20",
+      "time": "10:07",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 6.6,
+      "estCollections": 454.54
+    },
+    {
+      "id": "mrtofza53hs0lg1lkon",
+      "date": "2026-07-20",
+      "time": "15:28",
+      "title": "37258 · Iliac stenting – stent placement, stenosis, 1st ",
+      "notes": "",
+      "items": [
+        {
+          "code": "37258",
+          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 8.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        }
+      ],
+      "totalWRVU": 10.49,
+      "estCollections": 722.1
+    },
+    {
+      "id": "mrtoncynkmtwenpus5e",
+      "date": "2026-07-20",
+      "time": "15:34",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
+    },
+    {
+      "id": "mrs8orgiaijvrcys5d",
+      "date": "2026-07-18",
+      "time": "15:19",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+      "notes": "",
+      "items": [
+        {
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37238",
+          "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
+          "cat": "Venous",
+          "sub": "Venous Stenting",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37250"
+        }
+      ],
+      "totalWRVU": 11.42,
+      "estCollections": 786.15
+    },
+    {
+      "id": "mrpifzmsbox1rzlavzn",
+      "date": "2026-07-17",
+      "time": "17:29",
+      "title": "37265 · Fem-Pop PTA – balloon angioplasty, occlusion, 1s",
+      "notes": "",
+      "items": [
+        {
+          "code": "37265",
+          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 10.5,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75716",
+          "desc": "Lower extremity arteriogram – bilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 17.05,
+      "estCollections": 1174.23
+    },
+    {
+      "id": "mro1cqntdj9jgsore4d",
+      "date": "2026-07-16",
+      "time": "16:43",
+      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
+      "notes": "",
+      "items": [
+        {
+          "code": "36830",
+          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 11.73,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.73,
+      "estCollections": 807.85
+    },
+    {
+      "id": "mro1rmxxil5akfz7pms",
+      "date": "2026-07-16",
+      "time": "16:54",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
+    },
+    {
+      "id": "mro1s53j79fu7k0ngus",
+      "date": "2026-07-16",
+      "time": "16:55",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mrm5qmu7t2lvn385fvm",
+      "date": "2026-07-15",
+      "time": "09:10",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "mrjhoy02nq23e6pwhln",
+      "date": "2026-07-13",
+      "time": "12:21",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
+    },
+    {
+      "id": "mr9fhlrskqulqo2vrjk",
+      "date": "2026-07-06",
+      "time": "11:22",
+      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
+      "notes": "",
+      "items": [
+        {
+          "code": "35301",
+          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
+          "cat": "Carotid",
+          "sub": "CEA",
+          "wrvu": 20.63,
+          "qty": 1,
+          "mods": [],
+          "notes": "Most common CEA code"
+        }
+      ],
+      "totalWRVU": 20.63,
+      "estCollections": 1420.79
+    },
+    {
+      "id": "mr26wetzzg8xzguoa89",
+      "date": "2026-07-01",
+      "time": "09:47",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
+    },
+    {
+      "id": "mr28qwpm54xpkuy71pm",
+      "date": "2026-07-01",
+      "time": "10:39",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "mqzdltl5ihu2eoig26",
+      "date": "2026-06-29",
+      "time": "10:32",
+      "title": "37258 · Iliac stenting – stent placement, stenosis, 1st ",
+      "notes": "",
+      "items": [
+        {
+          "code": "37258",
+          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 8.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.61,
+      "estCollections": 661.5
+    },
+    {
+      "id": "mqx6loh3sg0k2m4e0i",
+      "date": "2026-06-26",
+      "time": "21:40",
+      "title": "37191 · IVC filter placement – endovascular, with imagin",
+      "notes": "",
+      "items": [
+        {
+          "code": "37191",
+          "desc": "IVC filter placement – endovascular, with imaging",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 4.35,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 4.35,
+      "estCollections": 299.58
+    },
+    {
+      "id": "mqx6pcdzk4iij3kitpp",
+      "date": "2026-06-26",
+      "time": "21:43",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [
+            "50"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 19.7,
+      "estCollections": 1356.39
+    },
+    {
+      "id": "mqx0w756kul6oc6267e",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "title": "37184 · Percutaneous arterial thrombectomy – mechanical ",
+      "notes": "",
+      "items": [
+        {
+          "code": "37184",
+          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Thrombectomy",
+          "wrvu": 8.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.05,
+      "estCollections": 623.62
+    },
+    {
+      "id": "mqx5b4yd6f7vyeq9hf7",
+      "date": "2026-06-25",
+      "time": "21:04",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "mqvp47o12zkih5v4cf3",
+      "date": "2026-06-24",
+      "time": "20:43",
+      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
+      "notes": "",
+      "items": [
+        {
+          "code": "35301",
+          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
+          "cat": "Carotid",
+          "sub": "CEA",
+          "wrvu": 20.63,
+          "qty": 1,
+          "mods": [],
+          "notes": "Most common CEA code"
+        }
+      ],
+      "totalWRVU": 20.63,
+      "estCollections": 1420.79
+    },
+    {
+      "id": "mqwmfdib6fg06xb28d",
+      "date": "2026-06-24",
+      "time": "12:15",
+      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
+      "notes": "",
+      "items": [
+        {
+          "code": "35301",
+          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
+          "cat": "Carotid",
+          "sub": "CEA",
+          "wrvu": 20.63,
+          "qty": 1,
+          "mods": [],
+          "notes": "Most common CEA code"
+        }
+      ],
+      "totalWRVU": 20.63,
+      "estCollections": 1420.79
+    },
+    {
+      "id": "mqwnm8sv8zhixywxkwi",
+      "date": "2026-06-24",
+      "time": "12:48",
+      "title": "35800 · Exploration/revision – neck vessels (post-surgic",
+      "notes": "",
+      "items": [
+        {
+          "code": "35800",
+          "desc": "Exploration/revision – neck vessels (post-surgical complication)",
+          "cat": "Peripheral Arterial",
+          "sub": "Vessel Exploration/Revision",
+          "wrvu": 11.7,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.7,
+      "estCollections": 805.78
+    },
+    {
+      "id": "mqwysk179ikqawaxjz",
+      "date": "2026-06-24",
+      "time": "18:01",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
+      "id": "mqrb5zie0shu28glxabo",
+      "date": "2026-06-23",
+      "time": "19:01",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 7.3,
+      "estCollections": 502.75
+    },
+    {
       "id": "mqpry92j5zkkeh45r8k",
       "date": "2026-06-22",
       "time": "17:15",
@@ -41,6 +1758,89 @@
       ],
       "totalWRVU": 13.13,
       "estCollections": 904.26
+    },
+    {
+      "id": "mqq1cwnpm8ikbqoh5ug",
+      "date": "2026-06-22",
+      "time": "21:39",
+      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
+      "notes": "",
+      "items": [
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 8.3,
+      "estCollections": 571.62
+    },
+    {
+      "id": "mqq1g7gurt0bmc5pgep",
+      "date": "2026-06-22",
+      "time": "21:41",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
+    },
+    {
+      "id": "mqq3lwc3qmm5io8yetr",
+      "date": "2026-06-21",
+      "time": "22:42",
+      "title": "37617 · Ligation – major artery, abdomen",
+      "notes": "",
+      "items": [
+        {
+          "code": "37617",
+          "desc": "Ligation – major artery, abdomen",
+          "cat": "Venous",
+          "sub": "Vessel Ligation",
+          "wrvu": 23.2,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 23.2,
+      "estCollections": 1597.78
     },
     {
       "id": "mqmq0gskqulrycsjvr9",
@@ -1923,1806 +3723,6 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
-    },
-    {
-      "id": "mqq1cwnpm8ikbqoh5ug",
-      "date": "2026-06-22",
-      "time": "21:39",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 8.3,
-      "estCollections": 571.62
-    },
-    {
-      "id": "mqq1g7gurt0bmc5pgep",
-      "date": "2026-06-22",
-      "time": "21:41",
-      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
-      "notes": "",
-      "items": [
-        {
-          "code": "36821",
-          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
-          "cat": "Dialysis Access",
-          "sub": "AVF Creation",
-          "wrvu": 11.6,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.6,
-      "estCollections": 798.89
-    },
-    {
-      "id": "mqq3lwc3qmm5io8yetr",
-      "date": "2026-06-21",
-      "time": "22:42",
-      "title": "37617 · Ligation – major artery, abdomen",
-      "notes": "",
-      "items": [
-        {
-          "code": "37617",
-          "desc": "Ligation – major artery, abdomen",
-          "cat": "Venous",
-          "sub": "Vessel Ligation",
-          "wrvu": 23.2,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 23.2,
-      "estCollections": 1597.78
-    },
-    {
-      "id": "mqrb5zie0shu28glxabo",
-      "date": "2026-06-23",
-      "time": "19:01",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "mqvp47o12zkih5v4cf3",
-      "date": "2026-06-24",
-      "time": "20:43",
-      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
-      "notes": "",
-      "items": [
-        {
-          "code": "35301",
-          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
-          "cat": "Carotid",
-          "sub": "CEA",
-          "wrvu": 20.63,
-          "qty": 1,
-          "mods": [],
-          "notes": "Most common CEA code"
-        }
-      ],
-      "totalWRVU": 20.63,
-      "estCollections": 1420.79
-    },
-    {
-      "id": "mqwmfdib6fg06xb28d",
-      "date": "2026-06-24",
-      "time": "12:15",
-      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
-      "notes": "",
-      "items": [
-        {
-          "code": "35301",
-          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
-          "cat": "Carotid",
-          "sub": "CEA",
-          "wrvu": 20.63,
-          "qty": 1,
-          "mods": [],
-          "notes": "Most common CEA code"
-        }
-      ],
-      "totalWRVU": 20.63,
-      "estCollections": 1420.79
-    },
-    {
-      "id": "mqwnm8sv8zhixywxkwi",
-      "date": "2026-06-24",
-      "time": "12:48",
-      "title": "35800 · Exploration/revision – neck vessels (post-surgic",
-      "notes": "",
-      "items": [
-        {
-          "code": "35800",
-          "desc": "Exploration/revision – neck vessels (post-surgical complication)",
-          "cat": "Peripheral Arterial",
-          "sub": "Vessel Exploration/Revision",
-          "wrvu": 11.7,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.7,
-      "estCollections": 805.78
-    },
-    {
-      "id": "mqwysk179ikqawaxjz",
-      "date": "2026-06-24",
-      "time": "18:01",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "mqx0w756kul6oc6267e",
-      "date": "2026-06-25",
-      "time": "19:00",
-      "title": "37184 · Percutaneous arterial thrombectomy – mechanical ",
-      "notes": "",
-      "items": [
-        {
-          "code": "37184",
-          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 8.2,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 9.05,
-      "estCollections": 623.62
-    },
-    {
-      "id": "mqx5b4yd6f7vyeq9hf7",
-      "date": "2026-06-25",
-      "time": "21:04",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "mqx6loh3sg0k2m4e0i",
-      "date": "2026-06-26",
-      "time": "21:40",
-      "title": "37191 · IVC filter placement – endovascular, with imagin",
-      "notes": "",
-      "items": [
-        {
-          "code": "37191",
-          "desc": "IVC filter placement – endovascular, with imaging",
-          "cat": "Venous",
-          "sub": "DVT/IVC",
-          "wrvu": 4.35,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 4.35,
-      "estCollections": 299.58
-    },
-    {
-      "id": "mqx6pcdzk4iij3kitpp",
-      "date": "2026-06-26",
-      "time": "21:43",
-      "title": "27590 · Above-knee amputation (AKA) – thigh level",
-      "notes": "",
-      "items": [
-        {
-          "code": "27590",
-          "desc": "Above-knee amputation (AKA) – thigh level",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 13.13,
-          "qty": 1,
-          "mods": [
-            "50"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 19.7,
-      "estCollections": 1356.39
-    },
-    {
-      "id": "mqzdltl5ihu2eoig26",
-      "date": "2026-06-29",
-      "time": "10:32",
-      "title": "37258 · Iliac stenting – stent placement, stenosis, 1st ",
-      "notes": "",
-      "items": [
-        {
-          "code": "37258",
-          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (IVT)",
-          "wrvu": 8.75,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 9.61,
-      "estCollections": 661.5
-    },
-    {
-      "id": "mr26wetzzg8xzguoa89",
-      "date": "2026-07-01",
-      "time": "09:47",
-      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
-      "notes": "",
-      "items": [
-        {
-          "code": "36821",
-          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
-          "cat": "Dialysis Access",
-          "sub": "AVF Creation",
-          "wrvu": 11.6,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.6,
-      "estCollections": 798.89
-    },
-    {
-      "id": "mr28qwpm54xpkuy71pm",
-      "date": "2026-07-01",
-      "time": "10:39",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "mr9fhlrskqulqo2vrjk",
-      "date": "2026-07-06",
-      "time": "11:22",
-      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
-      "notes": "",
-      "items": [
-        {
-          "code": "35301",
-          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
-          "cat": "Carotid",
-          "sub": "CEA",
-          "wrvu": 20.63,
-          "qty": 1,
-          "mods": [],
-          "notes": "Most common CEA code"
-        }
-      ],
-      "totalWRVU": 20.63,
-      "estCollections": 1420.79
-    },
-    {
-      "id": "mrjhoy02nq23e6pwhln",
-      "date": "2026-07-13",
-      "time": "12:21",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.99,
-      "estCollections": 1032.36
-    },
-    {
-      "id": "mrm5qmu7t2lvn385fvm",
-      "date": "2026-07-15",
-      "time": "09:10",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "mro1cqntdj9jgsore4d",
-      "date": "2026-07-16",
-      "time": "16:43",
-      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
-      "notes": "",
-      "items": [
-        {
-          "code": "36830",
-          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 11.73,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.73,
-      "estCollections": 807.85
-    },
-    {
-      "id": "mro1rmxxil5akfz7pms",
-      "date": "2026-07-16",
-      "time": "16:54",
-      "title": "27590 · Above-knee amputation (AKA) – thigh level",
-      "notes": "",
-      "items": [
-        {
-          "code": "27590",
-          "desc": "Above-knee amputation (AKA) – thigh level",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 13.13,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.13,
-      "estCollections": 904.26
-    },
-    {
-      "id": "mro1s53j79fu7k0ngus",
-      "date": "2026-07-16",
-      "time": "16:55",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.99,
-      "estCollections": 1032.36
-    },
-    {
-      "id": "mrpifzmsbox1rzlavzn",
-      "date": "2026-07-17",
-      "time": "17:29",
-      "title": "37265 · Fem-Pop PTA – balloon angioplasty, occlusion, 1s",
-      "notes": "",
-      "items": [
-        {
-          "code": "37265",
-          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (FPVT)",
-          "wrvu": 10.5,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "75716",
-          "desc": "Lower extremity arteriogram – bilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.92,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 17.05,
-      "estCollections": 1174.23
-    },
-    {
-      "id": "mrs8orgiaijvrcys5d",
-      "date": "2026-07-18",
-      "time": "15:19",
-      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
-      "notes": "",
-      "items": [
-        {
-          "code": "37187",
-          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
-          "cat": "Venous",
-          "sub": "DVT/IVC",
-          "wrvu": 7.59,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37238",
-          "desc": "Venous stent placement – iliac/May-Thurner/SVC stenosis, initial vessel",
-          "cat": "Venous",
-          "sub": "Venous Stenting",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37252",
-          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
-          "cat": "IVUS",
-          "sub": "Peripheral IVUS",
-          "wrvu": 1.76,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37250"
-        }
-      ],
-      "totalWRVU": 11.42,
-      "estCollections": 786.15
-    },
-    {
-      "id": "mrtcymnzza7b2xneg8s",
-      "date": "2026-07-20",
-      "time": "10:07",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 6.6,
-      "estCollections": 454.54
-    },
-    {
-      "id": "mrtofza53hs0lg1lkon",
-      "date": "2026-07-20",
-      "time": "15:28",
-      "title": "37258 · Iliac stenting – stent placement, stenosis, 1st ",
-      "notes": "",
-      "items": [
-        {
-          "code": "37258",
-          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (IVT)",
-          "wrvu": 8.75,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37252",
-          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
-          "cat": "IVUS",
-          "sub": "Peripheral IVUS",
-          "wrvu": 1.76,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37250"
-        }
-      ],
-      "totalWRVU": 10.49,
-      "estCollections": 722.1
-    },
-    {
-      "id": "mrtoncynkmtwenpus5e",
-      "date": "2026-07-20",
-      "time": "15:34",
-      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
-      "notes": "",
-      "items": [
-        {
-          "code": "36821",
-          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
-          "cat": "Dialysis Access",
-          "sub": "AVF Creation",
-          "wrvu": 11.6,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.6,
-      "estCollections": 798.89
-    },
-    {
-      "id": "mrw9bfajpbw9jyda89g",
-      "date": "2026-07-22",
-      "time": "10:48",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.99,
-      "estCollections": 1032.36
-    },
-    {
-      "id": "mry86jzhkymqmsbrmsn",
-      "date": "2026-07-23",
-      "time": "19:52",
-      "title": "35371 · Endarterectomy – SFA and/or popliteal artery (fe",
-      "notes": "",
-      "items": [
-        {
-          "code": "35371",
-          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
-          "cat": "Peripheral Arterial",
-          "sub": "Endarterectomy",
-          "wrvu": 14.93,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37258",
-          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (IVT)",
-          "wrvu": 8.75,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "37252",
-          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
-          "cat": "IVUS",
-          "sub": "Peripheral IVUS",
-          "wrvu": 1.76,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37250"
-        },
-        {
-          "code": "37255",
-          "desc": "Iliac PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (IVT)",
-          "wrvu": 3,
-          "qty": 1,
-          "mods": [],
-          "notes": "+Add-on. NEW 2026"
-        }
-      ],
-      "totalWRVU": 23.18,
-      "estCollections": 1596.75
-    },
-    {
-      "id": "mry8cszk5825vhqc8rf",
-      "date": "2026-07-23",
-      "time": "19:56",
-      "title": "27592 · Open above-knee amputation – guillotine (trauma/",
-      "notes": "Re-do AKA for infected stump ",
-      "items": [
-        {
-          "code": "27592",
-          "desc": "Open above-knee amputation – guillotine (trauma/severe infection)",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 10.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 10.71,
-      "estCollections": 737.6
-    },
-    {
-      "id": "ms419m31xzc24xjuu1d",
-      "date": "2026-07-27",
-      "time": "21:25",
-      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
-      "notes": "",
-      "items": [
-        {
-          "code": "36902",
-          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
-          "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 4.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 4.71,
-      "estCollections": 324.38
-    },
-    {
-      "id": "ms5h2w6tjpuhmqkd76",
-      "date": "2026-07-27",
-      "time": "22:21",
-      "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
-      "notes": "",
-      "items": [
-        {
-          "code": "37265",
-          "desc": "Fem-Pop PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (FPVT)",
-          "wrvu": 10.5,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 20.99,
-      "estCollections": 1445.58
-    },
-    {
-      "id": "ms5io78k4yokih48dx5",
-      "date": "2026-07-27",
-      "time": "22:20",
-      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
-      "notes": "",
-      "items": [
-        {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37281",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 3,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 19.39,
-      "estCollections": 1335.39
-    },
-    {
-      "id": "ms6ip0xtbractn5l4jq",
-      "date": "2026-07-29",
-      "time": "15:08",
-      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
-      "notes": "",
-      "items": [
-        {
-          "code": "36830",
-          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 11.73,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.73,
-      "estCollections": 807.85
-    },
-    {
-      "id": "ms6nh8l1cgp3cco60xl",
-      "date": "2026-07-29",
-      "time": "17:22",
-      "title": "36245 · Selective catheter – 1st order abdominal/pelvic/",
-      "notes": "",
-      "items": [
-        {
-          "code": "36245",
-          "desc": "Selective catheter – 1st order abdominal/pelvic/lower extremity vessel",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.53,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 5.38,
-      "estCollections": 370.86
-    },
-    {
-      "id": "ms6plzsyx0z1zu7h3lr",
-      "date": "2026-07-28",
-      "time": "18:22",
-      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
-      "notes": "",
-      "items": [
-        {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "37281",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 3,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 19.25,
-      "estCollections": 1325.4
-    },
-    {
-      "id": "ms6vr4gis9gib4yp699",
-      "date": "2026-07-29",
-      "time": "21:14",
-      "title": "36832 · AV graft revision – open, without thrombectomy",
-      "notes": "",
-      "items": [
-        {
-          "code": "36832",
-          "desc": "AV graft revision – open, without thrombectomy",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 13.16,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.16,
-      "estCollections": 906.33
-    },
-    {
-      "id": "ms8al8kzn5u0dz9dk7b",
-      "date": "2026-07-30",
-      "time": "20:57",
-      "title": "35556 · Bypass – femoral-popliteal above knee (fem-pop A",
-      "notes": "",
-      "items": [
-        {
-          "code": "35556",
-          "desc": "Bypass – femoral-popliteal above knee (fem-pop AK)",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Bypass",
-          "wrvu": 26.08,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 26.08,
-      "estCollections": 1796.13
-    },
-    {
-      "id": "ms9on7idajn237bcy5h",
-      "date": "2026-07-31",
-      "time": "20:18",
-      "title": "75716 · Lower extremity arteriogram – bilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75716",
-          "desc": "Lower extremity arteriogram – bilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.92,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 6.81,
-      "estCollections": 469
-    },
-    {
-      "id": "ms9pl1zdrro8v4w3m2j",
-      "date": "2026-07-31",
-      "time": "20:44",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "ms9ttjsote1b1sicggr",
-      "date": "2026-07-30",
-      "time": "22:43",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "msaz7iypy5jd612i6wk",
-      "date": "2026-08-01",
-      "time": "18:01",
-      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
-      "notes": "",
-      "items": [
-        {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37281",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 3,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37185",
-          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 3.2,
-          "qty": 1,
-          "mods": [
-            "59"
-          ],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37185",
-          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 3.2,
-          "qty": 1,
-          "mods": [
-            "59"
-          ],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37184",
-          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 8.2,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 30.04,
-      "estCollections": 2069.2
-    },
-    {
-      "id": "msdc4bnnjivtvl1zgj",
-      "date": "2026-08-03",
-      "time": "09:38",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [
-            "79"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.99,
-      "estCollections": 1032.36
-    },
-    {
-      "id": "mse2fwh24s7cjo6lehx",
-      "date": "2026-08-03",
-      "time": "21:55",
-      "title": "35226 · Repair blood vessel – direct suture, lower extre",
-      "notes": "",
-      "items": [
-        {
-          "code": "35226",
-          "desc": "Repair blood vessel – direct suture, lower extremity",
-          "cat": "Closure/Access",
-          "sub": "Vessel Repair",
-          "wrvu": 14.92,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.92,
-      "estCollections": 1027.54
-    },
-    {
-      "id": "mse49nim56a3nv0xwzx",
-      "date": "2026-08-03",
-      "time": "22:50",
-      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
-      "notes": "",
-      "items": [
-        {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37263",
-          "desc": "Fem-Pop PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (FPVT)",
-          "wrvu": 7.75,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "37185",
-          "desc": "Percutaneous arterial thrombectomy – mechanical, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 3.2,
-          "qty": 1,
-          "mods": [
-            "59"
-          ],
-          "notes": "Add-on"
-        },
-        {
-          "code": "37184",
-          "desc": "Percutaneous arterial thrombectomy – mechanical (AngioJet/Rotarex), initial vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Thrombectomy",
-          "wrvu": 8.2,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "27602",
-          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
-          "cat": "Closure/Access",
-          "sub": "Fasciotomy",
-          "wrvu": 7.62,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 31.38,
-      "estCollections": 2160.8
-    },
-    {
-      "id": "mse4wf5y53fqhghd755",
-      "date": "2026-08-03",
-      "time": "23:04",
-      "title": "27602 · Four-compartment fasciotomy – leg, all compartme",
-      "notes": "",
-      "items": [
-        {
-          "code": "27602",
-          "desc": "Four-compartment fasciotomy – leg, all compartments (full decompression)",
-          "cat": "Closure/Access",
-          "sub": "Fasciotomy",
-          "wrvu": 7.62,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 7.62,
-      "estCollections": 524.79
-    },
-    {
-      "id": "msf8nudmuvtrt7yjv9j",
-      "date": "2026-08-04",
-      "time": "17:37",
-      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
-      "notes": "",
-      "items": [
-        {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37228"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 19.75,
-      "estCollections": 1360.53
-    },
-    {
-      "id": "msfjr9p8l57cqfcy72",
-      "date": "2026-07-30",
-      "time": "22:48",
-      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
-      "notes": "",
-      "items": [
-        {
-          "code": "36902",
-          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
-          "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 4.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 4.71,
-      "estCollections": 324.38
-    },
-    {
-      "id": "mshx5wpntczioxih44",
-      "date": "2026-08-06",
-      "time": "14:39",
-      "title": "36832 · AV graft revision – open, without thrombectomy",
-      "notes": "",
-      "items": [
-        {
-          "code": "36832",
-          "desc": "AV graft revision – open, without thrombectomy",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 13.16,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.16,
-      "estCollections": 906.33
-    },
-    {
-      "id": "msi0z6lwe2j1ny5fwh7",
-      "date": "2026-08-06",
-      "time": "16:25",
-      "title": "75710 · Lower extremity arteriogram – unilateral runoff",
-      "notes": "",
-      "items": [
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 7.3,
-      "estCollections": 502.75
-    },
-    {
-      "id": "msick6w2ndjz8vijvo9",
-      "date": "2026-08-05",
-      "time": "21:50",
-      "title": "11043 · Debridement – muscle and/or fascia, first 20 sq ",
-      "notes": "",
-      "items": [
-        {
-          "code": "11043",
-          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
-          "cat": "Wound Care",
-          "sub": "Debridement",
-          "wrvu": 2.63,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "11046",
-          "desc": "Debridement – muscle, each add'l 20 sq cm (add-on)",
-          "cat": "Wound Care",
-          "sub": "Debridement",
-          "wrvu": 1,
-          "qty": 7,
-          "mods": [],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 9.63,
-      "estCollections": 663.22
-    },
-    {
-      "id": "msjr2yfq02kg7b457g9g",
-      "date": "2026-08-07",
-      "time": "21:24",
-      "title": "11043 · Debridement – muscle and/or fascia, first 20 sq ",
-      "notes": "",
-      "items": [
-        {
-          "code": "11043",
-          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
-          "cat": "Wound Care",
-          "sub": "Debridement",
-          "wrvu": 2.63,
-          "qty": 1,
-          "mods": [
-            "58"
-          ],
-          "notes": ""
-        },
-        {
-          "code": "11046",
-          "desc": "Debridement – muscle, each add'l 20 sq cm (add-on)",
-          "cat": "Wound Care",
-          "sub": "Debridement",
-          "wrvu": 1,
-          "qty": 4,
-          "mods": [
-            "58"
-          ],
-          "notes": "Add-on"
-        }
-      ],
-      "totalWRVU": 6.63,
-      "estCollections": 456.61
-    },
-    {
-      "id": "mso1xtmtakq03b87xli",
-      "date": "2026-08-10",
-      "time": "21:39",
-      "title": "35301 · Carotid endarterectomy (CEA) – standard or with ",
-      "notes": "",
-      "items": [
-        {
-          "code": "35301",
-          "desc": "Carotid endarterectomy (CEA) – standard or with patch angioplasty",
-          "cat": "Carotid",
-          "sub": "CEA",
-          "wrvu": 20.63,
-          "qty": 1,
-          "mods": [],
-          "notes": "Most common CEA code"
-        }
-      ],
-      "totalWRVU": 20.63,
-      "estCollections": 1420.79
-    },
-    {
-      "id": "mso21z6xam1qsbh2dn6",
-      "date": "2026-08-10",
-      "time": "21:42",
-      "title": "27590 · Above-knee amputation (AKA) – thigh level",
-      "notes": "",
-      "items": [
-        {
-          "code": "27590",
-          "desc": "Above-knee amputation (AKA) – thigh level",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 13.13,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.13,
-      "estCollections": 904.26
-    },
-    {
-      "id": "mso27jgw0hnqdzanmgui",
-      "date": "2026-08-10",
-      "time": "21:46",
-      "title": "13160 · Secondary closure of surgical wound",
-      "notes": "",
-      "items": [
-        {
-          "code": "13160",
-          "desc": "Secondary closure of surgical wound",
-          "cat": "Wound Care",
-          "sub": "Wound Care",
-          "wrvu": 11.74,
-          "qty": 1,
-          "mods": [
-            "58"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.74,
-      "estCollections": 808.53
-    },
-    {
-      "id": "msryv1rlanu4s7gzaia",
-      "date": "2026-08-12",
-      "time": "15:24",
-      "title": "37215 · Carotid stent. Cervical carotid cartera, with di",
-      "notes": "",
-      "items": [
-        {
-          "code": "37215",
-          "desc": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR",
-          "cat": "Carotid",
-          "sub": "CAS/TCAR",
-          "wrvu": 17.31,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 17.31,
-      "estCollections": 1192.14
-    },
-    {
-      "id": "mss0iphc9j0yhvz7jlb",
-      "date": "2026-08-12",
-      "time": "16:10",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 14.99,
-      "estCollections": 1032.36
     }
   ],
   "custom": [
@@ -3736,6 +3736,7 @@
     }
   ],
   "descEdits": {
+    "35656": "Bypass without vein graft – femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
