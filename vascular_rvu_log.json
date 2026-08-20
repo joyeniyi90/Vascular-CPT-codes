@@ -1,6 +1,27 @@
 {
   "log": [
     {
+      "id": "mt0woxz28l6113i0rtr",
+      "date": "2026-08-19",
+      "time": "21:33",
+      "title": "36002 · Pseudoaneurysm injection – ultrasound-guided thr",
+      "notes": "",
+      "items": [
+        {
+          "code": "36002",
+          "desc": "Pseudoaneurysm injection – ultrasound-guided thrombin (access site complication)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venous Catheter Placement",
+          "wrvu": 1.91,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 1.91,
+      "estCollections": 131.54
+    },
+    {
       "id": "mszj0su31zt3wd7rrejh",
       "date": "2026-08-18",
       "time": "22:23",
@@ -3799,27 +3820,6 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
-    },
-    {
-      "id": "mt0woxz28l6113i0rtr",
-      "date": "2026-08-19",
-      "time": "21:33",
-      "title": "36002 · Pseudoaneurysm injection – ultrasound-guided thr",
-      "notes": "",
-      "items": [
-        {
-          "code": "36002",
-          "desc": "Pseudoaneurysm injection – ultrasound-guided thrombin (access site complication)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Venous Catheter Placement",
-          "wrvu": 1.91,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 1.91,
-      "estCollections": 131.54
     }
   ],
   "custom": [
@@ -3830,10 +3830,18 @@
       "desc": "Secondary closure of surgical wound",
       "wrvu": 11.74,
       "notes": ""
+    },
+    {
+      "cat": "Amputation",
+      "sub": "Amputation",
+      "code": "27884",
+      "desc": "BKA secondary closure or scar revision",
+      "wrvu": 8.54,
+      "notes": ""
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft Ã¢ÂÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂ¢ÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
