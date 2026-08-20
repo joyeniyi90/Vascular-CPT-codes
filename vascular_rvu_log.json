@@ -3843,6 +3843,27 @@
       ],
       "totalWRVU": 8.54,
       "estCollections": 588.15
+    },
+    {
+      "id": "mt22vu9ubugaopi58pd",
+      "date": "2026-08-20",
+      "time": "17:14",
+      "title": "37609 · Ligation or biopsy – temporal artery (giant cell",
+      "notes": "",
+      "items": [
+        {
+          "code": "37609",
+          "desc": "Ligation or biopsy – temporal artery (giant cell arteritis workup/treatment)",
+          "cat": "Carotid",
+          "sub": "Vessel Ligation",
+          "wrvu": 2.97,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.97,
+      "estCollections": 204.54
     }
   ],
   "custom": [
