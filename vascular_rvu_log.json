@@ -3820,6 +3820,29 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
+    },
+    {
+      "id": "mt21efkxwpgrcbl6rx",
+      "date": "2026-08-20",
+      "time": "16:33",
+      "title": "27884 · BKA secondary closure or scar revision",
+      "notes": "",
+      "items": [
+        {
+          "code": "27884",
+          "desc": "BKA secondary closure or scar revision",
+          "cat": "Amputation",
+          "sub": "Amputation",
+          "wrvu": 8.54,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 8.54,
+      "estCollections": 588.15
     }
   ],
   "custom": [
