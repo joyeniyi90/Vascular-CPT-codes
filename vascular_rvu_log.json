@@ -1,6 +1,59 @@
 {
   "log": [
     {
+      "id": "mszj0su31zt3wd7rrejh",
+      "date": "2026-08-18",
+      "time": "22:23",
+      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+      "notes": "",
+      "items": [
+        {
+          "code": "37187",
+          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
+          "cat": "Venous",
+          "sub": "DVT/IVC",
+          "wrvu": 7.59,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37248",
+          "desc": "Venous PTA – balloon angioplasty, non-dialysis vein, initial vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "pDVA",
+          "wrvu": 5.85,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37249",
+          "desc": "Venous PTA – balloon angioplasty, non-dialysis vein, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "pDVA",
+          "wrvu": 2.9,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "36010",
+          "desc": "Catheter intro – vena cava (inferior or superior)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venous Catheter Placement",
+          "wrvu": 2.13,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.48,
+      "estCollections": 997.24
+    },
+    {
       "id": "mstf6hxpprrn802soxr",
       "date": "2026-08-13",
       "time": "15:48",
@@ -3748,57 +3801,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mszj0su31zt3wd7rrejh",
-      "date": "2026-08-18",
-      "time": "22:23",
-      "title": "37187 · Percutaneous venous thrombectomy – mechanical (D",
+      "id": "mt0woxz28l6113i0rtr",
+      "date": "2026-08-19",
+      "time": "21:33",
+      "title": "36002 · Pseudoaneurysm injection – ultrasound-guided thr",
       "notes": "",
       "items": [
         {
-          "code": "37187",
-          "desc": "Percutaneous venous thrombectomy – mechanical (DVT/PE), initial",
-          "cat": "Venous",
-          "sub": "DVT/IVC",
-          "wrvu": 7.59,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37248",
-          "desc": "Venous PTA – balloon angioplasty, non-dialysis vein, initial vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "pDVA",
-          "wrvu": 5.85,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "37249",
-          "desc": "Venous PTA – balloon angioplasty, non-dialysis vein, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "pDVA",
-          "wrvu": 2.9,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "36010",
-          "desc": "Catheter intro – vena cava (inferior or superior)",
+          "code": "36002",
+          "desc": "Pseudoaneurysm injection – ultrasound-guided thrombin (access site complication)",
           "cat": "Angiography/Diagnostic",
           "sub": "Venous Catheter Placement",
-          "wrvu": 2.13,
+          "wrvu": 1.91,
           "qty": 1,
-          "mods": [
-            "59"
-          ],
+          "mods": [],
           "notes": ""
         }
       ],
-      "totalWRVU": 14.48,
-      "estCollections": 997.24
+      "totalWRVU": 1.91,
+      "estCollections": 131.54
     }
   ],
   "custom": [
@@ -3812,7 +3833,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft â femoral to popliteal",
+    "35656": "Bypass without vein graft Ã¢ÂÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
