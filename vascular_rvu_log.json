@@ -1,6 +1,83 @@
 {
   "log": [
     {
+      "id": "mt21efkxwpgrcbl6rx",
+      "date": "2026-08-20",
+      "time": "16:33",
+      "title": "27884 · BKA secondary closure or scar revision",
+      "notes": "",
+      "items": [
+        {
+          "code": "27884",
+          "desc": "BKA secondary closure or scar revision",
+          "cat": "Amputation",
+          "sub": "Amputation",
+          "wrvu": 8.54,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 8.54,
+      "estCollections": 588.15
+    },
+    {
+      "id": "mt22vu9ubugaopi58pd",
+      "date": "2026-08-20",
+      "time": "17:14",
+      "title": "37609 · Ligation or biopsy – temporal artery (giant cell",
+      "notes": "",
+      "items": [
+        {
+          "code": "37609",
+          "desc": "Ligation or biopsy – temporal artery (giant cell arteritis workup/treatment)",
+          "cat": "Carotid",
+          "sub": "Vessel Ligation",
+          "wrvu": 2.97,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.97,
+      "estCollections": 204.54
+    },
+    {
+      "id": "mt23k6ogyckreu0cxqb",
+      "date": "2026-08-20",
+      "time": "17:33",
+      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
+      "notes": "",
+      "items": [
+        {
+          "code": "36902",
+          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 4.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36907",
+          "desc": "AV access central vein angioplasty – transcatheter (add-on)",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 2.93,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": "Add-on"
+        }
+      ],
+      "totalWRVU": 7.64,
+      "estCollections": 526.17
+    },
+    {
       "id": "mt0woxz28l6113i0rtr",
       "date": "2026-08-19",
       "time": "21:33",
@@ -3822,81 +3899,45 @@
       "estCollections": 165.98
     },
     {
-      "id": "mt21efkxwpgrcbl6rx",
+      "id": "mt2brw2gwg3ehcsah8i",
       "date": "2026-08-20",
-      "time": "16:33",
-      "title": "27884 · BKA secondary closure or scar revision",
+      "time": "21:23",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
       "notes": "",
       "items": [
         {
-          "code": "27884",
-          "desc": "BKA secondary closure or scar revision",
-          "cat": "Amputation",
-          "sub": "Amputation",
-          "wrvu": 8.54,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 8.54,
-      "estCollections": 588.15
-    },
-    {
-      "id": "mt22vu9ubugaopi58pd",
-      "date": "2026-08-20",
-      "time": "17:14",
-      "title": "37609 · Ligation or biopsy – temporal artery (giant cell",
-      "notes": "",
-      "items": [
-        {
-          "code": "37609",
-          "desc": "Ligation or biopsy – temporal artery (giant cell arteritis workup/treatment)",
-          "cat": "Carotid",
-          "sub": "Vessel Ligation",
-          "wrvu": 2.97,
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
           "qty": 1,
           "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 2.97,
-      "estCollections": 204.54
-    },
-    {
-      "id": "mt23k6ogyckreu0cxqb",
-      "date": "2026-08-20",
-      "time": "17:33",
-      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
-      "notes": "",
-      "items": [
-        {
-          "code": "36902",
-          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
-          "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 4.71,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
+          "notes": "NEW 2026; replaces 37228"
         },
         {
-          "code": "36907",
-          "desc": "AV access central vein angioplasty – transcatheter (add-on)",
-          "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 2.93,
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
           "qty": 1,
-          "mods": [
-            "59"
-          ],
+          "mods": [],
           "notes": "Add-on"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
         }
       ],
-      "totalWRVU": 7.64,
-      "estCollections": 526.17
+      "totalWRVU": 18.05,
+      "estCollections": 1243.45
     }
   ],
   "custom": [
@@ -3918,7 +3959,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft ÃÂ¢ÃÂÃÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
