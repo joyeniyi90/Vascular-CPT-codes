@@ -78,6 +78,47 @@
       "estCollections": 526.17
     },
     {
+      "id": "mt2brw2gwg3ehcsah8i",
+      "date": "2026-08-20",
+      "time": "21:23",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "notes": "",
+      "items": [
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 18.05,
+      "estCollections": 1243.45
+    },
+    {
       "id": "mt0woxz28l6113i0rtr",
       "date": "2026-08-19",
       "time": "21:33",
@@ -3899,45 +3940,65 @@
       "estCollections": 165.98
     },
     {
-      "id": "mt2brw2gwg3ehcsah8i",
-      "date": "2026-08-20",
-      "time": "21:23",
-      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "id": "mtalcnomuaa55shobbp",
+      "date": "2026-08-26",
+      "time": "16:13",
+      "title": "37271 · Fem-Pop atherectomy – plaque removal, stenosis, ",
       "notes": "",
       "items": [
         {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "code": "37271",
+          "desc": "Fem-Pop atherectomy – plaque removal, stenosis, 1st vessel",
           "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 9,
           "qty": 1,
           "mods": [],
-          "notes": "NEW 2026; replaces 37228"
+          "notes": "NEW 2026"
         },
         {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
           "cat": "Angiography/Diagnostic",
           "sub": "Catheter Placement",
-          "wrvu": 4.89,
+          "wrvu": 5.89,
           "qty": 1,
           "mods": [],
           "notes": "Add-on"
         },
         {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
           "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
           "qty": 1,
           "mods": [],
           "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
         }
       ],
-      "totalWRVU": 18.05,
-      "estCollections": 1243.45
+      "totalWRVU": 17.09,
+      "estCollections": 1176.64
     }
   ],
   "custom": [
@@ -3959,7 +4020,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
