@@ -1,6 +1,67 @@
 {
   "log": [
     {
+      "id": "mtalcnomuaa55shobbp",
+      "date": "2026-08-26",
+      "time": "16:13",
+      "title": "37271 · Fem-Pop atherectomy – plaque removal, stenosis, ",
+      "notes": "",
+      "items": [
+        {
+          "code": "37271",
+          "desc": "Fem-Pop atherectomy – plaque removal, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 9,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 5.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 17.09,
+      "estCollections": 1176.64
+    },
+    {
       "id": "mt21efkxwpgrcbl6rx",
       "date": "2026-08-20",
       "time": "16:33",
@@ -3940,65 +4001,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mtalcnomuaa55shobbp",
-      "date": "2026-08-26",
-      "time": "16:13",
-      "title": "37271 · Fem-Pop atherectomy – plaque removal, stenosis, ",
+      "id": "mtcb36bh3zavogvb6wd",
+      "date": "2026-08-27",
+      "time": "21:01",
+      "title": "36832 · AV graft revision – open, without thrombectomy",
       "notes": "",
       "items": [
         {
-          "code": "37271",
-          "desc": "Fem-Pop atherectomy – plaque removal, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "Endovascular Revascularization (FPVT)",
-          "wrvu": 9,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026"
-        },
-        {
-          "code": "36247",
-          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 5.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "36200",
-          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 2.7,
+          "code": "36832",
+          "desc": "AV graft revision – open, without thrombectomy",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 13.16,
           "qty": 1,
           "mods": [],
           "notes": ""
-        },
-        {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
-          "qty": 1,
-          "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
         }
       ],
-      "totalWRVU": 17.09,
-      "estCollections": 1176.64
+      "totalWRVU": 13.16,
+      "estCollections": 906.33
     }
   ],
   "custom": [
@@ -4020,7 +4041,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
