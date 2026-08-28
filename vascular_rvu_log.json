@@ -4020,6 +4020,29 @@
       ],
       "totalWRVU": 13.16,
       "estCollections": 906.33
+    },
+    {
+      "id": "mtcb7b8vhmiec90q96o",
+      "date": "2026-08-27",
+      "time": "21:05",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
     }
   ],
   "custom": [
