@@ -1,6 +1,162 @@
 {
   "log": [
     {
+      "id": "mtcb36bh3zavogvb6wd",
+      "date": "2026-08-27",
+      "time": "21:01",
+      "title": "36832 · AV graft revision – open, without thrombectomy",
+      "notes": "",
+      "items": [
+        {
+          "code": "36832",
+          "desc": "AV graft revision – open, without thrombectomy",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 13.16,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.16,
+      "estCollections": 906.33
+    },
+    {
+      "id": "mtcb7b8vhmiec90q96o",
+      "date": "2026-08-27",
+      "time": "21:05",
+      "title": "27590 · Above-knee amputation (AKA) – thigh level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27590",
+          "desc": "Above-knee amputation (AKA) – thigh level",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 13.13,
+          "qty": 1,
+          "mods": [
+            "78"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.13,
+      "estCollections": 904.26
+    },
+    {
+      "id": "mtcbhgru0jjfbzhr2ay",
+      "date": "2026-08-27",
+      "time": "21:13",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "notes": "",
+      "items": [
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 14.5,
+      "estCollections": 998.96
+    },
+    {
+      "id": "mtcbotl8ypjtm0gunvd",
+      "date": "2026-08-27",
+      "time": "21:18",
+      "title": "36200 · Non-selective aortic catheter – via peripheral p",
+      "notes": "",
+      "items": [
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.29,
+      "estCollections": 639.8
+    },
+    {
       "id": "mtalcnomuaa55shobbp",
       "date": "2026-08-26",
       "time": "16:13",
@@ -4001,75 +4157,21 @@
       "estCollections": 165.98
     },
     {
-      "id": "mtcb36bh3zavogvb6wd",
-      "date": "2026-08-27",
-      "time": "21:01",
-      "title": "36832 · AV graft revision – open, without thrombectomy",
+      "id": "mti4a7kxf3z927z5yro",
+      "date": "2026-08-31",
+      "time": "22:38",
+      "title": "37273 · Fem-Pop atherectomy – plaque removal, occlusion,",
       "notes": "",
       "items": [
         {
-          "code": "36832",
-          "desc": "AV graft revision – open, without thrombectomy",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 13.16,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.16,
-      "estCollections": 906.33
-    },
-    {
-      "id": "mtcb7b8vhmiec90q96o",
-      "date": "2026-08-27",
-      "time": "21:05",
-      "title": "27590 · Above-knee amputation (AKA) – thigh level",
-      "notes": "",
-      "items": [
-        {
-          "code": "27590",
-          "desc": "Above-knee amputation (AKA) – thigh level",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 13.13,
-          "qty": 1,
-          "mods": [
-            "78"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 13.13,
-      "estCollections": 904.26
-    },
-    {
-      "id": "mtcbhgru0jjfbzhr2ay",
-      "date": "2026-08-27",
-      "time": "21:13",
-      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
-      "notes": "",
-      "items": [
-        {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "code": "37273",
+          "desc": "Fem-Pop atherectomy – plaque removal, occlusion, 1st vessel",
           "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 12.63,
           "qty": 1,
           "mods": [],
-          "notes": "NEW 2026; replaces 37228"
-        },
-        {
-          "code": "36200",
-          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 2.7,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
+          "notes": "NEW 2026"
         },
         {
           "code": "76937",
@@ -4082,26 +4184,15 @@
           "notes": "Must save permanent image record"
         },
         {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
+          "code": "37252",
+          "desc": "IVUS (intravascular ultrasound) – non-coronary, initial vessel",
+          "cat": "IVUS",
+          "sub": "Peripheral IVUS",
+          "wrvu": 1.76,
           "qty": 1,
           "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 14.5,
-      "estCollections": 998.96
-    },
-    {
-      "id": "mtcbotl8ypjtm0gunvd",
-      "date": "2026-08-27",
-      "time": "21:18",
-      "title": "36200 · Non-selective aortic catheter – via peripheral p",
-      "notes": "",
-      "items": [
+          "notes": "NEW 2026; replaces 37250"
+        },
         {
           "code": "36200",
           "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
@@ -4113,26 +4204,16 @@
           "notes": ""
         },
         {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "code": "36247",
+          "desc": "Selective catheter – 3rd order+ abdominal/pelvic/LE (add-on)",
           "cat": "Angiography/Diagnostic",
           "sub": "Catheter Placement",
-          "wrvu": 4.89,
+          "wrvu": 5.89,
           "qty": 1,
           "mods": [],
           "notes": "Add-on"
         },
         {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
-          "qty": 1,
-          "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
           "code": "75625",
           "desc": "Abdominal aortogram",
           "cat": "Angiography/Diagnostic",
@@ -4143,18 +4224,38 @@
           "notes": "Standard abdominal aortogram"
         },
         {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
+          "code": "37197",
+          "desc": "Transcatheter retrieval – intravascular foreign body (fractured catheter fragment)",
+          "cat": "Embolization/Thrombolysis",
+          "sub": "Catheter-Directed Thrombolysis",
+          "wrvu": 5.89,
           "qty": 1,
           "mods": [],
           "notes": ""
+        },
+        {
+          "code": "37254",
+          "desc": "Iliac PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 7.3,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
         }
       ],
-      "totalWRVU": 9.29,
-      "estCollections": 639.8
+      "totalWRVU": 33.09,
+      "estCollections": 2278.91
     }
   ],
   "custom": [
@@ -4176,7 +4277,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
