@@ -4338,6 +4338,27 @@
       ],
       "totalWRVU": 3.41,
       "estCollections": 234.85
+    },
+    {
+      "id": "mtita45tdb168eq6tai",
+      "date": "2026-08-05",
+      "time": "10:17",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
     }
   ],
   "custom": [
