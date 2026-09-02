@@ -832,6 +832,48 @@
       "estCollections": 663.22
     },
     {
+      "id": "mtit9t2uxnx7ip9dku",
+      "date": "2026-08-05",
+      "time": "10:17",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
+    },
+    {
+      "id": "mtita45tdb168eq6tai",
+      "date": "2026-08-05",
+      "time": "10:17",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
+    },
+    {
       "id": "msf8nudmuvtrt7yjv9j",
       "date": "2026-08-04",
       "time": "17:37",
@@ -4319,46 +4361,35 @@
       "estCollections": 165.98
     },
     {
-      "id": "mtit9t2uxnx7ip9dku",
-      "date": "2026-08-05",
-      "time": "10:17",
-      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "id": "mtk5qqpzw21vc15hsco",
+      "date": "2026-09-02",
+      "time": "08:54",
+      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
       "notes": "",
       "items": [
         {
-          "code": "36482",
-          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
-          "cat": "Venous",
-          "sub": "Varicose Veins",
-          "wrvu": 3.41,
+          "code": "36902",
+          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 4.71,
           "qty": 1,
           "mods": [],
           "notes": ""
-        }
-      ],
-      "totalWRVU": 3.41,
-      "estCollections": 234.85
-    },
-    {
-      "id": "mtita45tdb168eq6tai",
-      "date": "2026-08-05",
-      "time": "10:17",
-      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
-      "notes": "",
-      "items": [
+        },
         {
-          "code": "36482",
-          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
-          "cat": "Venous",
-          "sub": "Varicose Veins",
-          "wrvu": 3.41,
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
           "qty": 1,
           "mods": [],
-          "notes": ""
+          "notes": "Must save permanent image record"
         }
       ],
-      "totalWRVU": 3.41,
-      "estCollections": 234.85
+      "totalWRVU": 4.85,
+      "estCollections": 334.36
     }
   ],
   "custom": [
@@ -4380,7 +4411,7 @@
     }
   ],
   "descEdits": {
-    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
+    "35656": "Bypass without vein graft ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
 }
