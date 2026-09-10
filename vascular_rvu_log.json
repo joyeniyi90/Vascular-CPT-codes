@@ -4771,6 +4771,47 @@
       ],
       "totalWRVU": 6.35,
       "estCollections": 437.67
+    },
+    {
+      "id": "mtv0bm70a2gzoiezv8f",
+      "date": "2026-09-09",
+      "time": "23:08",
+      "title": "34705 · EVAR – aorto-biiliac graft (elective)",
+      "notes": "",
+      "items": [
+        {
+          "code": "34705",
+          "desc": "EVAR – aorto-biiliac graft (elective)",
+          "cat": "Aortic",
+          "sub": "EVAR",
+          "wrvu": 28.84,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 34802/03/04"
+        },
+        {
+          "code": "34713",
+          "desc": "Percutaneous femoral access + closure – unilateral (Perclose/MANTA)",
+          "cat": "Closure/Access",
+          "sub": "Percutaneous Closure",
+          "wrvu": 2.44,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on to EVAR/FEVAR"
+        },
+        {
+          "code": "34713",
+          "desc": "Percutaneous femoral access + closure – unilateral (Perclose/MANTA)",
+          "cat": "Closure/Access",
+          "sub": "Percutaneous Closure",
+          "wrvu": 2.44,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on to EVAR/FEVAR"
+        }
+      ],
+      "totalWRVU": 33.72,
+      "estCollections": 2322.3
     }
   ],
   "custom": [
