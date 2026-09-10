@@ -4854,6 +4854,27 @@
       ],
       "totalWRVU": 19.96,
       "estCollections": 1374.65
+    },
+    {
+      "id": "mtw4eu0vm6pymnz2ahq",
+      "date": "2026-09-10",
+      "time": "17:50",
+      "title": "35656 · Bypass without vein graft-femoral to popliteal",
+      "notes": "",
+      "items": [
+        {
+          "code": "35656",
+          "desc": "Bypass without vein graft-femoral to popliteal",
+          "cat": "Peripheral Arterial",
+          "sub": "Bypass Graft",
+          "wrvu": 19.96,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 19.96,
+      "estCollections": 1374.65
     }
   ],
   "custom": [
