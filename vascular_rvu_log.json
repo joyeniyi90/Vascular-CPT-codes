@@ -4709,6 +4709,27 @@
       ],
       "totalWRVU": 26.08,
       "estCollections": 1796.13
+    },
+    {
+      "id": "mtuzmd0dg4513g3e4dv",
+      "date": "2026-09-09",
+      "time": "22:48",
+      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
+      "notes": "",
+      "items": [
+        {
+          "code": "36830",
+          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 11.73,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.73,
+      "estCollections": 807.85
     }
   ],
   "custom": [
