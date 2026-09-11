@@ -4898,6 +4898,41 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
+    },
+    {
+      "id": "mtxc2nsajrz0aj8pk8n",
+      "date": "2026-09-11",
+      "time": "14:12",
+      "title": "27596 · Amputation through femur, any level",
+      "notes": "",
+      "items": [
+        {
+          "code": "27596",
+          "desc": "Amputation through femur, any level",
+          "cat": "Amputation",
+          "sub": "AKA",
+          "wrvu": 11.01,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "97606",
+          "desc": "Negative pressure wound therapy:  (wounds > 50 sq cm)",
+          "cat": "Amputation",
+          "sub": "Amputation",
+          "wrvu": 0.59,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.3,
+      "estCollections": 778.58
     }
   ],
   "custom": [
