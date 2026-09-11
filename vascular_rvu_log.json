@@ -4924,6 +4924,14 @@
       "desc": "Amputation through femur, any level",
       "wrvu": 11.01,
       "notes": ""
+    },
+    {
+      "cat": "Amputation",
+      "sub": "Amputation",
+      "code": "97606",
+      "desc": "Negative pressure wound therapy:  (wounds > 50 sq cm)",
+      "wrvu": 0.59,
+      "notes": ""
     }
   ],
   "descEdits": {
