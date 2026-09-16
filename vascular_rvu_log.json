@@ -5051,6 +5051,14 @@
       "desc": "Negative pressure wound therapy:  (wounds > 50 sq cm)",
       "wrvu": 0.59,
       "notes": ""
+    },
+    {
+      "cat": "Wound Care",
+      "sub": "Wound Care",
+      "code": "10140",
+      "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
+      "wrvu": 1.54,
+      "notes": ""
     }
   ],
   "descEdits": {
