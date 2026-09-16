@@ -5017,6 +5017,65 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
+    },
+    {
+      "id": "mu47bwhatwyjg4so4d",
+      "date": "2026-09-15",
+      "time": "09:34",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "notes": "",
+      "items": [
+        {
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "11042",
+          "desc": "Debridement – subcutaneous tissue, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 0.98,
+          "qty": 1,
+          "mods": [
+            "78",
+            "59"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "10140",
+          "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 1.54,
+          "qty": 1,
+          "mods": [
+            "78",
+            "59"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 10.18,
+      "estCollections": 701.44
     }
   ],
   "custom": [
