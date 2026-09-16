@@ -1,6 +1,65 @@
 {
   "log": [
     {
+      "id": "mu47bwhatwyjg4so4d",
+      "date": "2026-09-15",
+      "time": "09:34",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "notes": "",
+      "items": [
+        {
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
+          "qty": 1,
+          "mods": [
+            "59"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "11042",
+          "desc": "Debridement – subcutaneous tissue, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 0.98,
+          "qty": 1,
+          "mods": [
+            "78",
+            "59"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "10140",
+          "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 1.54,
+          "qty": 1,
+          "mods": [
+            "78",
+            "59"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 10.18,
+      "estCollections": 701.44
+    },
+    {
       "id": "mu2s8ha37ilpkce7yxv",
       "date": "2026-09-14",
       "time": "09:43",
@@ -83,6 +142,88 @@
       ],
       "totalWRVU": 14.99,
       "estCollections": 1032.36
+    },
+    {
+      "id": "mu4ewph7whb435qw2zl",
+      "date": "2026-09-14",
+      "time": "13:06",
+      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
+      "notes": "",
+      "items": [
+        {
+          "code": "36830",
+          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
+          "cat": "Dialysis Access",
+          "sub": "AVG Creation",
+          "wrvu": 11.73,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.73,
+      "estCollections": 807.85
+    },
+    {
+      "id": "mu4g70c0wsrl6s3d94k",
+      "date": "2026-09-14",
+      "time": "13:42",
+      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
+      "notes": "",
+      "items": [
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        },
+        {
+          "code": "37281",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 17.5,
+      "estCollections": 1205.57
     },
     {
       "id": "mtxc2nsajrz0aj8pk8n",
@@ -4996,147 +5137,6 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
-    },
-    {
-      "id": "mu47bwhatwyjg4so4d",
-      "date": "2026-09-15",
-      "time": "09:34",
-      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
-      "notes": "",
-      "items": [
-        {
-          "code": "36905",
-          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
-          "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 8.78,
-          "qty": 1,
-          "mods": [
-            "59"
-          ],
-          "notes": ""
-        },
-        {
-          "code": "11042",
-          "desc": "Debridement – subcutaneous tissue, first 20 sq cm",
-          "cat": "Wound Care",
-          "sub": "Debridement",
-          "wrvu": 0.98,
-          "qty": 1,
-          "mods": [
-            "78",
-            "59"
-          ],
-          "notes": ""
-        },
-        {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
-          "qty": 1,
-          "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
-          "code": "10140",
-          "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
-          "cat": "Wound Care",
-          "sub": "Wound Care",
-          "wrvu": 1.54,
-          "qty": 1,
-          "mods": [
-            "78",
-            "59"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 10.18,
-      "estCollections": 701.44
-    },
-    {
-      "id": "mu4ewph7whb435qw2zl",
-      "date": "2026-09-14",
-      "time": "13:06",
-      "title": "36830 · AV graft creation – non-autogenous conduit (loop",
-      "notes": "",
-      "items": [
-        {
-          "code": "36830",
-          "desc": "AV graft creation – non-autogenous conduit (loop/straight graft)",
-          "cat": "Dialysis Access",
-          "sub": "AVG Creation",
-          "wrvu": 11.73,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 11.73,
-      "estCollections": 807.85
-    },
-    {
-      "id": "mu4g70c0wsrl6s3d94k",
-      "date": "2026-09-14",
-      "time": "13:42",
-      "title": "37282 · Tibial/peroneal PTA – balloon angioplasty, occlu",
-      "notes": "",
-      "items": [
-        {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37228"
-        },
-        {
-          "code": "37281",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 3,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
-        {
-          "code": "36200",
-          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 2.7,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
-          "qty": 1,
-          "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        }
-      ],
-      "totalWRVU": 17.5,
-      "estCollections": 1205.57
     }
   ],
   "custom": [
@@ -5178,6 +5178,14 @@
       "code": "10140",
       "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
       "wrvu": 1.54,
+      "notes": ""
+    },
+    {
+      "cat": "Custom",
+      "sub": "Moderate sedation",
+      "code": "99152",
+      "desc": "Moderate sedation, age>5yo. First 15 minutes",
+      "wrvu": 0.25,
       "notes": ""
     }
   ],
