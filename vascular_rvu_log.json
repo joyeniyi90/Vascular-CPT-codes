@@ -5137,6 +5137,47 @@
       ],
       "totalWRVU": 2.41,
       "estCollections": 165.98
+    },
+    {
+      "id": "mu4oc7rrtep0upkavt",
+      "date": "2026-09-16",
+      "time": "17:30",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "notes": "",
+      "items": [
+        {
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "99152",
+          "desc": "Moderate sedation, age>5yo. First 15 minutes",
+          "cat": "Custom",
+          "sub": "Moderate sedation",
+          "wrvu": 0.25,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.05,
+      "estCollections": 623.27
     }
   ],
   "custom": [
