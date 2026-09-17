@@ -1,6 +1,47 @@
 {
   "log": [
     {
+      "id": "mu4oc7rrtep0upkavt",
+      "date": "2026-09-16",
+      "time": "17:30",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "notes": "",
+      "items": [
+        {
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "99152",
+          "desc": "Moderate sedation, age>5yo. First 15 minutes",
+          "cat": "Custom",
+          "sub": "Moderate sedation",
+          "wrvu": 0.25,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 9.05,
+      "estCollections": 623.27
+    },
+    {
       "id": "mu47bwhatwyjg4so4d",
       "date": "2026-09-15",
       "time": "09:34",
@@ -5139,45 +5180,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mu4oc7rrtep0upkavt",
-      "date": "2026-09-16",
-      "time": "17:30",
-      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
+      "id": "mu5wtxce7f57j5tjtqr",
+      "date": "2026-09-17",
+      "time": "14:15",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
       "notes": "",
       "items": [
         {
-          "code": "36905",
-          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
           "cat": "Dialysis Access",
-          "sub": "Access Maintenance",
-          "wrvu": 8.78,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        },
-        {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
-          "qty": 1,
-          "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
-          "code": "99152",
-          "desc": "Moderate sedation, age>5yo. First 15 minutes",
-          "cat": "Custom",
-          "sub": "Moderate sedation",
-          "wrvu": 0.25,
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
           "qty": 1,
           "mods": [],
           "notes": ""
         }
       ],
-      "totalWRVU": 9.05,
-      "estCollections": 623.27
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
     }
   ],
   "custom": [
