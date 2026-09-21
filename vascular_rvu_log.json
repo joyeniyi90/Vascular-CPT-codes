@@ -5264,23 +5264,23 @@
     {
       "id": "mubp6incpngr3sr9nq9",
       "date": "2026-09-21",
-      "time": "15:28",
+      "time": "15:37",
       "title": "35091 · Open repair – AAA, infrarenal/juxtarenal (electi",
       "notes": "",
       "items": [
         {
-          "code": "35091",
+          "code": "35081",
           "desc": "Open repair – AAA, infrarenal/juxtarenal (elective)",
           "cat": "Aortic",
-          "sub": "Open AAA",
-          "wrvu": 34.47,
+          "sub": "Open Aneurysm Repair",
+          "wrvu": 32.69,
           "qty": 1,
           "mods": [],
           "notes": ""
         }
       ],
-      "totalWRVU": 34.47,
-      "estCollections": 2373.95
+      "totalWRVU": 32.69,
+      "estCollections": 2251.36
     },
     {
       "id": "mubp87m3yc2lle7neq",
