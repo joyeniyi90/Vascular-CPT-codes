@@ -5379,6 +5379,27 @@
       ],
       "totalWRVU": 3.41,
       "estCollections": 234.85
+    },
+    {
+      "id": "mucs8onw8my9go5v3wo",
+      "date": "2026-09-16",
+      "time": "09:41",
+      "title": "36589 · Tunneled CVC removal – without port",
+      "notes": "",
+      "items": [
+        {
+          "code": "36589",
+          "desc": "Tunneled CVC removal – without port",
+          "cat": "Dialysis Access",
+          "sub": "Tunneled Catheters",
+          "wrvu": 2.22,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.22,
+      "estCollections": 152.89
     }
   ],
   "custom": [
