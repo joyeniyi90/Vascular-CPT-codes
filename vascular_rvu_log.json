@@ -1,6 +1,62 @@
 {
   "log": [
     {
+      "id": "mubp6incpngr3sr9nq9",
+      "date": "2026-09-21",
+      "time": "15:37",
+      "title": "35091 · Open repair – AAA, infrarenal/juxtarenal (electi",
+      "notes": "",
+      "items": [
+        {
+          "code": "35081",
+          "desc": "Open repair – AAA, infrarenal/juxtarenal (elective)",
+          "cat": "Aortic",
+          "sub": "Open Aneurysm Repair",
+          "wrvu": 32.69,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 32.69,
+      "estCollections": 2251.36
+    },
+    {
+      "id": "mubp87m3yc2lle7neq",
+      "date": "2026-09-21",
+      "time": "15:29",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
+      "notes": "",
+      "items": [
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [
+            "LT"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
+          "qty": 1,
+          "mods": [
+            "RT"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 22.48,
+      "estCollections": 1548.54
+    },
+    {
       "id": "mu5wtxce7f57j5tjtqr",
       "date": "2026-09-17",
       "time": "14:15",
@@ -5262,60 +5318,25 @@
       "estCollections": 165.98
     },
     {
-      "id": "mubp6incpngr3sr9nq9",
-      "date": "2026-09-21",
-      "time": "15:37",
-      "title": "35091 · Open repair – AAA, infrarenal/juxtarenal (electi",
+      "id": "mucrot3znutyrxrw47",
+      "date": "2026-09-16",
+      "time": "09:26",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
       "notes": "",
       "items": [
         {
-          "code": "35081",
-          "desc": "Open repair – AAA, infrarenal/juxtarenal (elective)",
-          "cat": "Aortic",
-          "sub": "Open Aneurysm Repair",
-          "wrvu": 32.69,
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
           "qty": 1,
           "mods": [],
           "notes": ""
         }
       ],
-      "totalWRVU": 32.69,
-      "estCollections": 2251.36
-    },
-    {
-      "id": "mubp87m3yc2lle7neq",
-      "date": "2026-09-21",
-      "time": "15:29",
-      "title": "27880 · Below-knee amputation (BKA) – lower leg",
-      "notes": "",
-      "items": [
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [
-            "LT"
-          ],
-          "notes": ""
-        },
-        {
-          "code": "27880",
-          "desc": "Below-knee amputation (BKA) – lower leg",
-          "cat": "Amputation",
-          "sub": "Above/Below Knee",
-          "wrvu": 14.99,
-          "qty": 1,
-          "mods": [
-            "RT"
-          ],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 22.48,
-      "estCollections": 1548.54
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
     }
   ],
   "custom": [
@@ -5369,8 +5390,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair – AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair – involving visceral vessels",
+    "35081": "Open repair â AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair â involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
