@@ -180,6 +180,90 @@
       "estCollections": 623.27
     },
     {
+      "id": "mucrot3znutyrxrw47",
+      "date": "2026-09-16",
+      "time": "09:26",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
+    },
+    {
+      "id": "mucrp1g3g0z4664cwq",
+      "date": "2026-09-16",
+      "time": "09:26",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
+    },
+    {
+      "id": "mucrpa6aup8hoyd62lo",
+      "date": "2026-09-16",
+      "time": "09:26",
+      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
+      "notes": "",
+      "items": [
+        {
+          "code": "36482",
+          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 3.41,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 3.41,
+      "estCollections": 234.85
+    },
+    {
+      "id": "mucs8onw8my9go5v3wo",
+      "date": "2026-09-16",
+      "time": "09:41",
+      "title": "36589 · Tunneled CVC removal – without port",
+      "notes": "",
+      "items": [
+        {
+          "code": "36589",
+          "desc": "Tunneled CVC removal – without port",
+          "cat": "Dialysis Access",
+          "sub": "Tunneled Catheters",
+          "wrvu": 2.22,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.22,
+      "estCollections": 152.89
+    },
+    {
       "id": "mu47bwhatwyjg4so4d",
       "date": "2026-09-15",
       "time": "09:34",
@@ -5318,72 +5402,9 @@
       "estCollections": 165.98
     },
     {
-      "id": "mucrot3znutyrxrw47",
-      "date": "2026-09-16",
-      "time": "09:26",
-      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
-      "notes": "",
-      "items": [
-        {
-          "code": "36482",
-          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
-          "cat": "Venous",
-          "sub": "Varicose Veins",
-          "wrvu": 3.41,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 3.41,
-      "estCollections": 234.85
-    },
-    {
-      "id": "mucrp1g3g0z4664cwq",
-      "date": "2026-09-16",
-      "time": "09:26",
-      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
-      "notes": "",
-      "items": [
-        {
-          "code": "36482",
-          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
-          "cat": "Venous",
-          "sub": "Varicose Veins",
-          "wrvu": 3.41,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 3.41,
-      "estCollections": 234.85
-    },
-    {
-      "id": "mucrpa6aup8hoyd62lo",
-      "date": "2026-09-16",
-      "time": "09:26",
-      "title": "36482 · Endovenous mechanochemical ablation – 1st vein (",
-      "notes": "",
-      "items": [
-        {
-          "code": "36482",
-          "desc": "Endovenous mechanochemical ablation – 1st vein (ClariVein/MOCA)",
-          "cat": "Venous",
-          "sub": "Varicose Veins",
-          "wrvu": 3.41,
-          "qty": 1,
-          "mods": [],
-          "notes": ""
-        }
-      ],
-      "totalWRVU": 3.41,
-      "estCollections": 234.85
-    },
-    {
-      "id": "mucs8onw8my9go5v3wo",
-      "date": "2026-09-16",
-      "time": "09:41",
+      "id": "mud9gpkgd7if3ahuyg4",
+      "date": "2026-09-22",
+      "time": "17:43",
       "title": "36589 · Tunneled CVC removal – without port",
       "notes": "",
       "items": [
@@ -5453,8 +5474,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair â AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair â involving visceral vessels",
+    "35081": "Open repair Ã¢ÂÂ AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair Ã¢ÂÂ involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
