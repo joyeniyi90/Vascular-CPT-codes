@@ -1,6 +1,27 @@
 {
   "log": [
     {
+      "id": "mud9gpkgd7if3ahuyg4",
+      "date": "2026-09-22",
+      "time": "17:43",
+      "title": "36589 · Tunneled CVC removal – without port",
+      "notes": "",
+      "items": [
+        {
+          "code": "36589",
+          "desc": "Tunneled CVC removal – without port",
+          "cat": "Dialysis Access",
+          "sub": "Tunneled Catheters",
+          "wrvu": 2.22,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.22,
+      "estCollections": 152.89
+    },
+    {
       "id": "mubp6incpngr3sr9nq9",
       "date": "2026-09-21",
       "time": "15:37",
@@ -5402,25 +5423,27 @@
       "estCollections": 165.98
     },
     {
-      "id": "mud9gpkgd7if3ahuyg4",
-      "date": "2026-09-22",
-      "time": "17:43",
-      "title": "36589 · Tunneled CVC removal – without port",
+      "id": "mue8hu9ke8ztytf0mgk",
+      "date": "2026-09-23",
+      "time": "10:04",
+      "title": "27880 · Below-knee amputation (BKA) – lower leg",
       "notes": "",
       "items": [
         {
-          "code": "36589",
-          "desc": "Tunneled CVC removal – without port",
-          "cat": "Dialysis Access",
-          "sub": "Tunneled Catheters",
-          "wrvu": 2.22,
+          "code": "27880",
+          "desc": "Below-knee amputation (BKA) – lower leg",
+          "cat": "Amputation",
+          "sub": "Above/Below Knee",
+          "wrvu": 14.99,
           "qty": 1,
-          "mods": [],
+          "mods": [
+            "79"
+          ],
           "notes": ""
         }
       ],
-      "totalWRVU": 2.22,
-      "estCollections": 152.89
+      "totalWRVU": 14.99,
+      "estCollections": 1032.36
     }
   ],
   "custom": [
@@ -5474,8 +5497,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair Ã¢ÂÂ AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair Ã¢ÂÂ involving visceral vessels",
+    "35081": "Open repair ÃÂ¢ÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair ÃÂ¢ÃÂÃÂ involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
