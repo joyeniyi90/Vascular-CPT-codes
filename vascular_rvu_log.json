@@ -45,6 +45,71 @@
       "estCollections": 798.89
     },
     {
+      "id": "muekm6cj0ds8s4z8vpfr",
+      "date": "2026-09-23",
+      "time": "15:43",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [
+            "LT"
+          ],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [
+            "RT"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 12.85,
+      "estCollections": 884.98
+    },
+    {
       "id": "mud9gpkgd7if3ahuyg4",
       "date": "2026-09-22",
       "time": "17:43",
@@ -5467,30 +5532,18 @@
       "estCollections": 165.98
     },
     {
-      "id": "muekm6cj0ds8s4z8vpfr",
-      "date": "2026-09-23",
-      "time": "15:43",
-      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "id": "muhih4fh21i1847wi4k",
+      "date": "2026-09-25",
+      "time": "17:07",
+      "title": "36140 · Needle/catheter intro – upper or lower extremity",
       "notes": "",
       "items": [
         {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [
-            "LT"
-          ],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "36200",
-          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "code": "36140",
+          "desc": "Needle/catheter intro – upper or lower extremity artery (direct puncture)",
           "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 2.7,
+          "sub": "Arterial Catheter Placement",
+          "wrvu": 1.72,
           "qty": 1,
           "mods": [],
           "notes": ""
@@ -5506,16 +5559,6 @@
           "notes": "Must save permanent image record"
         },
         {
-          "code": "75625",
-          "desc": "Abdominal aortogram",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Aortogram",
-          "wrvu": 1.4,
-          "qty": 1,
-          "mods": [],
-          "notes": "Standard abdominal aortogram"
-        },
-        {
           "code": "75710",
           "desc": "Lower extremity arteriogram – unilateral runoff",
           "cat": "Angiography/Diagnostic",
@@ -5523,13 +5566,13 @@
           "wrvu": 1.71,
           "qty": 1,
           "mods": [
-            "RT"
+            "53"
           ],
           "notes": ""
         }
       ],
-      "totalWRVU": 12.85,
-      "estCollections": 884.98
+      "totalWRVU": 2.72,
+      "estCollections": 187.33
     }
   ],
   "custom": [
@@ -5583,8 +5626,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ involving visceral vessels",
+    "35081": "Open repair ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
