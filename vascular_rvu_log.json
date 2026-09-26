@@ -1,6 +1,49 @@
 {
   "log": [
     {
+      "id": "muhih4fh21i1847wi4k",
+      "date": "2026-09-25",
+      "time": "17:07",
+      "title": "36140 · Needle/catheter intro – upper or lower extremity",
+      "notes": "",
+      "items": [
+        {
+          "code": "36140",
+          "desc": "Needle/catheter intro – upper or lower extremity artery (direct puncture)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Arterial Catheter Placement",
+          "wrvu": 1.72,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [
+            "53"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 2.72,
+      "estCollections": 187.33
+    },
+    {
       "id": "mue8hu9ke8ztytf0mgk",
       "date": "2026-09-23",
       "time": "10:04",
@@ -5532,47 +5575,35 @@
       "estCollections": 165.98
     },
     {
-      "id": "muhih4fh21i1847wi4k",
-      "date": "2026-09-25",
-      "time": "17:07",
-      "title": "36140 · Needle/catheter intro – upper or lower extremity",
+      "id": "muiz3qx8m3p3er9lzf",
+      "date": "2026-09-26",
+      "time": "17:40",
+      "title": "36905 · AV graft thrombectomy + angioplasty – percutaneo",
       "notes": "",
       "items": [
         {
-          "code": "36140",
-          "desc": "Needle/catheter intro – upper or lower extremity artery (direct puncture)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Arterial Catheter Placement",
-          "wrvu": 1.72,
+          "code": "36905",
+          "desc": "AV graft thrombectomy + angioplasty – percutaneous with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 8.78,
           "qty": 1,
           "mods": [],
           "notes": ""
         },
         {
-          "code": "76937",
-          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
-          "cat": "Imaging Guidance",
-          "sub": "Ultrasound Guidance",
-          "wrvu": 0.29,
+          "code": "36907",
+          "desc": "AV access central vein angioplasty – transcatheter (add-on)",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 2.93,
           "qty": 1,
           "mods": [],
-          "notes": "Must save permanent image record"
-        },
-        {
-          "code": "75710",
-          "desc": "Lower extremity arteriogram – unilateral runoff",
-          "cat": "Angiography/Diagnostic",
-          "sub": "LE Runoff",
-          "wrvu": 1.71,
-          "qty": 1,
-          "mods": [
-            "53"
-          ],
-          "notes": ""
+          "notes": "Add-on"
         }
       ],
-      "totalWRVU": 2.72,
-      "estCollections": 187.33
+      "totalWRVU": 11.71,
+      "estCollections": 806.47
     }
   ],
   "custom": [
@@ -5626,8 +5657,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ involving visceral vessels",
+    "35081": "Open repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
