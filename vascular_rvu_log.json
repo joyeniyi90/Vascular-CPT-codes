@@ -5604,6 +5604,27 @@
       ],
       "totalWRVU": 11.71,
       "estCollections": 806.47
+    },
+    {
+      "id": "muj3hnwdalwxn5ibja",
+      "date": "2026-09-26",
+      "time": "19:43",
+      "title": "36002 · Pseudoaneurysm injection – ultrasound-guided thr",
+      "notes": "",
+      "items": [
+        {
+          "code": "36002",
+          "desc": "Pseudoaneurysm injection – ultrasound-guided thrombin (access site complication)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Venous Catheter Placement",
+          "wrvu": 1.91,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 1.91,
+      "estCollections": 131.54
     }
   ],
   "custom": [
