@@ -1,6 +1,68 @@
 {
   "log": [
     {
+      "id": "mum6l5sb4my0wzm33bg",
+      "date": "2026-09-28",
+      "time": "23:33",
+      "title": "35371 · Endarterectomy – SFA and/or popliteal artery (fe",
+      "notes": "",
+      "items": [
+        {
+          "code": "35371",
+          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 14.93,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "37282",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 12.31,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37228"
+        }
+      ],
+      "totalWRVU": 25.98,
+      "estCollections": 1789.59
+    },
+    {
+      "id": "mumdl4qewielwqmyh4p",
+      "date": "2026-09-28",
+      "time": "02:49",
+      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
+      "notes": "",
+      "items": [
+        {
+          "code": "36821",
+          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 11.6,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 11.6,
+      "estCollections": 798.89
+    },
+    {
       "id": "muiz3qx8m3p3er9lzf",
       "date": "2026-09-26",
       "time": "17:40",
@@ -5627,66 +5689,35 @@
       "estCollections": 165.98
     },
     {
-      "id": "mum6l5sb4my0wzm33bg",
-      "date": "2026-09-28",
-      "time": "23:33",
-      "title": "35371 · Endarterectomy – SFA and/or popliteal artery (fe",
+      "id": "mumurvzp321a2al2bax",
+      "date": "2026-09-29",
+      "time": "10:50",
+      "title": "35226 · Repair blood vessel – direct suture, lower extre",
       "notes": "",
       "items": [
         {
-          "code": "35371",
-          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
-          "cat": "Peripheral Arterial",
-          "sub": "Endarterectomy",
-          "wrvu": 14.93,
+          "code": "35226",
+          "desc": "Repair blood vessel – direct suture, lower extremity",
+          "cat": "Closure/Access",
+          "sub": "Vessel Repair",
+          "wrvu": 14.92,
           "qty": 1,
           "mods": [],
           "notes": ""
         },
         {
-          "code": "37280",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 9.8,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37224"
-        },
-        {
-          "code": "37282",
-          "desc": "Tibial/peroneal PTA – balloon angioplasty, occlusion, 1st vessel",
-          "cat": "Peripheral Arterial",
-          "sub": "LE Endovascular",
-          "wrvu": 12.31,
-          "qty": 1,
-          "mods": [],
-          "notes": "NEW 2026; replaces 37228"
-        }
-      ],
-      "totalWRVU": 25.98,
-      "estCollections": 1789.59
-    },
-    {
-      "id": "mumdl4qewielwqmyh4p",
-      "date": "2026-09-28",
-      "time": "02:49",
-      "title": "36821 · AV fistula creation – forearm direct (radiocepha",
-      "notes": "",
-      "items": [
-        {
-          "code": "36821",
-          "desc": "AV fistula creation – forearm direct (radiocephalic/Brescia-Cimino)",
-          "cat": "Dialysis Access",
-          "sub": "AVF Creation",
-          "wrvu": 11.6,
+          "code": "10140",
+          "desc": "Incision and drainage of hematoma, seroma, or fluid collection",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 1.54,
           "qty": 1,
           "mods": [],
           "notes": ""
         }
       ],
-      "totalWRVU": 11.6,
-      "estCollections": 798.89
+      "totalWRVU": 15.69,
+      "estCollections": 1080.57
     }
   ],
   "custom": [
@@ -5740,8 +5771,8 @@
     }
   ],
   "descEdits": {
-    "35081": "Open repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
-    "35091": "Open abdominal aorta repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ involving visceral vessels",
+    "35081": "Open repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AAA, infrarenal/juxtarenal (elective)",
+    "35091": "Open abdominal aorta repair ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ involving visceral vessels",
     "35656": "Bypass without vein graft-femoral to popliteal",
     "37215": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR"
   }
