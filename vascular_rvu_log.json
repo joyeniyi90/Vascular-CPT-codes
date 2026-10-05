@@ -6106,6 +6106,41 @@
       ],
       "totalWRVU": 6.09,
       "estCollections": 419.42
+    },
+    {
+      "id": "muvea2wazaypmw2u52g",
+      "date": "2026-10-05",
+      "time": "10:18",
+      "title": "13160 · Secondary closure of surgical wound",
+      "notes": "",
+      "items": [
+        {
+          "code": "13160",
+          "desc": "Secondary closure of surgical wound",
+          "cat": "Wound Care",
+          "sub": "Wound Care",
+          "wrvu": 11.74,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "11043",
+          "desc": "Debridement – muscle and/or fascia, first 20 sq cm",
+          "cat": "Wound Care",
+          "sub": "Debridement",
+          "wrvu": 2.63,
+          "qty": 1,
+          "mods": [
+            "58"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 13.05,
+      "estCollections": 899.1
     }
   ],
   "custom": [
