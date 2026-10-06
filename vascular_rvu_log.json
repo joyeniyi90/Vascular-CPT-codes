@@ -6229,6 +6229,47 @@
       ],
       "totalWRVU": 11.74,
       "estCollections": 808.53
+    },
+    {
+      "id": "mux8dkogc83cgzu6zp6",
+      "date": "2026-10-06",
+      "time": "17:08",
+      "title": "36200 · Non-selective aortic catheter – via peripheral p",
+      "notes": "",
+      "items": [
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 4.26,
+      "estCollections": 293.04
     }
   ],
   "custom": [
