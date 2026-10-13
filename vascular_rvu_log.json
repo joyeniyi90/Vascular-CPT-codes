@@ -6414,6 +6414,59 @@
       ],
       "totalWRVU": 33.72,
       "estCollections": 2322.3
+    },
+    {
+      "id": "mv65j9yit7klcte02fb",
+      "date": "2026-10-12",
+      "time": "22:59",
+      "title": "35666 · Bypass without vein graft – femoral to tibial or",
+      "notes": "",
+      "items": [
+        {
+          "code": "35666",
+          "desc": "Bypass without vein graft – femoral to tibial or peroneal (distal bypass)",
+          "cat": "Peripheral Arterial",
+          "sub": "Bypass Graft",
+          "wrvu": 23.07,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "35661",
+          "desc": "Bypass – femoral-femoral crossover (fem-fem, extra-anatomic)",
+          "cat": "Aortic",
+          "sub": "Extra-Anatomic Bypass",
+          "wrvu": 19.84,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "35372",
+          "desc": "Profundaplasty – profunda femoris endarterectomy/patch angioplasty",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 18.12,
+          "qty": 1,
+          "mods": [
+            "LT"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 42.91,
+      "estCollections": 2954.87
     }
   ],
   "custom": [
