@@ -6511,6 +6511,67 @@
       ],
       "totalWRVU": 13.13,
       "estCollections": 904.26
+    },
+    {
+      "id": "mv8xzolns4lcqpp22sq",
+      "date": "2026-10-14",
+      "time": "21:51",
+      "title": "37280 · Tibial/peroneal PTA – balloon angioplasty, steno",
+      "notes": "",
+      "items": [
+        {
+          "code": "37280",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 9.8,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026; replaces 37224"
+        },
+        {
+          "code": "37281",
+          "desc": "Tibial/peroneal PTA – balloon angioplasty, stenosis, add'l vessel (add-on)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Endovascular",
+          "wrvu": 3,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 14.99,
+      "estCollections": 1032.71
     }
   ],
   "custom": [
