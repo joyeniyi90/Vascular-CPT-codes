@@ -6790,6 +6790,37 @@
       ],
       "totalWRVU": 12.94,
       "estCollections": 891.52
+    },
+    {
+      "id": "mvbr0aql9s7h54sj5wg",
+      "date": "2026-10-16",
+      "time": "20:59",
+      "title": "36902 · AV fistula PTA – percutaneous angioplasty with i",
+      "notes": "",
+      "items": [
+        {
+          "code": "36902",
+          "desc": "AV fistula PTA – percutaneous angioplasty with imaging",
+          "cat": "Dialysis Access",
+          "sub": "Access Maintenance",
+          "wrvu": 4.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        }
+      ],
+      "totalWRVU": 4.85,
+      "estCollections": 334.36
     }
   ],
   "custom": [
