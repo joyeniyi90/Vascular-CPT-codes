@@ -6977,6 +6977,27 @@
       ],
       "totalWRVU": 4.85,
       "estCollections": 334.36
+    },
+    {
+      "id": "mvkdvu76p4ydbck9szk",
+      "date": "2026-10-21",
+      "time": "22:01",
+      "title": "36475 · Endovenous ablation – GSV/SSV, radiofrequency (R",
+      "notes": "",
+      "items": [
+        {
+          "code": "36475",
+          "desc": "Endovenous ablation – GSV/SSV, radiofrequency (RFA), 1st vein",
+          "cat": "Venous",
+          "sub": "Varicose Veins",
+          "wrvu": 5.17,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 5.17,
+      "estCollections": 356.06
     }
   ],
   "custom": [
