@@ -6925,6 +6925,27 @@
       ],
       "totalWRVU": 20.63,
       "estCollections": 1420.79
+    },
+    {
+      "id": "mvkb46tja5xvvvlbrwl",
+      "date": "2026-10-22",
+      "time": "20:44",
+      "title": "35226 · Repair blood vessel – direct suture, lower extre",
+      "notes": "",
+      "items": [
+        {
+          "code": "35226",
+          "desc": "Repair blood vessel – direct suture, lower extremity",
+          "cat": "Closure/Access",
+          "sub": "Vessel Repair",
+          "wrvu": 14.92,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 14.92,
+      "estCollections": 1027.54
     }
   ],
   "custom": [
