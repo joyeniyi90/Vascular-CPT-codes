@@ -7184,6 +7184,27 @@
       ],
       "totalWRVU": 11.73,
       "estCollections": 807.85
+    },
+    {
+      "id": "mvq18qviwprm8aesbfn",
+      "date": "2026-10-26",
+      "time": "20:54",
+      "title": "37215 · Carotid stent. Cervical carotid cartera, with di",
+      "notes": "",
+      "items": [
+        {
+          "code": "37215",
+          "desc": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR",
+          "cat": "Carotid",
+          "sub": "CAS/TCAR",
+          "wrvu": 17.31,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 17.31,
+      "estCollections": 1192.14
     }
   ],
   "custom": [
