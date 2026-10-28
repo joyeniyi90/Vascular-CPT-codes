@@ -7310,6 +7310,37 @@
       ],
       "totalWRVU": 9.29,
       "estCollections": 639.8
+    },
+    {
+      "id": "mvskx9544eyufkmccrd",
+      "date": "2026-10-28",
+      "time": "15:40",
+      "title": "36901 · AV access diagnostic evaluation – needle/cathete",
+      "notes": "",
+      "items": [
+        {
+          "code": "36901",
+          "desc": "AV access diagnostic evaluation – needle/catheter intro with imaging",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Fistulogram",
+          "wrvu": 3.28,
+          "qty": 1,
+          "mods": [],
+          "notes": "Diagnostic fistulogram/graftogram"
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        }
+      ],
+      "totalWRVU": 3.42,
+      "estCollections": 235.88
     }
   ],
   "custom": [
