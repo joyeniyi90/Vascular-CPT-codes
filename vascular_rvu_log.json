@@ -7253,20 +7253,10 @@
     {
       "id": "mvsk8s4x86fy075m7lq",
       "date": "2026-10-28",
-      "time": "15:21",
+      "time": "15:22",
       "title": "36246 · Selective catheter – 2nd order abdominal/pelvic/",
       "notes": "",
       "items": [
-        {
-          "code": "36246",
-          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
-          "cat": "Angiography/Diagnostic",
-          "sub": "Catheter Placement",
-          "wrvu": 4.89,
-          "qty": 1,
-          "mods": [],
-          "notes": "Add-on"
-        },
         {
           "code": "36200",
           "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
@@ -7276,6 +7266,16 @@
           "qty": 1,
           "mods": [],
           "notes": ""
+        },
+        {
+          "code": "36246",
+          "desc": "Selective catheter – 2nd order abdominal/pelvic/LE (add-on)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 4.89,
+          "qty": 1,
+          "mods": [],
+          "notes": "Add-on"
         },
         {
           "code": "76937",
@@ -7296,10 +7296,20 @@
           "qty": 1,
           "mods": [],
           "notes": "Standard abdominal aortogram"
+        },
+        {
+          "code": "75710",
+          "desc": "Lower extremity arteriogram – unilateral runoff",
+          "cat": "Angiography/Diagnostic",
+          "sub": "LE Runoff",
+          "wrvu": 1.71,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
         }
       ],
-      "totalWRVU": 7.08,
-      "estCollections": 487.94
+      "totalWRVU": 9.29,
+      "estCollections": 639.8
     }
   ],
   "custom": [
