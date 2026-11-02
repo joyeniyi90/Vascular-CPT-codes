@@ -7383,6 +7383,37 @@
       ],
       "totalWRVU": 12.96,
       "estCollections": 892.56
+    },
+    {
+      "id": "mvzwuljchazsd71cjb7",
+      "date": "2026-11-02",
+      "time": "17:49",
+      "title": "37236 · Stent placement – non-coronary artery (mesenteri",
+      "notes": "",
+      "items": [
+        {
+          "code": "37236",
+          "desc": "Stent placement – non-coronary artery (mesenteric/renal/subclavian), initial",
+          "cat": "Visceral/Mesenteric",
+          "sub": "Endovascular",
+          "wrvu": 8.53,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        }
+      ],
+      "totalWRVU": 8.67,
+      "estCollections": 597.45
     }
   ],
   "custom": [
