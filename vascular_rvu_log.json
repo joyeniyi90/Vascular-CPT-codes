@@ -7366,7 +7366,7 @@
     {
       "id": "mvzw6g9wjk7k0azaau",
       "date": "2026-11-02",
-      "time": "17:30",
+      "time": "21:46",
       "title": "36819 · AV fistula creation – upper arm basilic transpos",
       "notes": "",
       "items": [
@@ -7377,7 +7377,9 @@
           "sub": "AVF Creation",
           "wrvu": 12.96,
           "qty": 1,
-          "mods": [],
+          "mods": [
+            "58"
+          ],
           "notes": ""
         }
       ],
