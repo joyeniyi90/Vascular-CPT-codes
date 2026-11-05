@@ -7479,6 +7479,29 @@
       ],
       "totalWRVU": 14.99,
       "estCollections": 1032.36
+    },
+    {
+      "id": "mw4014ne22mmmkqq4hl",
+      "date": "2026-11-05",
+      "time": "14:29",
+      "title": "36819 · AV fistula creation – upper arm basilic transpos",
+      "notes": "",
+      "items": [
+        {
+          "code": "36819",
+          "desc": "AV fistula creation – upper arm basilic transposition (brachiobasilic)",
+          "cat": "Dialysis Access",
+          "sub": "AVF Creation",
+          "wrvu": 12.96,
+          "qty": 1,
+          "mods": [
+            "22"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 12.96,
+      "estCollections": 892.56
     }
   ],
   "custom": [
