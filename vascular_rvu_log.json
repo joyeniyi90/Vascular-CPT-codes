@@ -7506,7 +7506,7 @@
     {
       "id": "mw4hlrttrpr13h3u3y",
       "date": "2026-11-04",
-      "time": "22:41",
+      "time": "22:43",
       "title": "35556 · Bypass – femoral-popliteal above knee (fem-pop A",
       "notes": "",
       "items": [
@@ -7521,16 +7521,6 @@
             "LT",
             "22"
           ],
-          "notes": ""
-        },
-        {
-          "code": "35371",
-          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
-          "cat": "Peripheral Arterial",
-          "sub": "Endarterectomy",
-          "wrvu": 14.93,
-          "qty": 1,
-          "mods": [],
           "notes": ""
         },
         {
@@ -7554,10 +7544,20 @@
             "RT"
           ],
           "notes": ""
+        },
+        {
+          "code": "35661",
+          "desc": "Bypass – femoral-femoral crossover (fem-fem, extra-anatomic)",
+          "cat": "Aortic",
+          "sub": "Extra-Anatomic Bypass",
+          "wrvu": 19.84,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
         }
       ],
-      "totalWRVU": 50.96,
-      "estCollections": 3509.62
+      "totalWRVU": 53.41,
+      "estCollections": 3678.69
     }
   ],
   "custom": [
