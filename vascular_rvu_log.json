@@ -7502,6 +7502,62 @@
       ],
       "totalWRVU": 12.96,
       "estCollections": 892.56
+    },
+    {
+      "id": "mw4hlrttrpr13h3u3y",
+      "date": "2026-11-04",
+      "time": "22:41",
+      "title": "35556 · Bypass – femoral-popliteal above knee (fem-pop A",
+      "notes": "",
+      "items": [
+        {
+          "code": "35556",
+          "desc": "Bypass – femoral-popliteal above knee (fem-pop AK)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Bypass",
+          "wrvu": 26.08,
+          "qty": 1,
+          "mods": [
+            "LT",
+            "22"
+          ],
+          "notes": ""
+        },
+        {
+          "code": "35371",
+          "desc": "Endarterectomy – SFA and/or popliteal artery (fem-pop TEA)",
+          "cat": "Peripheral Arterial",
+          "sub": "Endarterectomy",
+          "wrvu": 14.93,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "37258",
+          "desc": "Iliac stenting – stent placement, stenosis, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (IVT)",
+          "wrvu": 8.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "35556",
+          "desc": "Bypass – femoral-popliteal above knee (fem-pop AK)",
+          "cat": "Peripheral Arterial",
+          "sub": "LE Bypass",
+          "wrvu": 26.08,
+          "qty": 1,
+          "mods": [
+            "RT"
+          ],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 50.96,
+      "estCollections": 3509.62
     }
   ],
   "custom": [
