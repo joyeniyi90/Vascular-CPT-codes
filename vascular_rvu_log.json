@@ -7701,6 +7701,57 @@
       ],
       "totalWRVU": 17.45,
       "estCollections": 1202.13
+    },
+    {
+      "id": "mwa6q0rmuela8jws",
+      "date": "2026-11-06",
+      "time": "22:23",
+      "title": "37269 · Fem-Pop stenting – stent placement, occlusion, 1",
+      "notes": "",
+      "items": [
+        {
+          "code": "37269",
+          "desc": "Fem-Pop stenting – stent placement, occlusion, 1st vessel",
+          "cat": "Peripheral Arterial",
+          "sub": "Endovascular Revascularization (FPVT)",
+          "wrvu": 14.75,
+          "qty": 1,
+          "mods": [],
+          "notes": "NEW 2026"
+        },
+        {
+          "code": "36200",
+          "desc": "Non-selective aortic catheter – via peripheral puncture (femoral approach)",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Catheter Placement",
+          "wrvu": 2.7,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        },
+        {
+          "code": "75625",
+          "desc": "Abdominal aortogram",
+          "cat": "Angiography/Diagnostic",
+          "sub": "Aortogram",
+          "wrvu": 1.4,
+          "qty": 1,
+          "mods": [],
+          "notes": "Standard abdominal aortogram"
+        }
+      ],
+      "totalWRVU": 16.95,
+      "estCollections": 1167
     }
   ],
   "custom": [
