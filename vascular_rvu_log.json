@@ -7670,6 +7670,37 @@
       ],
       "totalWRVU": 17.45,
       "estCollections": 1202.13
+    },
+    {
+      "id": "mwa435uro05pcu6levj",
+      "date": "2026-11-09",
+      "time": "21:09",
+      "title": "37215 · Carotid stent. Cervical carotid cartera, with di",
+      "notes": "",
+      "items": [
+        {
+          "code": "37215",
+          "desc": "Carotid stent. Cervical carotid cartera, with distal embolic protection (EPS)/TCAR",
+          "cat": "Carotid",
+          "sub": "CAS/TCAR",
+          "wrvu": 17.31,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        },
+        {
+          "code": "76937",
+          "desc": "Ultrasound guidance – vascular access with permanent image documentation",
+          "cat": "Imaging Guidance",
+          "sub": "Ultrasound Guidance",
+          "wrvu": 0.29,
+          "qty": 1,
+          "mods": [],
+          "notes": "Must save permanent image record"
+        }
+      ],
+      "totalWRVU": 17.45,
+      "estCollections": 1202.13
     }
   ],
   "custom": [
