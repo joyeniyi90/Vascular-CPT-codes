@@ -7986,6 +7986,27 @@
       ],
       "totalWRVU": 20.55,
       "estCollections": 1415.62
+    },
+    {
+      "id": "mwx1nq4e3m20g2n67f3",
+      "date": "2026-11-25",
+      "time": "22:20",
+      "title": "35666 · Bypass without vein graft – femoral to tibial or",
+      "notes": "",
+      "items": [
+        {
+          "code": "35666",
+          "desc": "Bypass without vein graft – femoral to tibial or peroneal (distal bypass)",
+          "cat": "Peripheral Arterial",
+          "sub": "Bypass Graft",
+          "wrvu": 23.07,
+          "qty": 1,
+          "mods": [],
+          "notes": ""
+        }
+      ],
+      "totalWRVU": 23.07,
+      "estCollections": 1588.83
     }
   ],
   "custom": [
